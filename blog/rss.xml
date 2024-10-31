@@ -8,6 +8,7 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <copyright>© 2024 LZX</copyright>
         <item>
             <title><![CDATA[Modular Submodules]]></title>
             <link>https://docs.lzxindustries.net/blog/modular-submodules</link>
@@ -124,6 +125,111 @@ Lars</p>]]></content:encoded>
 <p>Got more questions, suggestions, comments or high fives? Go for it here: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>
 <p>I am curious what user documentation projects you would like to see us tackle before the end of the year.  I want to know what would add the most value to your experience with LZX modules you already have. So if you have suggestions, please write to us.</p>
 <p>Thanks for tuning in,
+Lars</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
+        <item>
+            <title><![CDATA[Chromagnon Box]]></title>
+            <link>https://docs.lzxindustries.net/blog/chromagnon-box</link>
+            <guid>https://docs.lzxindustries.net/blog/chromagnon-box</guid>
+            <pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello on Tuesday.  I hope everyone in the States had a nice Memorial Day weekend.  Lots to cover in this update, so I will be terse.]]></description>
+            <content:encoded><![CDATA[<p>Hello on Tuesday.  I hope everyone in the States had a nice Memorial Day weekend.  Lots to cover in this update, so I will be terse.</p>
+<p>Black prototypes of the Chromagnon plastic pieces and enclosure arrived, and the test fits are looking great.   The pieces below aren't final for the enclosure, but should give you the plan on how it all fits together.  Now that all the dimensional constraints are confirmed, I can make any cosmetic tweaks (rounded corners, for example) and order an initial production quantity.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag1-8ecbc2a5259a459a8185a23727259324.png" width="480" height="360" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag2-81f491ef58858db11beec03b3a4a1b65.png" width="480" height="360" class="img_ev3q"></p>
+<p>Last week, we finally got the RevG core board built up. This week, I'm running through my checklist of revision items to make sure that everything that was corrected from RevF is now functioning as intended.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag3-a05c4db0aa63c2783dda87dd2bc6eb32.png" width="480" height="360" class="img_ev3q"></p>
+<p>As we move into June, there are three main objectives on my plate:</p>
+<ol>
+<li>Purchase an initial quantity of plastic parts and backlit film inserts for the LED grid. This will probably be 5-10 sets to start, and then we will ramp up if everything is going smoothly.</li>
+<li>Finalize the testing platform for the existing Chromagnon control boards, and get an initial quantity of the existing control assemblies through testing.</li>
+<li>Release V1.0 of the firmware, which still needs a few utility functions such as user firmware update procedure and some hardware self tests.</li>
+</ol>
+<p>This will all lead up to our "ship unit one" goal.  Once we hit that, we can transition into Chromagnon documentation, promotion, and ongoing production.</p>
+<p>Thanks for being patient with me.  As I have brought up in the last couple posts, our team has downsized significantly since the beginning of the year -- this has pushed a large number of new tasks onto my plate personally, which has meant my time is split across Chromagnon, shipping, purchasing and managing ongoing production.  On one hand this has been intense, but on the other, the company is more stable and I feel like we are in better control of our path moving forward.</p>
+<p>Here's a preview of the new Chromagnon patch design.  What do you think?</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/patch-9223dbce04c509d7aea609267c809a34.png" width="445" height="480" class="img_ev3q"></p>
+<p>And now, here are your questions since the last update.</p>
+<p>Jeffrey asked, "Will the Chromagon make the Cyclops obsolete? If not, in what ways will the Cyclops still be relevant?﻿"</p>
+<p>Chromagnon is not a direct replacement for Cyclops. Chromagnon is an integrated color vector and video processor with ILDA input and output.  Cyclops is an ILDA output module for EuroRack synthesizers. One way you could use them together is to use Cyclops to create patterns from your EuroRack synthesizer, and then use Chromagnon as a post-processor for the resulting patterns, between your EuroRack and your laser.</p>
+<p>Paul Rogers asked, "Will LZX be embracing generative AI, and implementing it into to a module?"</p>
+<p>Interesting question.  As a company dedicated to the longevity of analog and embedded hardware technology, any attempt to integrate Stable Diffusion algorithms, or generative models, into our gear would manifest as a program for one of our FPGA platforms like TBC2 or Memory Palace.  In a way, I feel like the tactile nature of analog feedback, and processing in general, is a different kind of generative intelligence and provides a necessary counterpoint to our culture's current obsession with generative algorithms and models.</p>
+<p>In any case, I'm quite content focusing mostly on analog and partially on embedded digital for the foreseeable future. There are still countless ideas in this area that I would like for LZX to explore.  It is likely that we will develop new solutions for interfacing the analog worlds with the software worlds more seamlessly, rather than developing a generative AI product.</p>
+<p>Dream Taser said, "Hi Lars! The Chromagnon updates are brontosaurus burgers for a hungry caveman! Much appreciated! I wanted to suggest something for the artwork… cavemen projecting torchlight on cave wall, perhaps some animated animals and something to do with northern lights 😁"</p>
+<p>Brilliant ideas! I love the idea of cave paintings in torchlight. Beneath Chromagnon's cheeky persona, this idea is part of the instrumentation concept -- a connection to something primal and prehistoric. I hope Chromagnon taps into the firestarter and toolholder instincts in every human operator's brain, and that they feel personally connected to the visual results.  The initial visual metaphor I have had in my head from the beginning is the "primordial pool" -- a swirling, rotating mass of colors and ingredients.</p>
+<p>Got more questions? Ask ‘em here: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>
+<p>Thanks for tuning in,
+Lars</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
+        <item>
+            <title><![CDATA[Prehistoric Plastic]]></title>
+            <link>https://docs.lzxindustries.net/blog/prehistoric-plastic</link>
+            <guid>https://docs.lzxindustries.net/blog/prehistoric-plastic</guid>
+            <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wow! April flew past, here at LZX HQ. Our improvements to operations and inventory have allowed us to process a large number of tasks in the ongoing effort to keep modules and stock while taking steady steps towards Chromagnon's launch.]]></description>
+            <content:encoded><![CDATA[<p>Wow! April flew past, here at LZX HQ. Our improvements to operations and inventory have allowed us to process a large number of tasks in the ongoing effort to keep modules and stock while taking steady steps towards Chromagnon's launch.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/workshop-becb07e8b8648771e6377bfd1583ac16.png" width="480" height="360" class="img_ev3q"></p>
+<p>A well organized inventory and resource planning system allows our small team to manage a large number of products and more accurately estimate production dates.</p>
+<p>Since my last post, there have been two iterations of Chromagnon plastic parts, and I am waiting on a third batch in black to arrive. I am very happy with the fit and look of these components and feel like they add a lot to Chromagnon's personality.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag-6fab5cd0feaa3425a735b326a84b6149.png" width="480" height="317" class="img_ev3q"></p>
+<p>Also arriving since my last post is Chromagnon's back panel PCB, which is where Chromagnon's cooling fan will mount.  I have a few adjustments to make on this part, but otherwise it looks nice.  The only remaining part of the assembly is the enclosure/shell piece -- I should be able to show that to you soon.  With all of those designs sealed, we will finally have the complete recipe card for this prehistoric video synthesizer.</p>
+<p>Additionally, on the Chromagnon front, I have been reviewing our inventory of Chromagnon control assemblies. We have several hundred of these built, but they need functional testing. So we built a test wiring harness and embedded system to speed up that process.</p>
+<p>In modular news, we received our production parts for the new case, now officially titled Vessel 168.  I'm so excited about how good the matte black powder coating looks on the sheet metal, and on the fit of all the components.  We'll have an initial batch of these up for sale in a few days. This initial offering is rack mountable, and includes a central DC &amp; Sync distribution bus, with 28 DC power jack outputs and 14 buffered sync outputs (with a single sync input).</p>
+<p>Coming next for the case will be variants for 3U, the much requested briefcase version with lid and carrying handle, and a EuroRack power supply expander for powering your legacy modules.  Please let us know if you have any suggestions on what products you'd like to see in our catalog for case and case expander variations.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case1-4dc83ad0e4b060bace20c8306ac1b170.png" width="480" height="223" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case2-5ce312a8baccbe19a1965d5c29d80c81.png" width="480" height="253" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case3-3775ddc8f69c39e20ca3ca840f66962f.png" width="480" height="309" class="img_ev3q"></p>
+<p>In TBC2 news, after much research and testing, we have made an ultra silent fan upgrade kit with installation instructions for the Gen3 (Mk2) and are currently making a similar kit for the Orion (Mk1) units.  Once we have both of those in stock, we'll have them available on the website. The fans in use on TBC2 have had a variable range of loudness, with some fans being annoying to some users.  The fans we used were initially designed for 3D printers, where noise is not a big concern -- so it's taken us a while to find fans in the right form factor which are also dead silent.  Also, the TBC2 Expander Mk2 I previewed in the last blog has been prototyped and looks great, so we are in the middle of building a batch.</p>
+<p>Now, on to your questions:</p>
+<p><strong>Pat asked "Are you really a few weeks away from shipping the first Chromagnon unit? How many weeks if you had to guess?"</strong></p>
+<p>A better way to phrase that statement would have been "we are about 2 months behind the schedule we made back in December when the blog started." That schedule was looking to ship a first unit in April, so that would mean I am now hoping to be doing so by the end of June.  It's looking good that all the production related deliverables will get wrapped up this month (the final enclosure design is the biggest piece missing).  How fast we roll out production from that point, is still unknown -- but we are making steady forward progress.</p>
+<p><strong>Michael asked "Do you know when the Proc might be reproduced? I have an order for it with Perfect Circuit but I don’t know if I should wait on that or, if it’s going to be on the other side of the Chromagnon stuff, just try and find one / something else on the used market. "</strong></p>
+<p>We have Proc in stock here at LZX -- if Perfect Circuit don't have stock, they can place an order with us at any time.  It could be that they recently received a shipment from us, but have not put it into inventory yet.</p>
+<p><strong>heavy light asked "I realise the team  are busy building /designing modules and all that but when are we getting some new t shirts ?"</strong></p>
+<p>My comrade, there is a new shirt / patch / sticker design for Chromagnon in progress right now.  Dave, who designed the Vidiot &amp; Chromagnon characters is working on it. Please always let us know if you have suggestions for what merch or merch designs you want to see.  We love showing our personalities as designers in ways that extend beyond the products themselves. Since we were all in many bands at various points, merch is a big part of that!</p>
+<p><strong>Aaron asked "Hi! I want to update my shipping address before you start sending out units; how can I do that?"</strong></p>
+<p>You can update the shipping address for your order at any time by writing to <a href="mailto:sales@lzxindustries.net" target="_blank" rel="noopener noreferrer">sales@lzxindustries.net</a>.  But don't worry -- we'll be reaching out to each and every customer individually before your shipment goes out, to confirm the details.  We don't want any Chromagnons lost in the mail!</p>
+<p>The biweekly schedule has been working well for the blog, so I will be sticking with that moving forward.  I'm likely to issue more updates once we're past production/development goals and into a more promotional phase.</p>
+<p>In totally unrelated news, I will be playing wargames at the fourth 3D Roleplay Con here in Portland over the weekend.  Please wish me many victories.</p>
+<p>Until next time I remain faithfully yours,
+Lars</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
+        <item>
+            <title><![CDATA[Restocks & Flight Checks]]></title>
+            <link>https://docs.lzxindustries.net/blog/restocks-and-flight-checks</link>
+            <guid>https://docs.lzxindustries.net/blog/restocks-and-flight-checks</guid>
+            <pubDate>Wed, 17 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, video pals!]]></description>
+            <content:encoded><![CDATA[<p>Hello, video pals!</p>
+<p>We are pushing through April! The current primary focus is on preparing our resource planning system for Chromagnon and smoothly flowing the production of our other projects.</p>
+<p>Here are some photos of our inventory workspaces. We have accounted for hundreds of unique bin locations and over two million parts over the past few weeks. This primes our resource planning software to identify the quickest path solutions to keeping our manufacturing lean and effective with our small team.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/bins1-f5ca16ea7cdf1893c8334c08f3a8a83d.png" width="480" height="360" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/bins2-268029715391e9e097c083701ecbb18c.png" width="480" height="360" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/bins3-a930577eb5eaee08ff014e275b490add.png" width="480" height="360" class="img_ev3q"></p>
+<p>Last week I printed revisions of the Chromagnon molded parts for test fit on our Formlabs printer, which is usually a joy to work with, but required some maintenance this time around. I've been verifying test fits and getting quotes for various fabrication methods.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/print1-9c6843f651b1c1ec30884f758f176017.png" width="480" height="360" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/print2-6497815870d900461da644a334b4b11d.png" width="360" height="480" class="img_ev3q"></p>
+<p>Among other recent projects is a Mk2 revision of our TBC2 expander panel.  We lost our source for the SCART connectors used on the Mk1, 10HP version of this expander, so it has been revised to be 4HP with VGA connectors only. Those of you still waiting on your preorder of this module, or waiting for the firmware revision including all the VGA timing modes, will be served soon. Once we confirm the incoming design, we'll make it available for purchase.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/expander-6f9c7d3f1caa2f9a79acd61f2b6be8ab.png" width="480" height="480" class="img_ev3q"></p>
+<p>We also ordered an initial production run of 10 pcs our 6U EuroRack case with DC &amp; sync distribution. If the fabricated pieces pass our QC, we should have these available for sale in May. I've shown some teasers of the prototype before.  Here's what the production version looks like:</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case1-02f282d1f9ab3d3bbc9d571c5f421e66.png" width="480" height="268" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case2-fc3b95a3e8b600024ed2e827b9d9c05f.png" width="477" height="480" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case3-81a3e930bc7ce6bd7e3303bf69551d10.png" width="480" height="466" class="img_ev3q"></p>
+<p>Today I am designing the Chromagnon rear panel and making revisions to the injection molded enclosure design. With those last pieces on order, my plate will be clear to focus on the Chromagnon firmware release and documentation.</p>
+<p>The changes in team composition I mentioned last update have slowed down our overall schedule with Chromagnon by another few weeks, compared to my plan to be shipping the first unit this month. There was, sadly, not much I could do about that, but the lag time is behind us now, and adjustments to our plans have been made.</p>
+<p>Dave, the designer responsible for the Expedition, Castle and Orion series patch and sticker designs is working on a Chromagnon design currently! I look forward to showing that to you soon. We will, of course, be including this additional merch in all Chromagnon shipments.</p>
+<p>Other news: There has been a restock of merch items, cables, and alternate frontpanels on our webstore. Go check it out!</p>
+<p>Here are your questions since the last update:</p>
+<p>** Paul asked "Is it likely Chromagnon will ship this year?" **</p>
+<p>The goal we are fixated on right now is "Ship Unit #1."  And we're within a few weeks of that goal. Will we be done fulfilling all orders by the end of the year?  I hope so, but that is the larger question.  After shipping the first unit we'll be fulfilling in batches that start small and then ramp up.  By the time we are shipping the first unit, everyone will know very specifically their spot in the batch allotments and a projected fulfillment date.</p>
+<p><strong>On the forum, Boneoh asked "Is there something I can do to clamp the bright areas that allows adjustment? I can use Proc to decrease the brightness, but that scales the whole range down. It sounds simple, and I think I’m missing something. Maybe a way using the Y value in Swatch?"</strong></p>
+<p>It sounds like you want to adjust the gain of the brighter parts of the signal only, without effecting the darker or midtone values.  This kind of signal processing involves a non-linear transfer function of some kind.  There are several ways to approach it.</p>
+<p>One way would be gamma curve adjustment using the logarithmic and exponential processors in DSG3.  By feeding luma video thru these processors you can compress the dark values (exponential curve) or you can compress the light values (logarithmic curve.)  Try this, and then mix the results with the original signal at varying proportions to dial it in the way you want.</p>
+<p>Another approach would be to use multiplexing (Switcher) and a comparator (Keychain) to change between two different processed signals, based on the grayscale level of the unprocessed source.</p>
+<p>Until next time; please keep your excellent questions coming!
 Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
