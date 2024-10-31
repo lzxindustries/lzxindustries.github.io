@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8255],{5252:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Modules","description":"Modules","slug":"/category/modules","permalink":"/docs/category/modules","sidebar":"modulesSidebar","navigation":{"next":{"title":"PGO - Programmable Gain & Offset","permalink":"/docs/modules/pgo"}}}}')}}]);
