@@ -1,5 +1,5 @@
 %PDF-1.6%‚„œ”
-1 0 obj<</Metadata 2 0 R/OCProperties<</D<</ON[39 0 R 40 0 R 41 0 R]/Order 42 0 R/RBGroups[]>>/OCGs[39 0 R 40 0 R 41 0 R]>>/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 46996/Subtype/XML/Type/Metadata>>stream
+1 0 obj<</Metadata 2 0 R/OCProperties<</D<</ON[39 0 R 40 0 R 41 0 R]/Order 42 0 R/RBGroups[]>>/OCGs[39 0 R 40 0 R 41 0 R]>>/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 47432/Subtype/XML/Type/Metadata>>stream
 <?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c001 116.a6bfb84, 2023/07/17-15:51:01        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -20,13 +20,13 @@
          <dc:format>application/pdf</dc:format>
          <dc:title>
             <rdf:Alt>
-               <rdf:li xml:lang="x-default">pgo-patch-template</rdf:li>
+               <rdf:li xml:lang="x-default">pgo-patch-adder</rdf:li>
             </rdf:Alt>
          </dc:title>
          <xmp:CreatorTool>Adobe Illustrator 27.9 (Windows)</xmp:CreatorTool>
-         <xmp:CreateDate>2024-11-04T21:15:37-07:00</xmp:CreateDate>
-         <xmp:ModifyDate>2024-11-04T21:15:38-08:00</xmp:ModifyDate>
-         <xmp:MetadataDate>2024-11-04T21:15:38-08:00</xmp:MetadataDate>
+         <xmp:CreateDate>2024-11-04T21:15:50-07:00</xmp:CreateDate>
+         <xmp:ModifyDate>2024-11-04T21:15:51-08:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2024-11-04T21:15:51-08:00</xmp:MetadataDate>
          <xmp:Thumbnails>
             <rdf:Alt>
                <rdf:li rdf:parseType="Resource">
@@ -39,13 +39,13 @@
          </xmp:Thumbnails>
          <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
          <xmpMM:OriginalDocumentID>uuid:65E6390686CF11DBA6E2D887CEACB407</xmpMM:OriginalDocumentID>
-         <xmpMM:DocumentID>xmp.did:d20bdc33-f9b0-0349-93b1-01a7654f96d2</xmpMM:DocumentID>
-         <xmpMM:InstanceID>uuid:8b7b3009-e34b-447a-b128-f5f7a54865ca</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:1a137bbc-fd52-8547-958c-cfb43211a53e</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:65acb9be-752a-4d66-85f8-7fd8d93a7ccc</xmpMM:InstanceID>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>uuid:0fb11350-206f-4d80-8593-26b2d224d1a9</stRef:instanceID>
-            <stRef:documentID>xmp.did:c1802fea-7d35-5e49-9388-cfc06b3c9f83</stRef:documentID>
+            <stRef:instanceID>uuid:dac05a94-6044-42e8-a699-adfdc77711be</stRef:instanceID>
+            <stRef:documentID>xmp.did:d20bdc33-f9b0-0349-93b1-01a7654f96d2</stRef:documentID>
             <stRef:originalDocumentID>uuid:65E6390686CF11DBA6E2D887CEACB407</stRef:originalDocumentID>
-            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+            <stRef:renditionClass>default</stRef:renditionClass>
          </xmpMM:DerivedFrom>
          <xmpMM:History>
             <rdf:Seq>
@@ -53,6 +53,13 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:d20bdc33-f9b0-0349-93b1-01a7654f96d2</stEvt:instanceID>
                   <stEvt:when>2024-11-04T15:57:17-08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator 27.9 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1a137bbc-fd52-8547-958c-cfb43211a53e</stEvt:instanceID>
+                  <stEvt:when>2024-11-04T21:15:48-08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Illustrator 27.9 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
@@ -612,7 +619,7 @@
                                                                                                     
                            
 <?xpacket end="w"?>
-endstreamendobj3 0 obj<</Count 1/Kids[5 0 R]/Type/Pages>>endobj5 0 obj<</ArtBox[0.0 0.0 1920.0 1080.0]/BleedBox[0.0 0.0 1920.0 1080.0]/Contents 43 0 R/CropBox[0.0 0.0 1920.0 1080.0]/Group 44 0 R/LastModified(D:20241104211537-07'00')/MediaBox[0.0 0.0 1920.0 1080.0]/Parent 3 0 R/Resources<</ColorSpace<</CS0 45 0 R>>/ExtGState<</GS0 46 0 R/GS1 47 0 R/GS2 48 0 R>>/Font<</T1_0 38 0 R>>/ProcSet[/PDF/Text/ImageC]/Properties<</MC0 39 0 R/MC1 40 0 R/MC2 41 0 R>>/Shading<</Sh0 49 0 R/Sh1 50 0 R>>/XObject<</Fm0 51 0 R/Fm1 52 0 R/Im0 53 0 R>>>>/Thumb 54 0 R/TrimBox[0.0 0.0 1920.0 1080.0]/Type/Page/PieceInfo<</Illustrator 9 0 R>>>>endobj43 0 obj<</Filter/FlateDecode/Length 8497>>stream
+endstreamendobj3 0 obj<</Count 1/Kids[5 0 R]/Type/Pages>>endobj5 0 obj<</ArtBox[0.0 0.0 1920.0 1080.0]/BleedBox[0.0 0.0 1920.0 1080.0]/Contents 43 0 R/CropBox[0.0 0.0 1920.0 1080.0]/Group 44 0 R/LastModified(D:20241104211550-07'00')/MediaBox[0.0 0.0 1920.0 1080.0]/Parent 3 0 R/Resources<</ColorSpace<</CS0 45 0 R>>/ExtGState<</GS0 46 0 R/GS1 47 0 R/GS2 48 0 R>>/Font<</T1_0 38 0 R>>/ProcSet[/PDF/Text/ImageC]/Properties<</MC0 39 0 R/MC1 40 0 R/MC2 41 0 R>>/Shading<</Sh0 49 0 R/Sh1 50 0 R>>/XObject<</Fm0 51 0 R/Fm1 52 0 R/Im0 53 0 R>>>>/Thumb 54 0 R/TrimBox[0.0 0.0 1920.0 1080.0]/Type/Page/PieceInfo<</Illustrator 9 0 R>>>>endobj43 0 obj<</Filter/FlateDecode/Length 8497>>stream
 Hâ‹W…n%«º˜WÙQ:ºb-Y€u®±a√í!êÄÜa≥G–ÜﬂôY›‰%¯jc$æäÆ-◊»¨õøﬁÓ7ﬂﬂ∆˝Õw∑˚vs{˜áß=Íø˝È·”vÛG|˙¥ÒCö‚à˚Áw€˚Ì◊Õë~ø¨âüˆO:ıÅ{ìÌΩˇÀÕ„˛›/€è€€Ôyì›õÏﬁˇ´≥Ú≥≥“◊gÂuñjq{∑«êèˇ˜ª€6	uˇ˜æ•(i/	∑¥ÑK”‰Mopœ1îY9á©ê„‘Èc:Ö±ô1áàZIù5ˆ¡›è€Õüñæø´N"{ÈfÒ_˜dÔ“πb´‘ê+OÂ˜«≠(µ_Ò+°7Æ.£Ôórô6ƒ‚ÕæA∏´s“’k>»Œ£tÄ≥up›p–1èìéç:∆yGï+Î∫’˜X‡< 8~§Œ¯ßÜˇPÈ„vG•BÇÿ™ÿK_ô°«∫èÇ%±éSµ>P§bÔ¸ë!¸IXD‘ÙolQ‘ıkÀ∂§Úß„JÏŒ∫{ x°Y(s)ƒ4<SrÇl°»$…XòÒÀPcîΩÑ÷+%Ô∆l™Â‡â=
 ƒ%süatHÄÑA:$¨o8≤Ü*4UÍÜ{»ó≥â2CMiœ=¿∂∏ˆ-º~Üq%Œ±#7¬lP#ï0°NëPgkàÉ˛ßËÓ	ÔáL#§Æã[
 ’#ù+%‰YÏ¨:˜√§a34®{Ì∞	¥+@∂∫Üâ|æ@Ç êíê∞Œ*£QáFã”wç∆»’‹up&˛∂…Ä†`EJüzSt[ÍDÖEjË¥9b,B,aT¡Öµ”~∂°Ûzòÿ¶Úw5º8=tü`/˝◊Bc`QÇÚ2èÇ5sopuØM≠U⁄–†®ë≥∞D‘(R1 Eu—·ßôË:æ™ﬂh‘Ô5ÇRhaÖF£ÈhÒ\àõ0a9!í§®0R‡¢ò4çÇ0Ç°ZùÂ∞be≤!6ä¢<lmúâ∏# pÀÃ”êyπµÖò}ÔïJﬂ‹/^—‚tü˛Axˇû—%k2˙∞∂mΩC«ÒÓ∑ø}ÛÙÀø>˛Ê·›˛œoˇ~ˇÁÌÌ˝Ô3ÙAc∞zVê3Ìká¬L≠ﬁ·’äx<)âÖ‹‹ëiâH∂!\⁄i+üÄ˜òåBáÊPÛY!–´{*ÂÒëË÷"≤/5∏!hjJb≠aDbùùnM∞"pûÎà‘¿Lph0dáJS&+1´≤@éÍ‚™¨Å˚∆†&28`¨v$ï√éÂôª2à‡ ]örç√—π0"}ô,HT ƒ°fN“´IÇ™Í ‘@‚v]@mƒ/ÆÒ9çÓ∏≈—i!«æ¶QWà∞BêE	O T5∏CÛ´PYp≤)£ÙXû4˘†7Hﬂêöô—hø*†8@ÿOÂ‚BjPÁ§9L6™ﬂ@3*x·xDSIÜ¨ ≤>áºåúìTP*—uÜFïs™7MÓJöœ∫Q4ùç|`ÓˆE›{ÒQI˝ïàá<⁄°f
@@ -656,7 +663,7 @@ W@,QQE:UjbHLF97mk#b>pI2.4-^8P,>$Mp[7@rnW'boc@"/Y'<@5^a./4B$"$K'",
 O+GZ)ci6fF)gBEo7.2"Wgm-`C_gq85/m15.UcpJoXD'3H;QQI?eY<6^Y.aKnU[O""
 2SWU]='/_]dGKkPg4>E8qdO1=Th[R:jL3NSiHe>-XR&_XXbn`56mc+&;8pN@J,C"_
 dN.1Vp\1WE"e]^,VcqBm:fbm,;(KY;=&^89*BXNaPM8q\_G^C7!!*'!!!!$!rrW8eCRDF~>
-endstreamendobj9 0 obj<</LastModified(D:20241104211537-07'00')/Private 11 0 R>>endobj11 0 obj<</AIMetaData 12 0 R/AIPrivateData1 13 0 R/AIPrivateData2 14 0 R/AIPrivateData3 15 0 R/AIPrivateData4 16 0 R/AIPrivateData5 17 0 R/AIPrivateData6 18 0 R/AIPrivateData7 19 0 R/AIPrivateData8 20 0 R/AIPrivateData9 21 0 R/AIPrivateData10 22 0 R/AIPrivateData11 23 0 R/AIPrivateData12 24 0 R/AIPrivateData13 25 0 R/AIPrivateData14 26 0 R/AIPrivateData15 27 0 R/AIPrivateData16 28 0 R/AIPrivateData17 29 0 R/ContainerVersion 12/CreatorVersion 27/NumBlock 17/RoundtripStreamType 2/RoundtripVersion 24>>endobj12 0 obj<</Length 1473>>stream
+endstreamendobj9 0 obj<</LastModified(D:20241104211550-07'00')/Private 11 0 R>>endobj11 0 obj<</AIMetaData 12 0 R/AIPrivateData1 13 0 R/AIPrivateData2 14 0 R/AIPrivateData3 15 0 R/AIPrivateData4 16 0 R/AIPrivateData5 17 0 R/AIPrivateData6 18 0 R/AIPrivateData7 19 0 R/AIPrivateData8 20 0 R/AIPrivateData9 21 0 R/AIPrivateData10 22 0 R/AIPrivateData11 23 0 R/AIPrivateData12 24 0 R/AIPrivateData13 25 0 R/AIPrivateData14 26 0 R/AIPrivateData15 27 0 R/AIPrivateData16 28 0 R/AIPrivateData17 29 0 R/ContainerVersion 12/CreatorVersion 27/NumBlock 17/RoundtripStreamType 2/RoundtripVersion 24>>endobj12 0 obj<</Length 1473>>stream
 %!PS-Adobe-3.0 
 %%Creator: Adobe Illustrator(R) 24.0
 %%AI8_CreatorVersion: 27.9.6
@@ -8664,101 +8671,99 @@ O“52µ±2≥Û†.ö•œ◊>4≥Ö&èDÄÊ◊‡∫›KzÆN´7‹™Í+ª÷†}ï/≤6ùÕØ¡€Ñ{”‚sëp™Ds¬€k%@$Yö
 ﬁﬁﬁÊa„Õá¬§x¬∞[sRÖ«≥JnˇæéÔW’˝ÊáÎË'"∏…m‘¨+õÚîO3vÀ3ÉƒÃŒ≥ß¢õoyiÛ≠hU’˘°âv{^Ω[íZÃàc{Y#iœáF’â\YåÅ£>˛|π\fì¡6ª©Z⁄∫µ)“SµsÕ>„«8Æ›Ö=ÏU´eÖ?ü~Zçj&-ÂU˚˘:d~Úx[ı“kÿS>]}˚ßõq≈Í®F¿˛O‰Äm¸≈¢Ï|>Kl&∂’ZÙõº&¶H,rﬁ.Qlº9j<UMh Ìaîp 7SQﬁÇÎ÷-ØAÙÈÆ’›6/€„Ó‡p~m…◊Ò-Uu˚‚‹"≈	∆ôÊ\Ÿ~ß+Ú\YeR[1'0ıÓP=ì™bcxs≈n≤în[£Ÿ
 n∑1{}}>¸ç^u()H–DÛHªoùè÷I!+ÁΩìÇçjr¿‹¶Ñd∑†hî<√6~3fˇY>Pyy…xx’ÒÁuúØc∏¬)¬π:‚Bß∏HT®b©0Á!)î∫ÿû)/¸Ã™_Æ#aç01û¶ãû„Ã◊ÉVçduëÖpvüè\ÌJ·)K_RùlV‹E
 ˘ *òÑ:Ø	‡   ˇˇ   ˇˇ 4&GG
-endstreamendobj59 0 obj<</AIS false/BM/Normal/CA 0.639999/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.639999/op false>>endobj49 0 obj<</AntiAlias false/ColorSpace 45 0 R/Coords[0.0 0.0 1.0 0.0]/Domain[0.0 1.0]/Extend[true true]/Function 67 0 R/ShadingType 2>>endobj50 0 obj<</AntiAlias false/ColorSpace 45 0 R/Coords[0.0 0.0 1.0 0.0]/Domain[0.0 1.0]/Extend[true true]/Function 68 0 R/ShadingType 2>>endobj68 0 obj<</Bounds[0.438547]/Domain[0.0 1.0]/Encode[0.0 1.0 0.0 1.0]/FunctionType 3/Functions[69 0 R 70 0 R]>>endobj69 0 obj<</C0[1.0 1.0 1.0]/C1[1.0 1.0 1.0]/Domain[0.0 1.0]/FunctionType 2/N 1.0>>endobj70 0 obj<</C0[1.0 1.0 1.0]/C1[0.0 0.0 0.0]/Domain[0.0 1.0]/FunctionType 2/N 1.0>>endobj67 0 obj<</Bounds[]/Domain[0.0 1.0]/Encode[0.0 1.0]/FunctionType 3/Functions[70 0 R]>>endobj39 0 obj<</Intent 71 0 R/Name(Layer 2)/Type/OCG/Usage 72 0 R>>endobj40 0 obj<</Intent 73 0 R/Name(Layer 3)/Type/OCG/Usage 74 0 R>>endobj41 0 obj<</Intent 75 0 R/Name(Layer 1)/Type/OCG/Usage 76 0 R>>endobj75 0 obj[/View/Design]endobj76 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.9)/Subtype/Artwork>>>>endobj73 0 obj[/View/Design]endobj74 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.9)/Subtype/Artwork>>>>endobj71 0 obj[/View/Design]endobj72 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.9)/Subtype/Artwork>>>>endobj38 0 obj<</BaseFont/SOKWHJ+ReliefSingleLineOutline-Regular/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 77 0 R/LastChar 120/Subtype/Type1/Type/Font/Widths[320 0 0 0 0 0 0 0 0 0 0 635 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 554 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 561 613 531 613 561 0 0 0 280 0 0 0 0 608 592 0 0 394 521 387 603 0 0 540]>>endobj77 0 obj<</Ascent 1000/CapHeight 680/CharSet(/space/plus/equal/a/b/c/d/e/i/n/o/r/s/t/u/x)/Descent -260/Flags 32/FontBBox[-170 -260 1089 1000]/FontFamily(Relief SingleLine Outline)/FontFile3 78 0 R/FontName/SOKWHJ+ReliefSingleLineOutline-Regular/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 40/Type/FontDescriptor/XHeight 575>>endobj78 0 obj<</Filter/FlateDecode/Length 1419/Subtype/Type1C>>stream
-HâtTLgæ“üC%ın,=v_FaXô81:T¬øÄ'ÅñøÄ%Pºò©cPhiKÖ!Y2e∫ê)lEÖL-Œ1`8≈©1Àâ5€–~òÌ⁄™eŸvó‹Ω…˚}œÛºœ˚~üàêx"ëhEFj‚é¯ÑêtMi±¶ £xoa©&©xØ&µJW*¸TÈö¬™“‹
-Á“∑yZƒø)·|(ã€üﬂ|~@
-·„E…‚#≤_ó^"QÒæ˜µÂ˚+äãt ’´Vá+3ã4J7∫“ØL´–ñhÚu çU∫"mE•2;®Hß+Øå
-+,÷UÂÖÊkÀ¬ä+’π:ïnπ&Ãç†Ú dám…»R UJµ¶Ä D¬K¯Cõ$DA§äà1±ìû≈B≠D<ëHÿâqëZ4ÏÓ’&ñà„ƒ≠‚)…*…óRoiñt‰ÀÕ¯q"·`äÉí•xÖ¨›noG31dªﬁ~àôU»™kj™—ãÚê]ﬂŒ|ÕQ0…ﬂìŒﬁ#Ò‘%äøì§'∑√Œ‰«q™≠µµAîêŒ®≠¶µ·PÀúëç¡j\H:£Í÷ae!.ì9#Fævs.'∫À3‚ﬂ˘ÂLÀ<”≤◊[p∂‰ˇRÚxñÉÚπ%c\Â‘ß}yÿœRæœn]„.˜#≠E€∏èÒÂ´--µm¥K™Ÿl±(Ã§Òîi∞WzÚiŒÏØ »yØê15òåFÖ∏••…ﬁ»¸‘≈ùºM?=ôÜvÊë∏ $˚EıGÅ8…⁄¢oG¶∆˙ ı‚Ÿñ∂Ìä•ÂXé?Ï∂¯ë€bÂ(ôŸÁ(πNC» ,ƒmêòVûúÖ‡0˘⁄©Ió3∞ù£b3œﬁ…C–INÙ_99LÉÿ°¬ë80{„ÖH˛éõhL 9ÀRø]ËÍAçVã’¶pÇÈıÜ:#cí•óïn¶ÒÇî∞"á˛r¸LÓŒ£®÷jØouπa5YMçËje˙ïP+c∞é√o·˘∞Ω*fÃ]K7K]wt_ÍC[]ùõôôÉÌ¯0y-+µ3â∆õ∞è £r‡Â∞Rp
-ÀwÅ7B§„!àG.óFÙ#‹I∆‰eÓsˆÔs
-ú˝À?è9ﬂgpë•û:Cù»“h±Z]’÷÷◊60ôï{r◊–ÿ?„EüÚ^§sza^®Ã¨¡$N∆—cÿ¬ëÔcúO(x´}¯∆ÚS e6$ggÜùÕÒtÜT0;‡v&J‚ M{RJwFŒÚ]ÓÓûüã±íºzõ9ëçf#<˛‰£Ï°Ë‰¨ÙÌÃƒøô‰ÖØ,ÊΩ¿,#
-KA∂Rp<2õÃf∆˘¡Òªq
-ñ·•#8"¡TˇLX˛”=¬8!≥EXgëAPV)Ö^Ñ˝ëz)˜Zu\†_ù¶m©9â©Ëø¥)›⁄&9‡Äc,5Ò‰<àÄX˜U–7hÎÒı««„£'FáŒÌ›Ò£∑ŸÎ[ÊL‘∞6˘Ùzz}pÓ≤w¥K–X≈/kQõã7ƒ§ˆåT1-µÕ5¥ì∞¡‹`1¢uùw?ºOÀqù@ö+h~C†4≥‘ÈÓˆ#»f≥65ª∆†ææ¡hd~¥Ø∂åﬁÆ;vÒŒπwÕπwP¥Á⁄π;K»B˚rn0Ú
-V¿'9Ë(>c©õﬂüËC±sö6w$TdÇ:)%Üﬁ™ÓùD|úL0ââ¡‰	F¡Ú˜E˘$ÒKŸõ≠MV©–Ò¯®‘"´∑6Ï._l&õ—ä,$NÉ.àÉ&©’f±Ω<ÆuF·∏‚¨«ë†ó6Í¨zó7ã°—à`n∆;pó‘h0
-wwòéµ˘Ã3˚,‡Ês†€o∆õ˙  ˇˇ   ˇˇ ≥£Añ
-endstreamendobj47 0 obj<</AIS false/BM/Normal/CA 0.100006/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.100006/op false>>endobj48 0 obj<</AIS false/BM/Normal/CA 0.149994/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.149994/op false>>endobj55 0 obj[/ICCBased 64 0 R]endobj42 0 obj[41 0 R 40 0 R 39 0 R]endobj79 0 obj<</CreationDate(D:20241104211537-07'00')/Creator(Adobe Illustrator 27.9 \(Windows\))/ModDate(D:20241104211538-08'00')/Producer(Adobe PDF library 17.00)/Title(pgo-patch-template)>>endobjxref
+endstreamendobj59 0 obj<</AIS false/BM/Normal/CA 0.639999/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.639999/op false>>endobj49 0 obj<</AntiAlias false/ColorSpace 45 0 R/Coords[0.0 0.0 1.0 0.0]/Domain[0.0 1.0]/Extend[true true]/Function 67 0 R/ShadingType 2>>endobj50 0 obj<</AntiAlias false/ColorSpace 45 0 R/Coords[0.0 0.0 1.0 0.0]/Domain[0.0 1.0]/Extend[true true]/Function 68 0 R/ShadingType 2>>endobj68 0 obj<</Bounds[0.438547]/Domain[0.0 1.0]/Encode[0.0 1.0 0.0 1.0]/FunctionType 3/Functions[69 0 R 70 0 R]>>endobj69 0 obj<</C0[1.0 1.0 1.0]/C1[1.0 1.0 1.0]/Domain[0.0 1.0]/FunctionType 2/N 1.0>>endobj70 0 obj<</C0[1.0 1.0 1.0]/C1[0.0 0.0 0.0]/Domain[0.0 1.0]/FunctionType 2/N 1.0>>endobj67 0 obj<</Bounds[]/Domain[0.0 1.0]/Encode[0.0 1.0]/FunctionType 3/Functions[70 0 R]>>endobj39 0 obj<</Intent 71 0 R/Name(Layer 2)/Type/OCG/Usage 72 0 R>>endobj40 0 obj<</Intent 73 0 R/Name(Layer 3)/Type/OCG/Usage 74 0 R>>endobj41 0 obj<</Intent 75 0 R/Name(Layer 1)/Type/OCG/Usage 76 0 R>>endobj75 0 obj[/View/Design]endobj76 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.9)/Subtype/Artwork>>>>endobj73 0 obj[/View/Design]endobj74 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.9)/Subtype/Artwork>>>>endobj71 0 obj[/View/Design]endobj72 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.9)/Subtype/Artwork>>>>endobj38 0 obj<</BaseFont/EJQPFL+ReliefSingleLineOutline-Regular/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 77 0 R/LastChar 120/Subtype/Type1/Type/Font/Widths[320 0 0 0 0 0 0 0 0 0 0 635 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 554 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 561 613 531 613 561 0 0 0 280 0 0 0 0 608 592 0 0 394 521 387 603 0 0 540]>>endobj77 0 obj<</Ascent 1000/CapHeight 680/CharSet(/space/plus/equal/a/b/c/d/e/i/n/o/r/s/t/u/x)/Descent -260/Flags 32/FontBBox[-170 -260 1089 1000]/FontFamily(Relief SingleLine Outline)/FontFile3 78 0 R/FontName/EJQPFL+ReliefSingleLineOutline-Regular/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 40/Type/FontDescriptor/XHeight 575>>endobj78 0 obj<</Filter/FlateDecode/Length 1420/Subtype/Type1C>>stream
+HâtTLgæ“üC%ın,=v_FaXô81:TÇ¸	8qh)∞ä3u*-mi°0$K¶L2ÖM‚°h¢ê©≈9ß85fŸ Q£fﬁ√≥][µ,€Óíª7yøÔyû˜yﬂÔB$-€ò¥5}SrXÜ¶¥XSòYºG[™I.ﬁ£I´“ó
+?UÜF[UöW·Z˙6Oã¯7%|êÖ„q€Ûõœ˜K°p>|º >Yx$HˆÎ"¬G$*ﬁ˚æÆ|_E±∂HØ\πbe§2´H£Ù†+Ω Ù
+]â¶@Ø\_•/“UT*sBäÙ˙Ú òàm±æ®*?º@WQ\©Œ”´Ù˚ 5ï!'4bSfñêRÆP™5Ö!^¬è Çÿ !í"MDdäâÑ,j%â-ÑÉ©EC>ë>≠bâ8A‹"ûî¨ê|)ıïfKáœ∞‹t '?&91(YäW»⁄é64G∂ôÖ¨∫¶¶Ωà#:mÃ◊¸=ÈÃ=O^¢¯{0A Òwr¸ ‡\@~£Z[ZZîA	ÈäZkZ™.µÃπ–¨∆Z“U∑‘+µ∏LÊä˘zÿ≈¡ªúË.œàÁóR0%ÛBL…^o¡9íˇK…Y⁄9(‡çrpïSüˆÁaK˘?ªuçª‹átV]√^∆üØ∂6◊∂“n©ã’™∞ê¶SÊÅ»ßπp†*3˜=-cÆ7õL
+pss££Å˘©ì;yõ~z2)Ì»'qaX:àÈãqí’EﬂOéˆB6Í¡a≤Ml›OÀ˜≥ÿcÒ#è≈n 2´◊YrùÜ∞X
+*Hÿ ~8hKzyJ6Ç√‰kß^ ›Œ¿6éäœ:{'A9ﬁwÂ‰bß
+G„‡ÏãÁ#˘;¢QÅ‰,K˝v°w∞5ÿ¨6ª¬f0ô≥,£§®t#çÁ•>Äï=¯'êcgÚvEµ6G]ã€õŸfn@W+3ÆÑ”Xáp^œÖ%ËU1£ûZ∫XÍ∫≥ÎR/⁄Ï÷Ë⁄ÃLj«á…kŸi…4⁄Ä˝ï/ÖÂÇSXæ|!¢ùA<|π4™·2.?k∑‡ò´üsPËÍ_¡xÃ˘?Éã,ı‘ÈÏ@÷´ÕÊÆ®∂∂Æ∂û…™‹ù∑ä∆Åô@8˙î˜!]”sÚAÖWaf&q
+é≈â¸„xB¡[mC7&iêüR.±#9;=‰jé∑3|ø∑Çô~è˚”1wn õRz2rñÔÙt˜¸låÂ‰¿¿’€ÙâÇX4Âıáè"ÂF∆¶dglc∆ˇÕ$◊æ≤ò˜ /∞DC8,Ÿ.H≈â»b∂X◊'Ó¬©XÜ„pàbS≥`Nu„Ç,VaùU!›X•RxDr|•‹h˝yƒy±ü~uö∂¶ÂnICˇ•MÈ—6¡' c©Ò'ÁAƒöØBæAõèØ=>¶912xnœˆ/É›Q◊<k¢Üt)ß◊“kCÛñ,ª£{XÇF+~©X≠àŸXº..≠{∏äiÆØm™°]Ñıñz´	≠È∏˚·}Zé	§yÇÊ7JKùÓj;“éÏv[cì{ÍÍÍM&Ê¿G{kÀËm˙c7O@¨{'–¨{≈zØùª3Ñ,º7˜#Ø`|íÉÅ‚3ñ∫˘˝π˛^?´i≥GBE&©ìS„ËÕÍû	ƒáŒ ÑíòHg‰Q,_tëOè≤î£…÷hCêÌêàèJ≠≤:[ì—·ˆ≈n∂õl»J‚tËÑhî⁄ÏV˚À„z»$Wá8“&„!õ¡Ìç—jl0!Xáõv‹)5ÕF£¬”¶}ı_~s,~Û∏π‹<Ë
+òˆ•˛  ˇˇ   ˇˇ )SAÇ
+endstreamendobj47 0 obj<</AIS false/BM/Normal/CA 0.100006/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.100006/op false>>endobj48 0 obj<</AIS false/BM/Normal/CA 0.149994/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.149994/op false>>endobj55 0 obj[/ICCBased 64 0 R]endobj42 0 obj[41 0 R 40 0 R 39 0 R]endobj79 0 obj<</CreationDate(D:20241104211550-07'00')/Creator(Adobe Illustrator 27.9 \(Windows\))/ModDate(D:20241104211551-08'00')/Producer(Adobe PDF library 17.00)/Title(pgo-patch-adder)>>endobjxref
 0 80
 0000000004 65535 f
 0000000016 00000 n
 0000000175 00000 n
-0000047249 00000 n
+0000047685 00000 n
 0000000000 00000 f
-0000047300 00000 n
-0000000000 00000 f
-0000000000 00000 f
-0000000000 00000 f
-0000057773 00000 n
-0000000000 00000 f
-0000057846 00000 n
-0000058359 00000 n
-0000059884 00000 n
-0000125473 00000 n
-0000191062 00000 n
-0000256651 00000 n
-0000322240 00000 n
-0000387829 00000 n
-0000453418 00000 n
-0000519007 00000 n
-0000584596 00000 n
-0000650185 00000 n
-0000715774 00000 n
-0000781363 00000 n
-0000846952 00000 n
-0000912541 00000 n
-0000978130 00000 n
-0001043719 00000 n
-0001109308 00000 n
+0000047736 00000 n
 0000000000 00000 f
 0000000000 00000 f
+0000000000 00000 f
+0000058209 00000 n
+0000000000 00000 f
+0000058282 00000 n
+0000058795 00000 n
+0000060320 00000 n
+0000125909 00000 n
+0000191498 00000 n
+0000257087 00000 n
+0000322676 00000 n
+0000388265 00000 n
+0000453854 00000 n
+0000519443 00000 n
+0000585032 00000 n
+0000650621 00000 n
+0000716210 00000 n
+0000781799 00000 n
+0000847388 00000 n
+0000912977 00000 n
+0000978566 00000 n
+0001044155 00000 n
+0001109744 00000 n
 0000000000 00000 f
 0000000000 00000 f
 0000000000 00000 f
 0000000000 00000 f
 0000000000 00000 f
 0000000000 00000 f
-0002054263 00000 n
-0002053702 00000 n
-0002053773 00000 n
-0002053844 00000 n
-0002056777 00000 n
-0000047872 00000 n
-0000056440 00000 n
-0001290523 00000 n
-0001824495 00000 n
-0002056496 00000 n
-0002056619 00000 n
-0002053023 00000 n
-0002053166 00000 n
-0001141302 00000 n
-0001141580 00000 n
-0001141890 00000 n
-0000056502 00000 n
-0002056742 00000 n
-0001140727 00000 n
-0001140775 00000 n
-0001824608 00000 n
-0002052900 00000 n
-0001824671 00000 n
-0001295078 00000 n
-0001295141 00000 n
-0001290558 00000 n
-0001292420 00000 n
-0001824981 00000 n
+0000000000 00000 f
+0000000000 00000 f
+0002054699 00000 n
+0002054138 00000 n
+0002054209 00000 n
+0002054280 00000 n
+0002057214 00000 n
+0000048308 00000 n
+0000056876 00000 n
+0001290959 00000 n
+0001824931 00000 n
+0002056933 00000 n
+0002057056 00000 n
+0002053459 00000 n
+0002053602 00000 n
+0001141738 00000 n
+0001142016 00000 n
+0001142326 00000 n
+0000056938 00000 n
+0002057179 00000 n
+0001141163 00000 n
+0001141211 00000 n
 0001825044 00000 n
-0002053607 00000 n
-0002053309 00000 n
-0002053427 00000 n
-0002053517 00000 n
-0002054147 00000 n
-0002054178 00000 n
-0002054031 00000 n
-0002054062 00000 n
-0002053915 00000 n
-0002053946 00000 n
-0002054647 00000 n
-0002054991 00000 n
-0002056816 00000 n
+0002053336 00000 n
+0001825107 00000 n
+0001295514 00000 n
+0001295577 00000 n
+0001290994 00000 n
+0001292856 00000 n
+0001825417 00000 n
+0001825480 00000 n
+0002054043 00000 n
+0002053745 00000 n
+0002053863 00000 n
+0002053953 00000 n
+0002054583 00000 n
+0002054614 00000 n
+0002054467 00000 n
+0002054498 00000 n
+0002054351 00000 n
+0002054382 00000 n
+0002055083 00000 n
+0002055427 00000 n
+0002057253 00000 n
 trailer
-<</Size 80/Root 1 0 R/Info 79 0 R/ID[<F91F00601A015942827DF2DF185FC0F4><E1063DFC3E9C5E48AB760B06929F1F06>]>>
+<</Size 80/Root 1 0 R/Info 79 0 R/ID[<23863A1F231ED8428AD9D434FF08C079><AF3D8968D45E4F4E9989CA7FDB5DB9FE>]>>
 startxref
-2057012
+2057446
 %%EOF
