@@ -13,7 +13,7 @@
 
 <link rel="preload" href="static/font/ReliefSingleLineOutline-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.21203b6a.css">
-<script src="/assets/js/runtime~main.76a12567.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.09eadd53.js" defer="defer"></script>
 <script src="/assets/js/main.aeeb7640.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -102,49 +102,49 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="example-patches">Example Patches<a href="#example-patches" class="hash-link" aria-label="Direct link to Example Patches" title="Direct link to Example Patches">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="buffer">Buffer<a href="#buffer" class="hash-link" aria-label="Direct link to Buffer" title="Direct link to Buffer">​</a></h3>
 <p>Buffer the input signal with a unity gain of 1.0. Due to the module&#x27;s propagation delay, it can be used to add slight delays in the video processing path, resulting in the picture shifting slightly to the right.</p>
-<img src="/assets/images/pgo-patch-buffer-7b4ef452b601f46b6cb6c494bc12e3db.png" alt="Buffer">
+<img src="/assets/images/pgo-patch-buffer-728b349edbf7e2f79319635a1d70084b.png" alt="Buffer">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="amplifier">Amplifier<a href="#amplifier" class="hash-link" aria-label="Direct link to Amplifier" title="Direct link to Amplifier">​</a></h3>
 <p>Amplify the input signal with a gain of 2.</p>
-<img src="/assets/images/pgo-patch-amplifier-8b89a7faccffe263437e397282d0bb46.png" alt="Amplifier">
+<img src="/assets/images/pgo-patch-amplifier-03e2778ae984050b901ddd6300bf317c.png" alt="Amplifier">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="attenuator">Attenuator<a href="#attenuator" class="hash-link" aria-label="Direct link to Attenuator" title="Direct link to Attenuator">​</a></h3>
 <p>Attenuate the input signal with a gain of 0.5.</p>
-<img src="/assets/images/pgo-patch-attenuator-ac625fd44eef36ede2ad0b8e42cd7263.png" alt="Attenuator">
+<img src="/assets/images/pgo-patch-attenuator-2276049a7505d6d55bce1fe518548527.png" alt="Attenuator">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="inverter">Inverter<a href="#inverter" class="hash-link" aria-label="Direct link to Inverter" title="Direct link to Inverter">​</a></h3>
 <p>Invert the arithmetic sign of the input signal. Positive voltages are converted to negative voltages, or vice versa.</p>
-<img src="/assets/images/pgo-patch-inverter-5d7686f12464cd698b5e3a9a3b04a7e5.png" alt="Inverter">
+<img src="/assets/images/pgo-patch-inverter-7326da220f5dc1a72b612da164489bc1.png" alt="Inverter">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="negative">Negative<a href="#negative" class="hash-link" aria-label="Direct link to Negative" title="Direct link to Negative">​</a></h3>
 <p>Convert a unipolar signal to negative by subtracting it from 1V. Useful for inverting keys, logic and RGB channels. An input signal ranging from zero to one results in an inverted output ranging from one to zero.</p>
 <img src="/assets/images/pgo-patch-mirror-cff126300c1b566de6d5774a14953380.png" alt="Mirror">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="subtractor">Subtractor<a href="#subtractor" class="hash-link" aria-label="Direct link to Subtractor" title="Direct link to Subtractor">​</a></h3>
 <p>Subtract one input from another.</p>
-<img src="/assets/images/pgo-patch-subtractor-729284e5570696caf177a100151567fd.png" alt="Subtractor">
+<img src="/assets/images/pgo-patch-subtractor-c36c838d107826b5a09d2dfeba47b4b7.png" alt="Subtractor">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="adder">Adder<a href="#adder" class="hash-link" aria-label="Direct link to Adder" title="Direct link to Adder">​</a></h3>
 <p>Calculate the sum of two input signals.</p>
-<img src="/assets/images/pgo-patch-adder-8c1072548198142526c973d68bdf59bd.png" alt="Adder">
+<img src="/assets/images/pgo-patch-adder-fa3d1cb23c113adb080a88386a158888.png" alt="Adder">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="average">Average<a href="#average" class="hash-link" aria-label="Direct link to Average" title="Direct link to Average">​</a></h3>
 <p>Calculate the average of two input signals.</p>
-<img src="/assets/images/pgo-patch-average-9b293a9a4388b2bba6697e5aec85d73b.png" alt="Average">
+<img src="/assets/images/pgo-patch-average-992d856255b54ad7f15aadb44e79422c.png" alt="Average">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="unipolar-modulator">Unipolar Modulator<a href="#unipolar-modulator" class="hash-link" aria-label="Direct link to Unipolar Modulator" title="Direct link to Unipolar Modulator">​</a></h3>
 <p>Subtract a modulator from a primary signal, where both are unipolar 0-1V. The primary signal <em>source a</em> passes unmodified when the modulating signal <em>source b</em> is at its midpoint of 0.5V. As a ramp shifter, <em>source a</em> is the input ramp, and <em>source b</em> is the positioning control voltage. As a brightness processor, <em>source a</em> is a unipolar color channel such as luma, red, green, or blue, and <em>source b</em> is the brightness adjustment.</p>
 <img src="/assets/images/pgo-patch-ramp-shifter-b6d0c901b808706a40e35d358fce4686.png" alt="Ramp Shifter">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="weighted-mixer">Weighted Mixer<a href="#weighted-mixer" class="hash-link" aria-label="Direct link to Weighted Mixer" title="Direct link to Weighted Mixer">​</a></h3>
 <p>Calculate a 3:1 weighted sum of two inputs, with 3 parts of <em>source a</em> for every 1 part of <em>source b</em>.</p>
-<img src="/assets/images/pgo-patch-weighted-mixer-e06526396480cca5cc1893534b754924.png" alt="Weighted Mixer">
+<img src="/assets/images/pgo-patch-weighted-mixer-468de6ff3447be7cfe8737cd2169a023.png" alt="Weighted Mixer">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="compressed-mixer">Compressed Mixer<a href="#compressed-mixer" class="hash-link" aria-label="Direct link to Compressed Mixer" title="Direct link to Compressed Mixer">​</a></h3>
 <p>Calculate the sum of four input signals and attenuate the mix to a value of one half. This is a common scenario to prevent clipping when mixing more than two input signals.</p>
-<img src="/assets/images/pgo-patch-compressed-mixer-df3f58f9f8c9dcfeb8c42b34f81ae103.png" alt="Compressed Mixer">
+<img src="/assets/images/pgo-patch-compressed-mixer-70b8769ff4e560ced2fd58dbfe12f507.png" alt="Compressed Mixer">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bipolar-to-unipolar">Bipolar to Unipolar<a href="#bipolar-to-unipolar" class="hash-link" aria-label="Direct link to Bipolar to Unipolar" title="Direct link to Bipolar to Unipolar">​</a></h3>
 <p>Convert a +/-1V bipolar signal to the 0-1V unipolar range.</p>
-<img src="/assets/images/pgo-patch-bipolar-to-unipolar-4b6a6d6eb1333339d2ec8907e506aa87.png" alt="Bipolar To Unipolar">
+<img src="/assets/images/pgo-patch-bipolar-to-unipolar-6eb01cd4fdef9bda36fe413382209734.png" alt="Bipolar To Unipolar">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="unipolar-to-bipolar">Unipolar to Bipolar<a href="#unipolar-to-bipolar" class="hash-link" aria-label="Direct link to Unipolar to Bipolar" title="Direct link to Unipolar to Bipolar">​</a></h3>
 <p>Convert a 0-1V unipolar signal to the +/-1V bipolar range.</p>
-<img src="/assets/images/pgo-patch-unipolar-to-bipolar-23ae93debbe856afe57af11825bc47e2.png" alt="Unipolar To Bipolar">
+<img src="/assets/images/pgo-patch-unipolar-to-bipolar-ddc4f883fb7efcda43e89ee5a089b472.png" alt="Unipolar To Bipolar">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="differential-to-single-ended">Differential to Single Ended<a href="#differential-to-single-ended" class="hash-link" aria-label="Direct link to Differential to Single Ended" title="Direct link to Differential to Single Ended">​</a></h3>
 <p>Convert a differential input signal to a single-ended output signal. In a differential signal, information is encoded as the difference between a matched pair of separate signals. For example, balanced audio rejects noise on cable runs by sending both a positive and a phase-inverted negative signal on two conductors. Video chroma can be encoded as the difference between two color primaries, such as Pb and Pr, or I and Q.</p>
 <img src="/assets/images/pgo-patch-differential-to-single-ended-7d26c3e0ff9fedb46fa4b854e28fb096.png" alt="Differential To Single Ended">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="single-ended-to-differential">Single Ended to Differential<a href="#single-ended-to-differential" class="hash-link" aria-label="Direct link to Single Ended to Differential" title="Direct link to Single Ended to Differential">​</a></h3>
 <p>Convert a single-ended input signal to a differential output signal. One possible application of differential outputs on PGO would be positive and negative versions of the same signal, such as luminance keys. Both signals will have the same amount of propagation delay, allowing precise horizontal alignment of positive and negative masks.</p>
-<img src="/assets/images/pgo-patch-single-ended-to-differential-ed7561c8b68d215454ccd51740a34923.png" alt="Single Ended To Differential">
+<img src="/assets/images/pgo-patch-single-ended-to-differential-563ad90e77abbd660b00b46693f9ca66.png" alt="Single Ended To Differential">
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="full-specifications">Full Specifications<a href="#full-specifications" class="hash-link" aria-label="Direct link to Full Specifications" title="Direct link to Full Specifications">​</a></h2>
 <table><thead><tr><th>Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Manufacturer Part Number</td><td>950065</td></tr><tr><td>Pronunciation</td><td><a href="/assets/files/pgo-pronunciation-e6622e7cd63fadfdba8c1eb5e87a3b43.mp3" target="_blank">piː ɡəʊ</a></td></tr><tr><td>Mounting Width</td><td>4 HP</td></tr><tr><td>Mounting Depth</td><td>TODO mm</td></tr><tr><td>Mounting Hole Count</td><td>2</td></tr><tr><td>Power Consumption</td><td>12V @ 50 mA</td></tr><tr><td>Power Connectors</td><td>10 pin EuroRack ribbon, 2.1mm DC barrel</td></tr><tr><td>Input Impedance</td><td>1M ohms</td></tr><tr><td>Output Impedance</td><td>75 ohms</td></tr><tr><td>Input Protection Range</td><td>+/-20V</td></tr><tr><td>Input Clipping Range</td><td>+/-2.5V</td></tr><tr><td>Output Range</td><td>+/-2.5V</td></tr><tr><td>Propagation Delay</td><td>TODO ns</td></tr><tr><td>Bandwidth @ -3dB</td><td>TODO MHz</td></tr><tr><td>Module Width</td><td>20.32 mm</td></tr><tr><td>Module Height</td><td>128.5 mm</td></tr><tr><td>Module Depth</td><td>TODO mm</td></tr><tr><td>Product Box Width</td><td>4 in / 101.6 mm</td></tr><tr><td>Product Box Height</td><td>2 in / 50.8 mm</td></tr><tr><td>Product Box Depth</td><td>6 in / 152.4 mm</td></tr><tr><td>Product Weight</td><td>TODO</td></tr><tr><td>Included</td><td>DC barrel power cable, EuroRack power cable, red panel, green panel, blue panel</td></tr><tr><td>EuroRack Power Cable Type</td><td>10-pin to 16-pin</td></tr><tr><td>EuroRack Power Cable Length</td><td>25 cm</td></tr><tr><td>DC Barrel Power Cable Length</td><td>25 cm</td></tr><tr><td>RoHS Compliance</td><td>Manufactured with lead-free processes.</td></tr><tr><td>Video Sync</td><td>None</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="calibration">Calibration<a href="#calibration" class="hash-link" aria-label="Direct link to Calibration" title="Direct link to Calibration">​</a></h2>
