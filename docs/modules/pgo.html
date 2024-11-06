@@ -13,7 +13,7 @@
 
 <link rel="preload" href="static/font/ReliefSingleLineOutline-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.21203b6a.css">
-<script src="/assets/js/runtime~main.e8f97b0f.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.122456a9.js" defer="defer"></script>
 <script src="/assets/js/main.7c2b3736.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -57,11 +57,10 @@
 <li>Power on the EuroRack enclosure and start patching.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="operation">Operation<a href="#operation" class="hash-link" aria-label="Direct link to Operation" title="Direct link to Operation">​</a></h2>
-<p>This guide assumes PGO mounted in the default configuration, with top-to-bottom signal flow. It assumes familiarity with the concepts of voltage, gain and DC bias. If you are a more visual learner, skip to <a href="#example-patches">Example Patches</a> and return here after.</p>
 <p>PGO sits at a lower level of abstraction than more complex modules like video shape generators and video keyers. The synthesist is granted full access to the signal path, and the freedom to program a function in discrete steps.</p>
 <p>PGO is a <em>patch-programmable</em> operator. Its overall function is determined by patch connections rather than switch positions or variable voltages. Connections to specific input and output jacks define operations at different mixing ratios and amounts of gain.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-cascading-input-jacks">Understanding Cascading Input Jacks​<a href="#understanding-cascading-input-jacks" class="hash-link" aria-label="Direct link to Understanding Cascading Input Jacks​" title="Direct link to Understanding Cascading Input Jacks​">​</a></h3>
-<p>PGO uses switched, or normalled, connections between some of its input jacks. With no cable inserted, a signal flows from one input jack, through a function block, and into another input jack. Internal connections are overridden when a cable is inserted. Normalled inputs are indicated on the front panel by an arrow pointing to a jack. The arrow points to the jack that switches between an internally normalled and externally patched input signal.</p>
+<p>PGO uses switched, or normalled, connections between some of its input jacks. With no cable inserted, a signal flows from one input jack to another input jack. This connection is overridden when a cable is inserted. Normalled inputs are indicated on the front panel with arrows.</p>
 <img src="/assets/images/pgo-normalled-connections-e03510782adb8ef99d20f1461a3f1dfe.png" alt="Normalled Connections">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="difference-amplifier">Difference Amplifier​<a href="#difference-amplifier" class="hash-link" aria-label="Direct link to Difference Amplifier​" title="Direct link to Difference Amplifier​">​</a></h3>
 <p>A difference amplifier subtracts one voltage from another. It is similar to a differential amplifier, but is specifically optimized to subtract one voltage from another with accuracy.  PGO&#x27;s amplifier is fully differential, meaning that it has both positive and negative outputs.  </p>
