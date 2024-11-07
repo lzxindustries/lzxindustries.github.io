@@ -13,7 +13,7 @@
 
 <link rel="preload" href="static/font/ReliefSingleLineOutline-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.21203b6a.css">
-<script src="/assets/js/runtime~main.ee46df11.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.2c3a6bb2.js" defer="defer"></script>
 <script src="/assets/js/main.295e3f9f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -36,20 +36,20 @@
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="controls-connectors--indicators">Controls, Connectors &amp; Indicators<a href="#controls-connectors--indicators" class="hash-link" aria-label="Direct link to Controls, Connectors &amp; Indicators" title="Direct link to Controls, Connectors &amp; Indicators">​</a></h2>
 <p>The PGO design was informed by years of studying interfaces common to the building blocks of analog computers and video processing equipment.</p>
-<img src="/assets/images/pgo-controls-and-connectors-fa276f2eaaf83d220c988454a23c27ce.png" alt="Controls Connectors And Indicators">
+<img src="/assets/images/pgo-controls-and-connectors-4a0aebd18c755e764858c19b2fa7cbfc.png" alt="Controls Connectors And Indicators">
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="operation">Operation<a href="#operation" class="hash-link" aria-label="Direct link to Operation" title="Direct link to Operation">​</a></h2>
 <p>PGO sits at a lower level of abstraction than more complex modules like video shape generators and video keyers. The synthesist is granted full access to the signal path, and the freedom to program a function in discrete steps.</p>
 <p>PGO is a <em>patch-programmable</em> operator. Its overall function is determined by patch connections rather than switch positions or variable voltages. Connections to specific input and output jacks define operations at different mixing ratios and amounts of gain.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-cascading-input-jacks">Understanding Cascading Input Jacks​<a href="#understanding-cascading-input-jacks" class="hash-link" aria-label="Direct link to Understanding Cascading Input Jacks​" title="Direct link to Understanding Cascading Input Jacks​">​</a></h3>
 <p>PGO uses switched, or normalled, connections between some of its input jacks. With no cable inserted, a signal flows from one input jack to another input jack. This connection is overridden when a cable is inserted. Normalled inputs are indicated on the front panel with arrows.</p>
-<img src="/assets/images/pgo-normalled-connections-e03510782adb8ef99d20f1461a3f1dfe.png" alt="Normalled Connections">
+<img src="/assets/images/pgo-normalled-connections-5403b8f29a39cddf9cad4eedbc0de691.png" alt="Normalled Connections">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="difference-amplifier">Difference Amplifier​<a href="#difference-amplifier" class="hash-link" aria-label="Direct link to Difference Amplifier​" title="Direct link to Difference Amplifier​">​</a></h3>
 <p>A difference amplifier subtracts one voltage from another. It is similar to a differential amplifier, but is specifically optimized to subtract one voltage from another with accuracy.  PGO&#x27;s amplifier is fully differential, meaning that it has both positive and negative outputs.  </p>
 <p>In PGO&#x27;s implementation, the positive input and negative input of the difference amplifier are each preceded by a four input summing amplifier stage. This configuration allows the user to both add multiple input signals and subtract multiple input signals. Due to the cascaded input switches, the gain of each side of the difference amplifier may be programmed by which jacks are patched and which jacks are left open.</p>
-<img src="/assets/images/pgo-programming-gain-22f2aaec11ebae7834ee18e08321ea99.png" alt="Programming Gain">
+<img src="/assets/images/pgo-programming-gain-3c4382309d34d754050f5035e053282f.png" alt="Programming Gain">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="voltage-reference">Voltage Reference​<a href="#voltage-reference" class="hash-link" aria-label="Direct link to Voltage Reference​" title="Direct link to Voltage Reference​">​</a></h3>
 <p>PGO provides a static voltage reference of 1V at its output jack. This level corresponds to a luminance value of white, or to the 100% brightness level of an RGB channel. This reference voltage may be patched anywhere in your system, or back to one of the inputs on PGO.</p>
-<img src="/assets/images/pgo-programming-offset-95a0d0c9f370155176b7b970a7db1f4a.png" alt="Programming Offset">
+<img src="/assets/images/pgo-programming-offset-01a4a999f1e418b861021946b1b2a270.png" alt="Programming Offset">
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="example-patches">Example Patches<a href="#example-patches" class="hash-link" aria-label="Direct link to Example Patches" title="Direct link to Example Patches">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="buffer">Buffer<a href="#buffer" class="hash-link" aria-label="Direct link to Buffer" title="Direct link to Buffer">​</a></h3>
 <p>Buffer the input signal with a unity gain of 1.0. Due to the module&#x27;s propagation delay, it can be used to add slight delays in the video processing path, resulting in the picture shifting slightly to the right.</p>
