@@ -2,12 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.lzxindustries.net/blog</id>
     <title>LZX Technical Manual Blog</title>
-    <updated>2024-11-22T00:00:00.000Z</updated>
+    <updated>2025-01-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.lzxindustries.net/blog"/>
     <subtitle>LZX Technical Manual Blog</subtitle>
     <icon>https://docs.lzxindustries.net/img/favicon.ico</icon>
-    <rights>© 2024 LZX</rights>
+    <rights>© 2025 LZX</rights>
+    <entry>
+        <title type="html"><![CDATA[Year Fifteen]]></title>
+        <id>https://docs.lzxindustries.net/blog/year-fifteen</id>
+        <link href="https://docs.lzxindustries.net/blog/year-fifteen"/>
+        <updated>2025-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Happy New Year from us here at LZX! We are grateful for an opportunity to be part of your creative lives and wish you triumphant returns on all of your endeavors in 2025. It is our fifteenth year of offering tools to you, and our eighteenth year of developing analog video synthesizers. I feel very excited about our point of view on our existing and future projects at LZX, and 2025 should be fun year.]]></summary>
+        <content type="html"><![CDATA[<p>Happy New Year from us here at LZX! We are grateful for an opportunity to be part of your creative lives and wish you triumphant returns on all of your endeavors in 2025. It is our fifteenth year of offering tools to you, and our eighteenth year of developing analog video synthesizers. I feel very excited about our point of view on our existing and future projects at LZX, and 2025 should be fun year.</p>
+<p>The requested Chromagnon recap:  2024 started off strong, with the launch of this production blog, and a new redesign of the Chromagnon Core assembly: RevF.  This assembly was designed to put all the remaining assembly work onto a single board, so that we could finally start shipping the project.  Our plans moved strongly thru the RevF review, but there were still several functional changes that needed to be made.  Then we got hit with the unexpected: sales slowed drastically this year, forcing us to downsize.</p>
+<p>Moving into the Summer, we lost a few months of Chromagnon time scrambling to update processes and keep the business flowing.  By the end of the Summer, this task was done, and the second Chromagnon revision for the year was in review: RevG.  During the late Summer and into the Fall I wrote Chromagnon's firmware, as RevG was complete enough to write all the firmware functionality.  But there were still a few issues to resolve with the hardware, so in October I heavily into the RevH revisions.  With this revision, we also needed to integrate Chromagnon into our workflow outsourcing SMT assemblies.</p>
+<p>The RevH order was sent in November, and review of the RevH prototype has been ongoing (and successful) since early December, with a couple of bumps in the road that required us to pick it up and put it back down a couple of times while waiting for parts. So, going well, but not going fast. The review is almost complete, and after it's done I'll make another blog post about what's next. We are close to our "ship unit one" milestone, which is when a complete hardware unit goes to a beta tester. That might be RevH, or it may be RevI -- not positive yet.</p>
+<p>What else did we do in 2024?  We launched our new 6U case design, and our first packaged system: Double Vision.   We also released the utility module PGO.</p>
+<p>What else will we do in 2025?  We have a few new module designs nearing readiness we are excited to introduce.  We will also keep building and expanding on the documentation website, and providing some fresh content for existing modules.</p>
+<p>What would you like to see from LZX this year? We'd love to hear all about your needs.</p>
+<p>Talk again soon,
+Lars</p>]]></content>
+        <author>
+            <name>Lars Larsen</name>
+            <uri>https://github.com/creatorlars</uri>
+        </author>
+        <category label="Chromagnon" term="Chromagnon"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[P Series & Double Vision]]></title>
         <id>https://docs.lzxindustries.net/blog/p-series-and-double-vision</id>
@@ -324,32 +345,6 @@ Lars</p>]]></content>
 <p>One way would be gamma curve adjustment using the logarithmic and exponential processors in DSG3.  By feeding luma video thru these processors you can compress the dark values (exponential curve) or you can compress the light values (logarithmic curve.)  Try this, and then mix the results with the original signal at varying proportions to dial it in the way you want.</p>
 <p>Another approach would be to use multiplexing (Switcher) and a comparator (Keychain) to change between two different processed signals, based on the grayscale level of the unprocessed source.</p>
 <p>Until next time; please keep your excellent questions coming!
-Lars</p>]]></content>
-        <author>
-            <name>Lars Larsen</name>
-            <uri>https://github.com/creatorlars</uri>
-        </author>
-        <category label="Chromagnon" term="Chromagnon"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Cleaning]]></title>
-        <id>https://docs.lzxindustries.net/blog/spring-cleaning</id>
-        <link href="https://docs.lzxindustries.net/blog/spring-cleaning"/>
-        <updated>2024-03-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello, Chromagnonites and other video freaks.]]></summary>
-        <content type="html"><![CDATA[<p>Hello, Chromagnonites and other video freaks.</p>
-<p>March has flown past here at headquarters. The last 3 weeks have been dedicated to a spring cleaning of the workspace and an inventory data update, in preparation for Chromagnon and continuing module production.  There were some shifts in team schedules which have required me to focus most of my time on this project, so I apologize for missing some blog posts.</p>
-<p>When Chromagnon fulfillment begins, we'll be testing and packaging a large number of assemblies. Ensuring we're ready for that stage is exciting and it's all coming together nicely.  We have several different strategies for production: full assembly in house, contracted manufacturing, or both in different stages.  I have quotes out with multiple potential manufacturing partners, and we are setting our resource planning system up to manage consigning some of the parts we have in stock.</p>
-<p>The Chromagnon Core RevG PCBs have arrived and we'll be assembling one of those next week. The EuroRack case project prototype tests have gone well and we'll be ordering another round of prototypes next week, as well.  We're making progress on Chromagnon's mechanical parts for the next mold, but still have much to do there -- I expect that project to speed up with the inventory project off our hands next week.</p>
-<p>Added to stock this week were (2) Double Vision System and (2) FKG3.  The next restock will be Scrolls.</p>
-<p><strong>Sebastien asked "I have preordered a Chromagnon ... through one of your dealers, and I was wondering how the preorder is going to be honored. Are you keeping track of the order dates coming from your dealers and are you going to ship them after you ship the orders you received directly? My concern is that I paid the total amount for the Chromagnon to the dealer, but if your dealer did not pay you that amount at the time you might be reluctant to sell it to them at the price I paid at the time (it was $799 if I remember correctly) as you have readjusted your cost estimates.. Thanks for taking the time to respond to my question!"</strong></p>
-<p>Hi, Sebastien!  Dealers are required to place the order with us before offering a preorder.  We will fulfill all orders in exactly the same order they arrived, regardless of whether the order came from a dealer or a direct customer on our webstore.  So everything should be OK with your order as it is.</p>
-<p><strong>Oli asked "Hi, synth noob here. You mentioned that Chromagnon’s parameters can be directly modulated by audio signals without needing any sort of interface. What does this mean exactly? I can plug in audio through an AUX cord and have that influence the visuals on the Chromagnon?</strong></p>
-<p>Hi Oli, thanks for the question.  It means exactly what you think -- you could take a line level audio signal coming out of a music player or other device and patch it directly into any of Chromagnon's 3.5mm input jacks.  This is a very direct form of audio modulation -- it will allow you to visualize the audio signal as it relates to the timing of the video display and itself becomes part of the video signal.  Frequencies near 120Hz, for example, when the video format has a 60Hz refresh rate, will show two waveforms across the screen.  When these external waveforms start mixing with Chromagnon's internal H and V ramp  generators, that's when things get more complex.  Realtime modulation and signal visualization are processes video synthesizers really excel at.</p>
-<p><strong>Oli also asked "What is an ‘envelope follower’ and what advantages does it have in this application? Really excited to have audio visual reactivity and involved in my process :)"</strong></p>
-<p>An envelope follower is a circuit that you would put between an audio source (like line out from a music player) and a modulation input in your video synthesizer (like the threshold of a wipe generator.)</p>
-<p>The envelope follower's job is to follow the amplitude peaks of the incoming waveform and average them out at a slow time constant near video frame rate.   Envelope followers allow you to modulate video parameters based on "how loud is the audio right now?", rather than "what does the audio waveform look like?".  The latter being what you get when you patch an audio signal in directly.</p>
-<p>Thanks for reading, and I hope you are enjoying the Spring.
 Lars</p>]]></content>
         <author>
             <name>Lars Larsen</name>
