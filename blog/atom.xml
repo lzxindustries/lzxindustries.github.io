@@ -2,12 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.lzxindustries.net/blog</id>
     <title>LZX Technical Manual Blog</title>
-    <updated>2025-01-01T00:00:00.000Z</updated>
+    <updated>2025-02-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.lzxindustries.net/blog"/>
     <subtitle>LZX Technical Manual Blog</subtitle>
     <icon>https://docs.lzxindustries.net/img/favicon.ico</icon>
     <rights>© 2025 LZX</rights>
+    <entry>
+        <title type="html"><![CDATA[Winter Trials]]></title>
+        <id>https://docs.lzxindustries.net/blog/winter-trials</id>
+        <link href="https://docs.lzxindustries.net/blog/winter-trials"/>
+        <updated>2025-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Greetings from Portland, video friends. January (and now most of February) have delivered some frustrating setbacks for both work and personal life.  We had our furnace in the home/workshop go out for 10 days in January, followed by me getting sick for a couple of weeks.  This kept me off the Chromagnon workbench, but I used the time to make more progress with the firmware.]]></summary>
+        <content type="html"><![CDATA[<p>Greetings from Portland, video friends. January (and now most of February) have delivered some frustrating setbacks for both work and personal life.  We had our furnace in the home/workshop go out for 10 days in January, followed by me getting sick for a couple of weeks.  This kept me off the Chromagnon workbench, but I used the time to make more progress with the firmware.</p>
+<p>Currently in the workshop we're scrambling to build the last few module restocks required to put a few Double Vision systems on the shelf.  If you want one, they will be available soon!</p>
+<p>The Chromagnon Core RevH board has been reviewed, and I'm now making a few changes for RevI.  Since I'm aiming for this to be the production version, I'm being careful to review every line item on the BOM against current supply chain availability, and find alternates for a few components that are more costly than they need to be.</p>
+<p>During my firmware sprint in January, I wrote a desktop app which communicates over USB with our hardware, allowing remote settings editing and monitoring.  This is a big feature boost for Chromagnon, as it means I can enable user control over many advanced settings that aren't accessible via the frontpanel or Chromagnon's rear 16-position DIP switch.  I have been integrating the communications library into other projects as well, and the plan is to release the desktop application as a general purpose utility for interacting with all of the LZX embedded hardware in greater detail.</p>
+<p>Jonah and I have also been wrapping up the details on a few new modules that have been in development, and trying to "close all our open tabs" in this regard. Here's a list of modular projects we've finalizing.</p>
+<p>Analog Computing Operators</p>
+<ul>
+<li>PGO, Programmable Gain &amp; Offset (4HP) - available now!</li>
+<li>PRM, Precision Rectifier &amp; Multiplier (4HP)</li>
+<li>PAB, Programmable Active Buffers (4HP)</li>
+</ul>
+<p>Passive Utilities</p>
+<ul>
+<li>MLT, Passive Multiples (8HP)</li>
+<li>LNK, Passive Links (4HP)</li>
+<li>P, Passive Potentiomter (2HP)</li>
+</ul>
+<p>Other Projects</p>
+<ul>
+<li>New video encoder designs, including digital outputs</li>
+<li>A slim new audio envelope/low frequency event generator module</li>
+<li>Expedition Mk2 releases such as a new War of the Ants and Sensory Translator</li>
+<li>EuroRack +/-12V power supply expanders for the Vessel 168/Vessel 84 cases.</li>
+<li>The Vessel 208 case, which will feature a high quality latching lid for travel</li>
+</ul>
+<p>Also in the past few weeks I have been working with graphic designer Ramin Rahni, who has been developing illustrations for the Gen3 modules for our documentation website we launched with PGO back in October. I'd also like to shout out Gary MacLeod, a community member who has helped immensely with solving issues with our website -- which now loads much faster, and has better product galleries.  We have Aaron Ross, a beloved community member and instructional designer, lined up to help with content editing and development too.  I'm very grateful for the opportunity to work with these pros in a bartered exchange for modules -- as our budgets are quite slim going into Chromagnon season.</p>
+<p>In parting, I received a note recently that expressed frustration over having not received an apology for the run-on-sentence that has been the Chromagon project timeline.  To be clear and quite frank: I am deeply sorry for the wait, and I take full and unequivocal responsibility for it. I feel the sorriness of it deep in my bones each night as I'm trying fall asleep.  I feel it deep in my gut every time I pause to think about the number of artists who made a purchase with their budget for creative equipment they do not yet have in their hands.  This project has been the exact opposite of the scenario I wanted with LZX, and the biggest project planning/timing blunder I've ever made in my life.  I also feel quite guilty I can't just lock myself in a room 24/7 until it's done -- the business has to be run, kids have to eat, rent has to be paid, so products still have to be developed alongside.  I'm continuously rotating through projects, and moving Chromagnon forward with as many resources as I can give it.  I'm really looking forward to delivering on the promise of this device, and ending this chapter in our shared story.  Despite it all, thank you for believing in the dream of Chromagnon. You have all been very understanding and I owe you my gratitude. I can't speak for all of you, but I know for some it will have been more than worth the wait.</p>
+<p>Love and light, I look forward to writing again soon,</p>
+<p>Lars</p>]]></content>
+        <author>
+            <name>Lars Larsen</name>
+            <uri>https://github.com/creatorlars</uri>
+        </author>
+        <category label="Chromagnon" term="Chromagnon"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Year Fifteen]]></title>
         <id>https://docs.lzxindustries.net/blog/year-fifteen</id>
@@ -306,46 +347,6 @@ Lars</p>]]></content>
 <p>The biweekly schedule has been working well for the blog, so I will be sticking with that moving forward.  I'm likely to issue more updates once we're past production/development goals and into a more promotional phase.</p>
 <p>In totally unrelated news, I will be playing wargames at the fourth 3D Roleplay Con here in Portland over the weekend.  Please wish me many victories.</p>
 <p>Until next time I remain faithfully yours,
-Lars</p>]]></content>
-        <author>
-            <name>Lars Larsen</name>
-            <uri>https://github.com/creatorlars</uri>
-        </author>
-        <category label="Chromagnon" term="Chromagnon"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Restocks & Flight Checks]]></title>
-        <id>https://docs.lzxindustries.net/blog/restocks-and-flight-checks</id>
-        <link href="https://docs.lzxindustries.net/blog/restocks-and-flight-checks"/>
-        <updated>2024-04-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello, video pals!]]></summary>
-        <content type="html"><![CDATA[<p>Hello, video pals!</p>
-<p>We are pushing through April! The current primary focus is on preparing our resource planning system for Chromagnon and smoothly flowing the production of our other projects.</p>
-<p>Here are some photos of our inventory workspaces. We have accounted for hundreds of unique bin locations and over two million parts over the past few weeks. This primes our resource planning software to identify the quickest path solutions to keeping our manufacturing lean and effective with our small team.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/bins1-f5ca16ea7cdf1893c8334c08f3a8a83d.png" width="480" height="360" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/bins2-268029715391e9e097c083701ecbb18c.png" width="480" height="360" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/bins3-a930577eb5eaee08ff014e275b490add.png" width="480" height="360" class="img_ev3q"></p>
-<p>Last week I printed revisions of the Chromagnon molded parts for test fit on our Formlabs printer, which is usually a joy to work with, but required some maintenance this time around. I've been verifying test fits and getting quotes for various fabrication methods.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/print1-9c6843f651b1c1ec30884f758f176017.png" width="480" height="360" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/print2-6497815870d900461da644a334b4b11d.png" width="360" height="480" class="img_ev3q"></p>
-<p>Among other recent projects is a Mk2 revision of our TBC2 expander panel.  We lost our source for the SCART connectors used on the Mk1, 10HP version of this expander, so it has been revised to be 4HP with VGA connectors only. Those of you still waiting on your preorder of this module, or waiting for the firmware revision including all the VGA timing modes, will be served soon. Once we confirm the incoming design, we'll make it available for purchase.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/expander-6f9c7d3f1caa2f9a79acd61f2b6be8ab.png" width="480" height="480" class="img_ev3q"></p>
-<p>We also ordered an initial production run of 10 pcs our 6U EuroRack case with DC &amp; sync distribution. If the fabricated pieces pass our QC, we should have these available for sale in May. I've shown some teasers of the prototype before.  Here's what the production version looks like:</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case1-02f282d1f9ab3d3bbc9d571c5f421e66.png" width="480" height="268" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case2-fc3b95a3e8b600024ed2e827b9d9c05f.png" width="477" height="480" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case3-81a3e930bc7ce6bd7e3303bf69551d10.png" width="480" height="466" class="img_ev3q"></p>
-<p>Today I am designing the Chromagnon rear panel and making revisions to the injection molded enclosure design. With those last pieces on order, my plate will be clear to focus on the Chromagnon firmware release and documentation.</p>
-<p>The changes in team composition I mentioned last update have slowed down our overall schedule with Chromagnon by another few weeks, compared to my plan to be shipping the first unit this month. There was, sadly, not much I could do about that, but the lag time is behind us now, and adjustments to our plans have been made.</p>
-<p>Dave, the designer responsible for the Expedition, Castle and Orion series patch and sticker designs is working on a Chromagnon design currently! I look forward to showing that to you soon. We will, of course, be including this additional merch in all Chromagnon shipments.</p>
-<p>Other news: There has been a restock of merch items, cables, and alternate frontpanels on our webstore. Go check it out!</p>
-<p>Here are your questions since the last update:</p>
-<p>** Paul asked "Is it likely Chromagnon will ship this year?" **</p>
-<p>The goal we are fixated on right now is "Ship Unit #1."  And we're within a few weeks of that goal. Will we be done fulfilling all orders by the end of the year?  I hope so, but that is the larger question.  After shipping the first unit we'll be fulfilling in batches that start small and then ramp up.  By the time we are shipping the first unit, everyone will know very specifically their spot in the batch allotments and a projected fulfillment date.</p>
-<p><strong>On the forum, Boneoh asked "Is there something I can do to clamp the bright areas that allows adjustment? I can use Proc to decrease the brightness, but that scales the whole range down. It sounds simple, and I think I’m missing something. Maybe a way using the Y value in Swatch?"</strong></p>
-<p>It sounds like you want to adjust the gain of the brighter parts of the signal only, without effecting the darker or midtone values.  This kind of signal processing involves a non-linear transfer function of some kind.  There are several ways to approach it.</p>
-<p>One way would be gamma curve adjustment using the logarithmic and exponential processors in DSG3.  By feeding luma video thru these processors you can compress the dark values (exponential curve) or you can compress the light values (logarithmic curve.)  Try this, and then mix the results with the original signal at varying proportions to dial it in the way you want.</p>
-<p>Another approach would be to use multiplexing (Switcher) and a comparator (Keychain) to change between two different processed signals, based on the grayscale level of the unprocessed source.</p>
-<p>Until next time; please keep your excellent questions coming!
 Lars</p>]]></content>
         <author>
             <name>Lars Larsen</name>
