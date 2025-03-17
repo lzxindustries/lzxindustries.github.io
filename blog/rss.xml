@@ -4,11 +4,58 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 LZX</copyright>
+        <item>
+            <title><![CDATA[The Three Ps]]></title>
+            <link>https://docs.lzxindustries.net/blog/passive-programmable-and-precision</link>
+            <guid>https://docs.lzxindustries.net/blog/passive-programmable-and-precision</guid>
+            <pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hi video friends,]]></description>
+            <content:encoded><![CDATA[<p>Hi video friends,</p>
+<p>I'm writing to provide you with the news about current and ongoing projects at LZX.</p>
+<p>The current Chromagnon Core PCB RevI revision remains a work in progress. Following the release of this version, I expect to move into fulfillment plans and scheduling. I'm currently weighing a few options which will have a big impact on how that all goes, and playing catch up on projects delayed in January and February.  The pace at which progress can be made with Chromagnon is set by the health of our sales and the synth industry in general, and this year has started roughly in that regard.  Despite that, I remain confident that LZX and Chromagnon will pull through strongly.</p>
+<p>After a year's hiatus, we released our first new module in November last year: PGO.  We now have five more in this series available, in what we are calling the P series: modules which fit one of the three themes: Passive, Precision or Programmable.  P Series functions are not complex, exciting video effects on an individual basis: they are the building blocks of them. Those of you who wish to dig into the nuts and bolts of analog graphics will find that all the right operators are here to patch most of the functions in our other modules.  As we consider revising earlier modules and developing  new modules, this series provides a chance to encapsulate our best practices in video synth module design thus far, and provide a solid foundation on which to do so.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/p-series-rack-3888e60077212e7adbdc88619dd45cbb.jpg" width="4075" height="3056" class="img_ev3q"></p>
+<p>PROGRAMMABLE</p>
+<ul>
+<li>PGO: 4HP Programmable Gain &amp; Offset</li>
+<li>PAB: 4HP Programmable Active Buffers</li>
+</ul>
+<p>PRECISION</p>
+<ul>
+<li>PRM: 4HP Precision Rectifier &amp; Multiplier</li>
+</ul>
+<p>PASSIVE</p>
+<ul>
+<li>MLT: 8HP Passive Multiples</li>
+<li>LNK: 4HP Passive Links</li>
+<li>P: 2HP Passive Potentiometer</li>
+</ul>
+<p>All P Series modules are available in 3 variants:</p>
+<ul>
+<li>Fully assembled, including any power cables</li>
+<li>Full DIY kit, all parts included</li>
+<li>Partial DIY kit, SMT assemblies and frontpanels only</li>
+</ul>
+<p>There has also been a price drop on the PGO partial DIY kit.</p>
+<p>Other modules in development for 2025 include:</p>
+<ul>
+<li>An RGB-to-HDMI encoder.</li>
+<li>A system sync/waveform generator, with support for legacy connectors and some new tricks.</li>
+<li>A sync distribution amplifier with front and rear connectors, for sync connections with external devices and expander cases.</li>
+<li>An extended version of our first rotator module (Navigator) merged with features from our polar-to-cartesian module (Colorspace Mapper/Mapper).</li>
+</ul>
+<p>In parting, check out some new documentation work by our collaborators.  There are beautifully illustrated and animated docs now available for DSG3, Angles, Keychain and Proc.  There are also initial drafts up for the P Series modules.
+<a href="https://docs.lzxindustries.net/" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net</a></p>
+<p>We'll continue regularly adding to the docs throughout 2025.  Please let us know what you think of them.</p>
+<p>Until next time,
+Lars</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
         <item>
             <title><![CDATA[Winter Trials]]></title>
             <link>https://docs.lzxindustries.net/blog/winter-trials</link>
@@ -278,40 +325,6 @@ Lars</p>]]></content:encoded>
 <p>Brilliant ideas! I love the idea of cave paintings in torchlight. Beneath Chromagnon's cheeky persona, this idea is part of the instrumentation concept -- a connection to something primal and prehistoric. I hope Chromagnon taps into the firestarter and toolholder instincts in every human operator's brain, and that they feel personally connected to the visual results.  The initial visual metaphor I have had in my head from the beginning is the "primordial pool" -- a swirling, rotating mass of colors and ingredients.</p>
 <p>Got more questions? Ask ‘em here: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>
 <p>Thanks for tuning in,
-Lars</p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Prehistoric Plastic]]></title>
-            <link>https://docs.lzxindustries.net/blog/prehistoric-plastic</link>
-            <guid>https://docs.lzxindustries.net/blog/prehistoric-plastic</guid>
-            <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wow! April flew past, here at LZX HQ. Our improvements to operations and inventory have allowed us to process a large number of tasks in the ongoing effort to keep modules and stock while taking steady steps towards Chromagnon's launch.]]></description>
-            <content:encoded><![CDATA[<p>Wow! April flew past, here at LZX HQ. Our improvements to operations and inventory have allowed us to process a large number of tasks in the ongoing effort to keep modules and stock while taking steady steps towards Chromagnon's launch.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/workshop-becb07e8b8648771e6377bfd1583ac16.png" width="480" height="360" class="img_ev3q"></p>
-<p>A well organized inventory and resource planning system allows our small team to manage a large number of products and more accurately estimate production dates.</p>
-<p>Since my last post, there have been two iterations of Chromagnon plastic parts, and I am waiting on a third batch in black to arrive. I am very happy with the fit and look of these components and feel like they add a lot to Chromagnon's personality.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag-6fab5cd0feaa3425a735b326a84b6149.png" width="480" height="317" class="img_ev3q"></p>
-<p>Also arriving since my last post is Chromagnon's back panel PCB, which is where Chromagnon's cooling fan will mount.  I have a few adjustments to make on this part, but otherwise it looks nice.  The only remaining part of the assembly is the enclosure/shell piece -- I should be able to show that to you soon.  With all of those designs sealed, we will finally have the complete recipe card for this prehistoric video synthesizer.</p>
-<p>Additionally, on the Chromagnon front, I have been reviewing our inventory of Chromagnon control assemblies. We have several hundred of these built, but they need functional testing. So we built a test wiring harness and embedded system to speed up that process.</p>
-<p>In modular news, we received our production parts for the new case, now officially titled Vessel 168.  I'm so excited about how good the matte black powder coating looks on the sheet metal, and on the fit of all the components.  We'll have an initial batch of these up for sale in a few days. This initial offering is rack mountable, and includes a central DC &amp; Sync distribution bus, with 28 DC power jack outputs and 14 buffered sync outputs (with a single sync input).</p>
-<p>Coming next for the case will be variants for 3U, the much requested briefcase version with lid and carrying handle, and a EuroRack power supply expander for powering your legacy modules.  Please let us know if you have any suggestions on what products you'd like to see in our catalog for case and case expander variations.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case1-4dc83ad0e4b060bace20c8306ac1b170.png" width="480" height="223" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case2-5ce312a8baccbe19a1965d5c29d80c81.png" width="480" height="253" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case3-3775ddc8f69c39e20ca3ca840f66962f.png" width="480" height="309" class="img_ev3q"></p>
-<p>In TBC2 news, after much research and testing, we have made an ultra silent fan upgrade kit with installation instructions for the Gen3 (Mk2) and are currently making a similar kit for the Orion (Mk1) units.  Once we have both of those in stock, we'll have them available on the website. The fans in use on TBC2 have had a variable range of loudness, with some fans being annoying to some users.  The fans we used were initially designed for 3D printers, where noise is not a big concern -- so it's taken us a while to find fans in the right form factor which are also dead silent.  Also, the TBC2 Expander Mk2 I previewed in the last blog has been prototyped and looks great, so we are in the middle of building a batch.</p>
-<p>Now, on to your questions:</p>
-<p><strong>Pat asked "Are you really a few weeks away from shipping the first Chromagnon unit? How many weeks if you had to guess?"</strong></p>
-<p>A better way to phrase that statement would have been "we are about 2 months behind the schedule we made back in December when the blog started." That schedule was looking to ship a first unit in April, so that would mean I am now hoping to be doing so by the end of June.  It's looking good that all the production related deliverables will get wrapped up this month (the final enclosure design is the biggest piece missing).  How fast we roll out production from that point, is still unknown -- but we are making steady forward progress.</p>
-<p><strong>Michael asked "Do you know when the Proc might be reproduced? I have an order for it with Perfect Circuit but I don’t know if I should wait on that or, if it’s going to be on the other side of the Chromagnon stuff, just try and find one / something else on the used market. "</strong></p>
-<p>We have Proc in stock here at LZX -- if Perfect Circuit don't have stock, they can place an order with us at any time.  It could be that they recently received a shipment from us, but have not put it into inventory yet.</p>
-<p><strong>heavy light asked "I realise the team  are busy building /designing modules and all that but when are we getting some new t shirts ?"</strong></p>
-<p>My comrade, there is a new shirt / patch / sticker design for Chromagnon in progress right now.  Dave, who designed the Vidiot &amp; Chromagnon characters is working on it. Please always let us know if you have suggestions for what merch or merch designs you want to see.  We love showing our personalities as designers in ways that extend beyond the products themselves. Since we were all in many bands at various points, merch is a big part of that!</p>
-<p><strong>Aaron asked "Hi! I want to update my shipping address before you start sending out units; how can I do that?"</strong></p>
-<p>You can update the shipping address for your order at any time by writing to <a href="mailto:sales@lzxindustries.net" target="_blank" rel="noopener noreferrer">sales@lzxindustries.net</a>.  But don't worry -- we'll be reaching out to each and every customer individually before your shipment goes out, to confirm the details.  We don't want any Chromagnons lost in the mail!</p>
-<p>The biweekly schedule has been working well for the blog, so I will be sticking with that moving forward.  I'm likely to issue more updates once we're past production/development goals and into a more promotional phase.</p>
-<p>In totally unrelated news, I will be playing wargames at the fourth 3D Roleplay Con here in Portland over the weekend.  Please wish me many victories.</p>
-<p>Until next time I remain faithfully yours,
 Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
