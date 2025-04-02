@@ -14,7 +14,7 @@
 
 <link rel="preload" href="static/font/ReliefSingleLineOutline-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.a4a20d3f.css">
-<script src="/assets/js/runtime~main.a6f2590c.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.37f262cf.js" defer="defer"></script>
 <script src="/assets/js/main.a59dee67.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -22,115 +22,142 @@
 <span class="head2_nolink">Programmable Gain &amp; Offset</span>
 <img src="/assets/images/pgo_front-panel-a3ec8a9ddea23e9e212b2e3f2e8730db.png" alt="Frontpanel">
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
-<p>PGO is a multi-purpose analog operator for adding and subtracting signals. It is designed to cover as much functional territory as possible, while also remaining compact and intuitive. PGO is capable of many basic processing steps, such as amplification, attenuation, inversion, addition, subtraction, averaging, and level shifting.</p>
+<p>PGO is a multipurpose analog operator for adding and subtracting signals. It&#x27;s designed to cover as much functional territory as possible in a compact and intuitive 4HP package.</p>
+<p>PGO performs many basic processing steps such as:</p>
+<ul>
+<li>Amplify</li>
+<li>Attenuate</li>
+<li>Invert</li>
+<li>Add</li>
+<li>Subtract</li>
+<li>Average</li>
+<li>Bias (offset / level shift)</li>
+</ul>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-specifications">Key Specifications<a href="#key-specifications" class="hash-link" aria-label="Direct link to Key Specifications" title="Direct link to Key Specifications">​</a></h2>
-<table><thead><tr><th>Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Mounting Width</td><td>4 HP</td></tr><tr><td>Power Consumption</td><td>12V @ 50 mA</td></tr><tr><td>Power Connectors</td><td>10 pin EuroRack ribbon, 2.1mm DC barrel</td></tr><tr><td>Video Sync</td><td>None</td></tr><tr><td>Included</td><td>DC barrel power cable, EuroRack power cable, red panel, green panel, blue panel</td></tr></tbody></table>
+<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Mounting Width</td><td>4 HP</td></tr><tr><td>Power Consumption</td><td>12V @ 50 mA</td></tr><tr><td>Power Connectors</td><td>10 pin EuroRack ribbon, 2.1mm DC barrel</td></tr><tr><td>Included</td><td>DC barrel power cable, EuroRack power cable, red panel, green panel, blue panel</td></tr><tr><td>Video Sync</td><td>None</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="front-panel-options">Front Panel Options<a href="#front-panel-options" class="hash-link" aria-label="Direct link to Front Panel Options" title="Direct link to Front Panel Options">​</a></h2>
 <p>PGO ships with a black front panel installed. Red, green and blue panels are also included.</p>
 <img src="/assets/images/pgo_all-front-panels-812e43005a6f29ab36a7464119b40788.png" alt="All Frontpanels">
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="system-integration-advice">System Integration Advice<a href="#system-integration-advice" class="hash-link" aria-label="Direct link to System Integration Advice" title="Direct link to System Integration Advice">​</a></h2>
 <ul>
-<li><strong>Utility module</strong> for mixing and level shifting, covering odd cases where the patch needs just one simple operation.</li>
-<li><strong>Expander module</strong> to add extra inputs or output processing. Extend the functionality any module. Add one next to your favorite oscillators or RGB functions to expand modulation or signal input options.</li>
-<li><strong>Building block</strong> for patching complex video synthesis functions. As low level analog computing blocks, several PGOs can be patched together to design a wide range of processing functions, including replicating functions from other modules. However, this level of flexibility comes at the expense of greater system size and more complex patches. Using both lower level and higher level modules is a great strategy for getting the most out of a system.</li>
-<li><strong>Consider multiple PGOs</strong>. Analog computers provide several instances of summing and difference amplifiers. For example, a bidirectional converter or scaler requires two modules. A triple color space function requires three modules. More complex vector functions will require eight or more.</li>
+<li><strong>Utility</strong> module for mixing and level shifting, covering cases where the patch needs just one simple operation.</li>
+<li><strong>Expander</strong> to augment the functionality of other modules. Add more inputs. Process signals before or after any module. To expand modulation or signal input options, add PGO&#x27;s next to your favorite high-level functions such as oscillators or shape generators.</li>
+<li><strong>Building block</strong> for patching complex video synthesis functions. As low level analog computing blocks, several PGO&#x27;s can be patched together to design a wide range of processing functions, including replicating functions from other modules. This level of flexibility comes at the expense of greater system size and more complex patches. Using both low-level and high-level modules is a great strategy for getting the most out of a system.</li>
+<li><strong>The more, the merrier.</strong> More PGO&#x27;s doesn&#x27;t add possibilities, it multiplies them. PGO is a functional unit of an analog computer specialized for video. To operate as a traditional analog computer, a system requires multiple instances of summing and difference amplifiers. Bidirectional voltage conversion would require two PGO&#x27;s. A triple color space function requires three. More complex vector functions require eight or more.</li>
 </ul>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="controls-connectors--indicators">Controls, Connectors &amp; Indicators<a href="#controls-connectors--indicators" class="hash-link" aria-label="Direct link to Controls, Connectors &amp; Indicators" title="Direct link to Controls, Connectors &amp; Indicators">​</a></h2>
 <p>The PGO design was informed by years of studying interfaces common to the building blocks of analog computers and video processing equipment.</p>
 <img src="/assets/images/pgo_controls-connectors-indicators-60377bc8f51b600b57e324f128fd4db1.png" alt="Controls Connectors And Indicators">
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="operation">Operation<a href="#operation" class="hash-link" aria-label="Direct link to Operation" title="Direct link to Operation">​</a></h2>
 <p>PGO sits at a lower level of abstraction than more complex modules like video shape generators and video keyers. The synthesist is granted full access to the signal path, and the freedom to program a function in discrete steps.</p>
 <p>PGO is a <em>patch-programmable</em> operator. Its overall function is determined by patch connections rather than switch positions or variable voltages. Connections to specific input and output jacks define operations at different mixing ratios and amounts of gain.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-cascading-input-jacks">Understanding Cascading Input Jacks​<a href="#understanding-cascading-input-jacks" class="hash-link" aria-label="Direct link to Understanding Cascading Input Jacks​" title="Direct link to Understanding Cascading Input Jacks​">​</a></h3>
-<p>PGO uses switched, or normalled, connections between some of its input jacks. With no cable inserted, a signal flows from one input jack to another input jack. This connection is overridden when a cable is inserted. Normalled inputs are indicated on the front panel with arrows.</p>
+<p>PGO uses switched, or normalled, connections between some of its input jacks. With no cable inserted, a signal flows from one input jack to another. This connection is overridden when a cable is inserted. Normalled inputs are indicated on the front panel with arrows.</p>
 <img src="/assets/images/pgo_understanding-cascading-input-jacks​-34d22b0110d71bb3f7164ce93fbb1a3b.png" alt="Normalled Connections">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="difference-amplifier">Difference Amplifier​<a href="#difference-amplifier" class="hash-link" aria-label="Direct link to Difference Amplifier​" title="Direct link to Difference Amplifier​">​</a></h3>
 <p>A difference amplifier subtracts one voltage from another. It is similar to a differential amplifier, but is specifically optimized to subtract one voltage from another with accuracy.  PGO&#x27;s amplifier is fully differential, meaning that it has both positive and negative outputs.  </p>
-<p>In PGO&#x27;s implementation, the positive input and negative input of the difference amplifier are each preceded by a four input summing amplifier stage. This configuration allows the user to both add multiple input signals and subtract multiple input signals. Due to the cascaded input switches, the gain of each side of the difference amplifier may be programmed by which jacks are patched and which jacks are left open.</p>
+<p>In PGO&#x27;s implementation, the positive input and negative input of the difference amplifier are each preceded by a four-input summing amplifier stage. This configuration allows the user to simultaneously add and subtract multiple signals. Due to the cascading input switches, the gain of each side of the difference amplifier may be programmed by which jacks are patched and which jacks are left open.</p>
 <img src="/assets/images/pgo_programming-gain-202b0f5845c9107080c52c3b301d47a1.png" alt="Programming Gain">
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="voltage-reference">Voltage Reference​<a href="#voltage-reference" class="hash-link" aria-label="Direct link to Voltage Reference​" title="Direct link to Voltage Reference​">​</a></h3>
-<p>PGO provides a static voltage reference of 1V at its output jack. This level corresponds to a luminance value of white, or to the 100% brightness level of an RGB channel. This reference voltage may be patched anywhere in your system, or back to one of the inputs on PGO.</p>
+<p>PGO provides a static voltage reference of 1V at its output jack. This level corresponds to a luminance value of white, or to the 100% brightness level of an RGB channel. This reference voltage may be patched anywhere in your system, or to the inputs on PGO.</p>
 <img src="/assets/images/pgo_programming-offset-ef7f291b18fae46de9b41079f9fc18ae.png" alt="Programming Offset">
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="example-patches">Example Patches<a href="#example-patches" class="hash-link" aria-label="Direct link to Example Patches" title="Direct link to Example Patches">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="buffer">Buffer<a href="#buffer" class="hash-link" aria-label="Direct link to Buffer" title="Direct link to Buffer">​</a></h3>
 <p>Buffer the input signal with a unity gain of 1.0. Due to the module&#x27;s propagation delay, it can be used to add slight delays in the video processing path, resulting in the picture shifting slightly to the right.</p>
 <img src="/assets/images/pgo_buffer-ed45ed4646a37c9a4fc9457cef77bbe2.png" alt="Buffer">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="amplifier">Amplifier<a href="#amplifier" class="hash-link" aria-label="Direct link to Amplifier" title="Direct link to Amplifier">​</a></h3>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="amplifiy">Amplifiy<a href="#amplifiy" class="hash-link" aria-label="Direct link to Amplifiy" title="Direct link to Amplifiy">​</a></h3>
 <p>Amplify the input signal with a gain of 2.</p>
 <img src="/assets/images/pgo_amplifier-60b72e8ffe4747a65b12d216a39b9467.png" alt="Amplifier">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="attenuator">Attenuator<a href="#attenuator" class="hash-link" aria-label="Direct link to Attenuator" title="Direct link to Attenuator">​</a></h3>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="attenuate">Attenuate<a href="#attenuate" class="hash-link" aria-label="Direct link to Attenuate" title="Direct link to Attenuate">​</a></h3>
 <p>Attenuate the input signal with a gain of 0.5.</p>
 <img src="/assets/images/pgo_attenuator-b79a0dd3b91f9b73cf55532f2cc32552.png" alt="Attenuator">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="inverter">Inverter<a href="#inverter" class="hash-link" aria-label="Direct link to Inverter" title="Direct link to Inverter">​</a></h3>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="invert">Invert<a href="#invert" class="hash-link" aria-label="Direct link to Invert" title="Direct link to Invert">​</a></h3>
 <p>Invert the arithmetic sign of the input signal. Positive voltages are converted to negative voltages, or vice versa.</p>
 <img src="/assets/images/pgo_inverter-d51ab3f2840dd82250b1db4fb4a9b87b.png" alt="Inverter">
+<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="negative">Negative<a href="#negative" class="hash-link" aria-label="Direct link to Negative" title="Direct link to Negative">​</a></h3>
 <p>Convert a unipolar signal to negative by subtracting it from 1V. Useful for inverting keys, logic and RGB channels. An input signal ranging from zero to one results in an inverted output ranging from one to zero.</p>
 <img src="/assets/images/pgo_negative-9794b18a8d0d410c31d61fb7e259da19.png" alt="Negative">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="subtractor">Subtractor<a href="#subtractor" class="hash-link" aria-label="Direct link to Subtractor" title="Direct link to Subtractor">​</a></h3>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="subtract">Subtract<a href="#subtract" class="hash-link" aria-label="Direct link to Subtract" title="Direct link to Subtract">​</a></h3>
 <p>Subtract one input from another.</p>
 <img src="/assets/images/pgo_subtractor-62437d789bf2e6e2d0be1aed8f1617b3.png" alt="Subtractor">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="adder">Adder<a href="#adder" class="hash-link" aria-label="Direct link to Adder" title="Direct link to Adder">​</a></h3>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="add">Add<a href="#add" class="hash-link" aria-label="Direct link to Add" title="Direct link to Add">​</a></h3>
 <p>Calculate the sum of two input signals.</p>
 <img src="/assets/images/pgo_adder-621d8c03ad8235ae9684b799042fa42d.png" alt="Adder">
+<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="average">Average<a href="#average" class="hash-link" aria-label="Direct link to Average" title="Direct link to Average">​</a></h3>
 <p>Calculate the average of two input signals.</p>
 <img src="/assets/images/pgo_average-17b2810f123e5c5880a0047921f61fe0.png" alt="Average">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="unipolar-modulator">Unipolar Modulator<a href="#unipolar-modulator" class="hash-link" aria-label="Direct link to Unipolar Modulator" title="Direct link to Unipolar Modulator">​</a></h3>
-<p>Subtract a modulator from a primary signal, where both are unipolar 0-1V. The primary signal <em>source a</em> passes unmodified when the modulating signal <em>source b</em> is at its midpoint of 0.5V. As a ramp shifter, <em>source a</em> is the input ramp, and <em>source b</em> is the positioning control voltage. As a brightness processor, <em>source a</em> is a unipolar color channel such as luma, red, green, or blue, and <em>source b</em> is the brightness adjustment.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="unipolar-modulation">Unipolar Modulation<a href="#unipolar-modulation" class="hash-link" aria-label="Direct link to Unipolar Modulation" title="Direct link to Unipolar Modulation">​</a></h3>
+<p>Subtract a modulator from a primary signal, where both are unipolar, from zero to +1V. The primary signal <em>source a</em> passes unmodified when the modulating signal <em>source b</em> is at its midpoint of 0.5V. As a ramp shifter, <em>source a</em> is the input ramp, and <em>source b</em> is the positioning control voltage. As a brightness processor, <em>source a</em> is a unipolar color channel such as luma, red, green, or blue, and <em>source b</em> is the brightness adjustment.</p>
 <img src="/assets/images/pgo_unipolar-modulator-424dfa96f578f901bbad1b0b9373b67d.png" alt="Unipolar Modulator">
+<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="weighted-mixer">Weighted Mixer<a href="#weighted-mixer" class="hash-link" aria-label="Direct link to Weighted Mixer" title="Direct link to Weighted Mixer">​</a></h3>
 <p>Calculate a 3:1 weighted sum of two inputs, with 3 parts of <em>source a</em> for every 1 part of <em>source b</em>.</p>
 <img src="/assets/images/pgo_weighted-mixer-d34ae28998759b5074a75f33bc152cbe.png" alt="Weighted Mixer">
+<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="compressed-mixer">Compressed Mixer<a href="#compressed-mixer" class="hash-link" aria-label="Direct link to Compressed Mixer" title="Direct link to Compressed Mixer">​</a></h3>
 <p>Calculate the sum of four input signals and attenuate the mix to a value of one half. This is a common scenario to prevent clipping when mixing more than two input signals.</p>
 <img src="/assets/images/pgo_compressed-mixer-b3602074d2b8904ea1d4b8b44ba7f2b9.png" alt="Compressed Mixer">
+<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bipolar-to-unipolar">Bipolar to Unipolar<a href="#bipolar-to-unipolar" class="hash-link" aria-label="Direct link to Bipolar to Unipolar" title="Direct link to Bipolar to Unipolar">​</a></h3>
 <p>Convert a +/-1V bipolar signal to the 0-1V unipolar range.</p>
 <img src="/assets/images/pgo_bipolar-to-unipolar-545bbb205a5ace13193fb2b5a7218198.png" alt="Bipolar To Unipolar">
+<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="unipolar-to-bipolar">Unipolar to Bipolar<a href="#unipolar-to-bipolar" class="hash-link" aria-label="Direct link to Unipolar to Bipolar" title="Direct link to Unipolar to Bipolar">​</a></h3>
 <p>Convert a 0-1V unipolar signal to the +/-1V bipolar range.</p>
 <img src="/assets/images/pgo_unipolar-to-bipolar-adb0bb6865bacb80adf143411a350fc9.png" alt="Unipolar To Bipolar">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="differential-to-single-ended">Differential to Single Ended<a href="#differential-to-single-ended" class="hash-link" aria-label="Direct link to Differential to Single Ended" title="Direct link to Differential to Single Ended">​</a></h3>
-<p>Convert a differential input signal to a single-ended output signal. In a differential signal, information is encoded as the difference between a matched pair of separate signals. For example, balanced audio rejects noise on cable runs by sending both a positive and a phase-inverted negative signal on two conductors. Video chroma can be encoded as the difference between two color primaries, such as Pb and Pr, or I and Q.</p>
-<img src="/assets/images/pgo_differential-to-single-ended-c46583de7945ca9a84f590fada10c89c.png" alt="Differential To Single Ended">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="single-ended-to-differential">Single Ended to Differential<a href="#single-ended-to-differential" class="hash-link" aria-label="Direct link to Single Ended to Differential" title="Direct link to Single Ended to Differential">​</a></h3>
-<p>Convert a single-ended input signal to a differential output signal. One possible application of differential outputs on PGO would be positive and negative versions of the same signal, such as luminance keys. Both signals will have the same amount of propagation delay, allowing precise horizontal alignment of positive and negative masks.</p>
-<img src="/assets/images/pgo_single-ended-to-differential-a0d5d07ae84edc9018c53c0b0f875351.png" alt="Single Ended To Differential">
+<hr>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="installation">Installation<a href="#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="requirements">Requirements<a href="#requirements" class="hash-link" aria-label="Direct link to Requirements" title="Direct link to Requirements">​</a></h3>
 <ul>
-<li>EuroRack enclosure.</li>
-<li>12V DC or EuroRack power supply.</li>
-<li>2.1mm DC barrel power cable <strong>or</strong> a EuroRack power cable (both options included).</li>
-<li>Two M2.5 x 6mm mounting screws, or screws provided or specified by the enclosure manufacturer.</li>
-<li>#1 Phillips head screwdriver, or hand tool provided or specified by the enclosure manufacturer.</li>
+<li>EuroRack enclosure</li>
+<li>12V DC or EuroRack power supply</li>
+<li>2.1 mm DC barrel power cable <strong>or</strong> EuroRack power cable (both options included)</li>
+<li>Eurorack power for PGO requires a 16-pin to 10-pin ribbon cable</li>
+<li>Two M2.5 x 6mm mounting screws, or screws provided or specified by the enclosure manufacturer</li>
+<li>#1 Phillips head screwdriver, or hand tool provided or specified by the enclosure manufacturer</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="procedure">Procedure<a href="#procedure" class="hash-link" aria-label="Direct link to Procedure" title="Direct link to Procedure">​</a></h3>
 <ul>
 <li>Power off and disconnect the EuroRack enclosure&#x27;s power supply and any attached DC adapters.</li>
-<li>Connect only one of, the EuroRack Power Cable or the DC Barrel Power Cable to the module.</li>
+<li>Connect either the EuroRack Power Cable <strong>or</strong> the DC Barrel Power Cable to the module. Do not connect both Eurorack and DC Barrel power.</li>
+<li>Ensure that no mounting screws are in any holes in the area where you wish to mount the module.</li>
 <li>Carefully test fit the module with its attached power cable in the open space in the EuroRack enclosure. If it is obstructed by the enclosure or any internal assemblies, abort this procedure.</li>
 <li>Connect the disconnected end of the power cable to the power supply.</li>
 <li>Mount the module to the EuroRack rails using all mounting holes.</li>
 <li>Store the unused cable along with the product box in a safe location.</li>
 <li>Power on the EuroRack enclosure and start patching.</li>
 </ul>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="full-specifications">Full Specifications<a href="#full-specifications" class="hash-link" aria-label="Direct link to Full Specifications" title="Direct link to Full Specifications">​</a></h2>
-<table><thead><tr><th>Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Manufacturer Part Number</td><td>950065</td></tr><tr><td>Pronunciation</td><td><a href="/assets/files/pgo-pronunciation-e6622e7cd63fadfdba8c1eb5e87a3b43.mp3" target="_blank">piː ɡəʊ</a></td></tr><tr><td>Mounting Width</td><td>4 HP</td></tr><tr><td>Mounting Depth</td><td>TODO mm</td></tr><tr><td>Mounting Hole Count</td><td>2</td></tr><tr><td>Power Consumption</td><td>12V @ 50 mA</td></tr><tr><td>Power Connectors</td><td>10 pin EuroRack ribbon, 2.1mm DC barrel</td></tr><tr><td>Input Impedance</td><td>1M ohms</td></tr><tr><td>Output Impedance</td><td>75 ohms</td></tr><tr><td>Input Protection Range</td><td>+/-20V</td></tr><tr><td>Input Clipping Range</td><td>+/-2.5V</td></tr><tr><td>Output Range</td><td>+/-2.5V</td></tr><tr><td>Propagation Delay</td><td>TODO</td></tr><tr><td>Bandwidth @ -3dB</td><td>TODO</td></tr><tr><td>Module Width</td><td>20.32 mm</td></tr><tr><td>Module Height</td><td>128.5 mm</td></tr><tr><td>Module Depth</td><td>TODO mm</td></tr><tr><td>Product Box Width</td><td>4 in / 101.6 mm</td></tr><tr><td>Product Box Height</td><td>2 in / 50.8 mm</td></tr><tr><td>Product Box Depth</td><td>6 in / 152.4 mm</td></tr><tr><td>Product Weight</td><td>TODO</td></tr><tr><td>Included</td><td>DC barrel power cable, EuroRack power cable, red panel, green panel, blue panel</td></tr><tr><td>EuroRack Power Cable Type</td><td>10-pin to 16-pin</td></tr><tr><td>EuroRack Power Cable Length</td><td>25 cm</td></tr><tr><td>DC Barrel Power Cable Length</td><td>25 cm</td></tr><tr><td>RoHS Compliance</td><td>Manufactured with lead-free processes.</td></tr><tr><td>Video Sync</td><td>None</td></tr></tbody></table>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="calibration">Calibration<a href="#calibration" class="hash-link" aria-label="Direct link to Calibration" title="Direct link to Calibration">​</a></h2>
-<p>Calibration is not required for this module.</p>
+<table><thead><tr><th>Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Manufacturer Part Number</td><td>950065</td></tr><tr><td>Pronunciation</td><td><a href="/assets/files/pgo-pronunciation-e6622e7cd63fadfdba8c1eb5e87a3b43.mp3" target="_blank">piː ɡəʊ</a></td></tr><tr><td>Mounting Width</td><td>4 HP</td></tr><tr><td>Mounting Hole Count</td><td>2</td></tr><tr><td>Power Consumption</td><td>12V @ 50 mA</td></tr><tr><td>Power Connectors</td><td>10 pin EuroRack ribbon, 2.1mm DC barrel</td></tr><tr><td>Input Impedance</td><td>1M ohms</td></tr><tr><td>Output Impedance</td><td>75 ohms</td></tr><tr><td>Input Protection Range</td><td>+/-20V</td></tr><tr><td>Input Clipping Range</td><td>+/-2.5V</td></tr><tr><td>Output Range</td><td>+/-2.5V</td></tr><tr><td>Module Width</td><td>20.32 mm</td></tr><tr><td>Module Height</td><td>128.5 mm</td></tr><tr><td>Product Box Width</td><td>4 in / 101.6 mm</td></tr><tr><td>Product Box Height</td><td>2 in / 50.8 mm</td></tr><tr><td>Product Box Depth</td><td>6 in / 152.4 mm</td></tr><tr><td>Included</td><td>DC barrel power cable, EuroRack power cable, red panel, green panel, blue panel</td></tr><tr><td>EuroRack Power Cable Type</td><td>10-pin to 16-pin</td></tr><tr><td>EuroRack Power Cable Length</td><td>25 cm</td></tr><tr><td>DC Barrel Power Cable Length</td><td>25 cm</td></tr><tr><td>RoHS Compliance</td><td>Manufactured with lead-free processes.</td></tr><tr><td>Video Sync</td><td>None</td></tr></tbody></table>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="maintenance">Maintenance<a href="#maintenance" class="hash-link" aria-label="Direct link to Maintenance" title="Direct link to Maintenance">​</a></h2>
 <p>Keep your module free of dust and debris by performing periodic cleaning. Spots may be cleaned from the frontpanel with a microfiber cloth and isopropyl alcohol or other electronics cleaner.</p>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="hardware-revisions">Hardware Revisions<a href="#hardware-revisions" class="hash-link" aria-label="Direct link to Hardware Revisions" title="Direct link to Hardware Revisions">​</a></h2>
 <p>The hardware revision code is printed on the circuit board visible from the rear of the module.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pgo-reva">PGO-REVA<a href="#pgo-reva" class="hash-link" aria-label="Direct link to PGO-REVA" title="Direct link to PGO-REVA">​</a></h3>
-<p>Initial prototype. September 2024.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pgo-revb">PGO-REVB<a href="#pgo-revb" class="hash-link" aria-label="Direct link to PGO-REVB" title="Direct link to PGO-REVB">​</a></h3>
-<p>Initial production version. October 2024.</p>
-<p>Serial numbers 950065-0001 thru 950065-0100.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pgo-reva">PGO-RevA<a href="#pgo-reva" class="hash-link" aria-label="Direct link to PGO-RevA" title="Direct link to PGO-RevA">​</a></h3>
+<p>Initial prototype, September 2024</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pgo-revb">PGO-RevB<a href="#pgo-revb" class="hash-link" aria-label="Direct link to PGO-RevB" title="Direct link to PGO-RevB">​</a></h3>
+<p>Initial production version, October 2024</p>
+<p>Serial numbers 950065-0001 thru 950065-0100</p>
 <p><a href="/assets/files/PGO-REVB_Schematic_Diagram-cbb412af96c9a84405e53c38c2ff89b4.pdf" target="_blank">Download PGO-REVB Schematic Diagram (PDF)</a></p>
 <p><a href="/assets/files/PGO-REVB_Interactive_Bill_of_Materials-7eb3e5f2658ce9c631ac37a98b20e8e5.zip" target="_blank">Download PGO-REVB Interactive Bill of Materials (ZIP)</a></p>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="diy">DIY<a href="#diy" class="hash-link" aria-label="Direct link to DIY" title="Direct link to DIY">​</a></h2>
 <p>PGO is available as a DIY kit that includes a PCB assembly with pre-assembled SMT components and 4 frontpanel options.  The user must source the through-hole components such as headers and jacks, as well as a suitable power cable for the module.</p>
 <img src="/assets/images/pgo-pcb-render-smt-only-front-RevB-9825451648412269ff7a0060d813e32d.png" alt="PCB Front SMT Only" style="height:400px">
@@ -148,18 +175,19 @@
 <li>Mount and solder front facing jacks next.</li>
 <li>Attach the frontpanel and secure it with mounting nuts for the jacks.</li>
 </ol>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="functional-testing">Functional Testing<a href="#functional-testing" class="hash-link" aria-label="Direct link to Functional Testing" title="Direct link to Functional Testing">​</a></h2>
 <p>The following tests are designed to verify the module is functioning as expected after assembly. If you are concerned your module is not operating properly, these tests may be used for self verification before a repair is initiated.  It is also best practice to perform a functional test when selling or purchasing a module on the secondhand market.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="requirements-1">Requirements<a href="#requirements-1" class="hash-link" aria-label="Direct link to Requirements" title="Direct link to Requirements">​</a></h3>
 <ul>
-<li>A voltmeter, multimeter or oscilloscope</li>
+<li>Voltmeter, multimeter or oscilloscope</li>
 <li>12V power supply or EuroRack power supply</li>
 <li>Patch cables</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="setup">Setup<a href="#setup" class="hash-link" aria-label="Direct link to Setup" title="Direct link to Setup">​</a></h3>
 <ul>
 <li>Connect the module to power and turn on your case</li>
-<li>Prepare to probe the disconnected end of a patch cable -- in these tests, the positive probe should make contact with the tip of the plug, and the negative probe or grounding clip should make contact with the sleeve of the plug</li>
+<li>Prepare to probe the disconnected end of a patch cable -- in these tests, the positive probe should make contact with the tip of the plug, and the negative probe or grounding clip should make contact with the sleeve of the plug.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="t1-test-voltage-reference">T1. Test voltage reference<a href="#t1-test-voltage-reference" class="hash-link" aria-label="Direct link to T1. Test voltage reference" title="Direct link to T1. Test voltage reference">​</a></h3>
 <ul>
@@ -168,15 +196,15 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="t2-test-difference-amplifier-positive-inputs">T2. Test difference amplifier positive inputs<a href="#t2-test-difference-amplifier-positive-inputs" class="hash-link" aria-label="Direct link to T2. Test difference amplifier positive inputs" title="Direct link to T2. Test difference amplifier positive inputs">​</a></h3>
 <ul>
 <li>Connect a cable from the voltage reference output to Difference Amplifier In1+</li>
-<li>Verify that Difference Amplifier Out+ is within +/-2% of +2V.</li>
-<li>Verify that Difference Amplifier Out- is within +/-2% of -2V.</li>
+<li>Verify that Difference Amplifier Out+ is within +/-2% of +2V</li>
+<li>Verify that Difference Amplifier Out- is within +/-2% of -2V</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="t3-test-difference-amplifier-negative-inputs">T3. Test difference amplifier negative inputs<a href="#t3-test-difference-amplifier-negative-inputs" class="hash-link" aria-label="Direct link to T3. Test difference amplifier negative inputs" title="Direct link to T3. Test difference amplifier negative inputs">​</a></h3>
 <ul>
-<li>Connect a cable from the voltage reference output to Difference Amplifier In1-</li>
-<li>Verify that Difference Amplifier Out+ is within +/-2% of -2V.</li>
-<li>Verify that Difference Amplifier Out- is within +/-2% of +2V.</li>
+<li>Connect a cable from the voltage reference output to Difference Amplifier In 1-</li>
+<li>Verify that Difference Amplifier Out+ is within +/-2% of -2V</li>
+<li>Verify that Difference Amplifier Out- is within +/-2% of +2V</li>
 </ul>
-<p>This concludes functional testing. If all steps starting with <em>Verify...</em> passed their conditions, your PGO is operating within expected parameters.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/modules/pab"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">PAB: Programmable Active Buffers</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/modules/pot"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">P: Passive Potentiometer</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li><li><a href="#key-specifications" class="table-of-contents__link toc-highlight">Key Specifications</a></li><li><a href="#front-panel-options" class="table-of-contents__link toc-highlight">Front Panel Options</a></li><li><a href="#system-integration-advice" class="table-of-contents__link toc-highlight">System Integration Advice</a></li><li><a href="#controls-connectors--indicators" class="table-of-contents__link toc-highlight">Controls, Connectors &amp; Indicators</a></li><li><a href="#operation" class="table-of-contents__link toc-highlight">Operation</a><ul><li><a href="#understanding-cascading-input-jacks" class="table-of-contents__link toc-highlight">Understanding Cascading Input Jacks​</a></li><li><a href="#difference-amplifier" class="table-of-contents__link toc-highlight">Difference Amplifier​</a></li><li><a href="#voltage-reference" class="table-of-contents__link toc-highlight">Voltage Reference​</a></li></ul></li><li><a href="#example-patches" class="table-of-contents__link toc-highlight">Example Patches</a><ul><li><a href="#buffer" class="table-of-contents__link toc-highlight">Buffer</a></li><li><a href="#amplifier" class="table-of-contents__link toc-highlight">Amplifier</a></li><li><a href="#attenuator" class="table-of-contents__link toc-highlight">Attenuator</a></li><li><a href="#inverter" class="table-of-contents__link toc-highlight">Inverter</a></li><li><a href="#negative" class="table-of-contents__link toc-highlight">Negative</a></li><li><a href="#subtractor" class="table-of-contents__link toc-highlight">Subtractor</a></li><li><a href="#adder" class="table-of-contents__link toc-highlight">Adder</a></li><li><a href="#average" class="table-of-contents__link toc-highlight">Average</a></li><li><a href="#unipolar-modulator" class="table-of-contents__link toc-highlight">Unipolar Modulator</a></li><li><a href="#weighted-mixer" class="table-of-contents__link toc-highlight">Weighted Mixer</a></li><li><a href="#compressed-mixer" class="table-of-contents__link toc-highlight">Compressed Mixer</a></li><li><a href="#bipolar-to-unipolar" class="table-of-contents__link toc-highlight">Bipolar to Unipolar</a></li><li><a href="#unipolar-to-bipolar" class="table-of-contents__link toc-highlight">Unipolar to Bipolar</a></li><li><a href="#differential-to-single-ended" class="table-of-contents__link toc-highlight">Differential to Single Ended</a></li><li><a href="#single-ended-to-differential" class="table-of-contents__link toc-highlight">Single Ended to Differential</a></li></ul></li><li><a href="#installation" class="table-of-contents__link toc-highlight">Installation</a><ul><li><a href="#requirements" class="table-of-contents__link toc-highlight">Requirements</a></li><li><a href="#procedure" class="table-of-contents__link toc-highlight">Procedure</a></li></ul></li><li><a href="#full-specifications" class="table-of-contents__link toc-highlight">Full Specifications</a></li><li><a href="#calibration" class="table-of-contents__link toc-highlight">Calibration</a></li><li><a href="#maintenance" class="table-of-contents__link toc-highlight">Maintenance</a></li><li><a href="#hardware-revisions" class="table-of-contents__link toc-highlight">Hardware Revisions</a><ul><li><a href="#pgo-reva" class="table-of-contents__link toc-highlight">PGO-REVA</a></li><li><a href="#pgo-revb" class="table-of-contents__link toc-highlight">PGO-REVB</a></li></ul></li><li><a href="#diy" class="table-of-contents__link toc-highlight">DIY</a><ul><li><a href="#bill-of-materials" class="table-of-contents__link toc-highlight">Bill of Materials</a></li><li><a href="#assembly-instructions" class="table-of-contents__link toc-highlight">Assembly Instructions</a></li></ul></li><li><a href="#functional-testing" class="table-of-contents__link toc-highlight">Functional Testing</a><ul><li><a href="#requirements-1" class="table-of-contents__link toc-highlight">Requirements</a></li><li><a href="#setup" class="table-of-contents__link toc-highlight">Setup</a></li><li><a href="#t1-test-voltage-reference" class="table-of-contents__link toc-highlight">T1. Test voltage reference</a></li><li><a href="#t2-test-difference-amplifier-positive-inputs" class="table-of-contents__link toc-highlight">T2. Test difference amplifier positive inputs</a></li><li><a href="#t3-test-difference-amplifier-negative-inputs" class="table-of-contents__link toc-highlight">T3. Test difference amplifier negative inputs</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© 2025 LZX</div></div></div></footer></div>
+<p>This concludes functional testing. If all steps starting with <em>Verify...</em> passed their conditions, your PGO is operating within expected parameters.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/modules/pab"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">PAB: Programmable Active Buffers</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/modules/pot"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">P: Passive Potentiometer</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li><li><a href="#key-specifications" class="table-of-contents__link toc-highlight">Key Specifications</a></li><li><a href="#front-panel-options" class="table-of-contents__link toc-highlight">Front Panel Options</a></li><li><a href="#system-integration-advice" class="table-of-contents__link toc-highlight">System Integration Advice</a></li><li><a href="#controls-connectors--indicators" class="table-of-contents__link toc-highlight">Controls, Connectors &amp; Indicators</a></li><li><a href="#operation" class="table-of-contents__link toc-highlight">Operation</a><ul><li><a href="#understanding-cascading-input-jacks" class="table-of-contents__link toc-highlight">Understanding Cascading Input Jacks ​</a></li><li><a href="#difference-amplifier" class="table-of-contents__link toc-highlight">Difference Amplifier​</a></li><li><a href="#voltage-reference" class="table-of-contents__link toc-highlight">Voltage Reference​</a></li></ul></li><li><a href="#example-patches" class="table-of-contents__link toc-highlight">Example Patches</a><ul><li><a href="#buffer" class="table-of-contents__link toc-highlight">Buffer</a></li><li><a href="#amplifiy" class="table-of-contents__link toc-highlight">Amplifiy</a></li><li><a href="#attenuate" class="table-of-contents__link toc-highlight">Attenuate</a></li><li><a href="#invert" class="table-of-contents__link toc-highlight">Invert</a></li><li><a href="#negative" class="table-of-contents__link toc-highlight">Negative</a></li><li><a href="#subtract" class="table-of-contents__link toc-highlight">Subtract</a></li><li><a href="#add" class="table-of-contents__link toc-highlight">Add</a></li><li><a href="#average" class="table-of-contents__link toc-highlight">Average</a></li><li><a href="#unipolar-modulation" class="table-of-contents__link toc-highlight">Unipolar Modulation</a></li><li><a href="#weighted-mixer" class="table-of-contents__link toc-highlight">Weighted Mixer</a></li><li><a href="#compressed-mixer" class="table-of-contents__link toc-highlight">Compressed Mixer</a></li><li><a href="#bipolar-to-unipolar" class="table-of-contents__link toc-highlight">Bipolar to Unipolar</a></li><li><a href="#unipolar-to-bipolar" class="table-of-contents__link toc-highlight">Unipolar to Bipolar</a></li></ul></li><li><a href="#installation" class="table-of-contents__link toc-highlight">Installation</a><ul><li><a href="#requirements" class="table-of-contents__link toc-highlight">Requirements</a></li><li><a href="#procedure" class="table-of-contents__link toc-highlight">Procedure</a></li></ul></li><li><a href="#full-specifications" class="table-of-contents__link toc-highlight">Full Specifications</a></li><li><a href="#maintenance" class="table-of-contents__link toc-highlight">Maintenance</a></li><li><a href="#hardware-revisions" class="table-of-contents__link toc-highlight">Hardware Revisions</a><ul><li><a href="#pgo-reva" class="table-of-contents__link toc-highlight">PGO-RevA</a></li><li><a href="#pgo-revb" class="table-of-contents__link toc-highlight">PGO-RevB</a></li></ul></li><li><a href="#diy" class="table-of-contents__link toc-highlight">DIY</a><ul><li><a href="#bill-of-materials" class="table-of-contents__link toc-highlight">Bill of Materials</a></li><li><a href="#assembly-instructions" class="table-of-contents__link toc-highlight">Assembly Instructions</a></li></ul></li><li><a href="#functional-testing" class="table-of-contents__link toc-highlight">Functional Testing</a><ul><li><a href="#requirements-1" class="table-of-contents__link toc-highlight">Requirements</a></li><li><a href="#setup" class="table-of-contents__link toc-highlight">Setup</a></li><li><a href="#t1-test-voltage-reference" class="table-of-contents__link toc-highlight">T1. Test voltage reference</a></li><li><a href="#t2-test-difference-amplifier-positive-inputs" class="table-of-contents__link toc-highlight">T2. Test difference amplifier positive inputs</a></li><li><a href="#t3-test-difference-amplifier-negative-inputs" class="table-of-contents__link toc-highlight">T3. Test difference amplifier negative inputs</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© 2025 LZX</div></div></div></footer></div>
 </body>
 </html>
