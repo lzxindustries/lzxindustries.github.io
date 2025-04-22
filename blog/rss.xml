@@ -4,11 +4,39 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Mon, 17 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 LZX</copyright>
+        <item>
+            <title><![CDATA[Module Docs & Chromagnon Assemblies]]></title>
+            <link>https://docs.lzxindustries.net/blog/module-docs-and-chromagnon-assemblies</link>
+            <guid>https://docs.lzxindustries.net/blog/module-docs-and-chromagnon-assemblies</guid>
+            <pubDate>Tue, 22 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[It has been a highly productive past month here at LZX HQ, despite many ups and downs.  We've made a big progress push on Chromagnon with new PCB designs for subassemblies and their test boards, we've got PRM kits in stock, and we've published another round of content for our docs website.]]></description>
+            <content:encoded><![CDATA[<p>It has been a highly productive past month here at LZX HQ, despite many ups and downs.  We've made a big progress push on Chromagnon with new PCB designs for subassemblies and their test boards, we've got PRM kits in stock, and we've published another round of content for our docs website.</p>
+<p>The current political climate and new tariffs imposed on imports from China have us heavily concerned for everything we do here.  We received a tax bill in the past month that was several times higher than anything we've seen before. Those of you who have been following our company for a while know that we follow a market price methodology to pricing our products, which means that what you pay for them is a direct product of the hard costs involved in parts and labor -- in other words, if the cost of the parts go up, the price will need to go up at some point as well.  We aren't there yet, as we're hoping the situation will change.  If you've been looking at picking up some modules, it is a good time to get in before that happens.  We will honor all orders and backorders at the current pricing levels.</p>
+<p>If you've been following along with Chromagnon, we've been pushing for over a year on a fully integrated single board solution designed to finalize the Chromagnon design so that it can enter production.  We've been stuck at a stasis point on the next revision of that board for a few month, as you all are holding the line without much news.  I've realized that the integrated single board approach has been holding us back from finalizing the design, and that the lost time in sealing the design is costing us more than time spent on alternative approaches -- such as the modular subassemblies we were working on earlier in the project.  We've decided to pick up that thread and make a move toward a new version of the subassemblies, and integrating them into the next revision of the core.  This will ensure that we cut no corners when it comes to precision and stability, even though it will raise our production costs and labor when it comes time for production.</p>
+<p>I'm happy to say that this effort has been a great success -- we've designed, built and validated 5 different submodules and their test boards in the past month.  The test boards allow us to calibrate and test each submodule before installation on the main assembly.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromagnon-subassemblies-5be7a5db5b5c84b870d017bab5ec9b1c.jpg" width="1280" height="760" class="img_ev3q">
+<em>Modular subassemblies</em></p>
+<p>Pictured above you can see:</p>
+<ul>
+<li>FQM-REVC, a quad multiplier submodule. This circuit is an enhanced derivative of the venerable MC1494 multiplier topology, optimized for video transmission and bandwidths.  It has individual trimming points for null, bias and gain.</li>
+<li>DEC-REVA, a fully encapsulated decoder/encoder submodule designed to transform CVBS and Component video inputs into 1V RGB signals.</li>
+<li>FWR-REVA, a quad rectifier submodule.  This circuit leverages the enhanced performance of our new P series rectifier, and will ensure that Chromagnon's shape generation functions do not produce distortions around the mirror thresholds of diamonds and other shapes.</li>
+<li>FQA-REVA, a quad active attenuverter submodule.  This circuit is a revision of our classic null gap active video attenuverter design.</li>
+<li>HGA-REVA, a quad high gain clipping amp submodule.  The test board is shown, but the assemblies are missing in this photo.  This design provides high gain amplification of an input signal, with the integrated limiting amplifier clipping the outputs.  It has a few uses, but soft key generation is the most obvious one.  This is a new revision of circuits from Doorway, Staircase/Stairs, and Topogram.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/fqm-revc-3cf26e5050747f35f192ed64fc7d1afe.jpg" width="1280" height="1001" class="img_ev3q">
+<em>A closer look at FQM-REVC</em></p>
+<p>The best part of these submodules testing well, is that we are much closer to done!! We have one more submodule design in progress, and then the next revision of the Chromagnon Core RevI can be completed -- with most of the circuitry moved to these submodules, the next Chromnagnon core board revision will go fast rather than being another tedious revision of a giant board.  I look forward to providing an update on that in the next update.</p>
+<p>Our content designers have been plowing through the massive amounts of documentation required for our new docs website, and we've just published an update that includes baseline content for the remaining Gen3 modules without proper user manuals.  We'll be adding more illustrations and written content to this over time: <a href="https://docs.lzxindustries.net/docs/modules/module-list" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net/docs/modules/module-list</a></p>
+<p>After getting held up in customs, we finally have some kits in stock for our Precision Rectifier &amp; Multipler (PRM) module.  This module is a basic ingredient of video synth functions, and the number of functions you can patch with it is a long list.  Read about them on the docs website here: <a href="https://docs.lzxindustries.net/docs/modules/prm" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net/docs/modules/prm</a></p>
+<p>Times are tough for the whole industry of USA based synth makers right now.  It is with undying gratitude that we thank you for helping us keep the dream alive here at LZX Industries.</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
         <item>
             <title><![CDATA[The Three Ps]]></title>
             <link>https://docs.lzxindustries.net/blog/passive-programmable-and-precision</link>
@@ -288,41 +316,6 @@ Lars</p>]]></content:encoded>
 <p>Hello, Yuya. Thank you so much for your enthusiasm and support.  It is a relief on my stress levels and a boon to the projects we are working on to hear from you all like this.  As you can read above, the Memory Palace firmware update should help with your concerns about screen burn in.  I will definitely add a fan upgrade kit for Memory Palace to our project queue, now that TBC2 kits are out the door.</p>
 <p>Got more questions, suggestions, comments or high fives? Go for it here: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>
 <p>I am curious what user documentation projects you would like to see us tackle before the end of the year.  I want to know what would add the most value to your experience with LZX modules you already have. So if you have suggestions, please write to us.</p>
-<p>Thanks for tuning in,
-Lars</p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Chromagnon Box]]></title>
-            <link>https://docs.lzxindustries.net/blog/chromagnon-box</link>
-            <guid>https://docs.lzxindustries.net/blog/chromagnon-box</guid>
-            <pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hello on Tuesday.  I hope everyone in the States had a nice Memorial Day weekend.  Lots to cover in this update, so I will be terse.]]></description>
-            <content:encoded><![CDATA[<p>Hello on Tuesday.  I hope everyone in the States had a nice Memorial Day weekend.  Lots to cover in this update, so I will be terse.</p>
-<p>Black prototypes of the Chromagnon plastic pieces and enclosure arrived, and the test fits are looking great.   The pieces below aren't final for the enclosure, but should give you the plan on how it all fits together.  Now that all the dimensional constraints are confirmed, I can make any cosmetic tweaks (rounded corners, for example) and order an initial production quantity.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag1-8ecbc2a5259a459a8185a23727259324.png" width="480" height="360" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag2-81f491ef58858db11beec03b3a4a1b65.png" width="480" height="360" class="img_ev3q"></p>
-<p>Last week, we finally got the RevG core board built up. This week, I'm running through my checklist of revision items to make sure that everything that was corrected from RevF is now functioning as intended.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromag3-a05c4db0aa63c2783dda87dd2bc6eb32.png" width="480" height="360" class="img_ev3q"></p>
-<p>As we move into June, there are three main objectives on my plate:</p>
-<ol>
-<li>Purchase an initial quantity of plastic parts and backlit film inserts for the LED grid. This will probably be 5-10 sets to start, and then we will ramp up if everything is going smoothly.</li>
-<li>Finalize the testing platform for the existing Chromagnon control boards, and get an initial quantity of the existing control assemblies through testing.</li>
-<li>Release V1.0 of the firmware, which still needs a few utility functions such as user firmware update procedure and some hardware self tests.</li>
-</ol>
-<p>This will all lead up to our "ship unit one" goal.  Once we hit that, we can transition into Chromagnon documentation, promotion, and ongoing production.</p>
-<p>Thanks for being patient with me.  As I have brought up in the last couple posts, our team has downsized significantly since the beginning of the year -- this has pushed a large number of new tasks onto my plate personally, which has meant my time is split across Chromagnon, shipping, purchasing and managing ongoing production.  On one hand this has been intense, but on the other, the company is more stable and I feel like we are in better control of our path moving forward.</p>
-<p>Here's a preview of the new Chromagnon patch design.  What do you think?</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/patch-9223dbce04c509d7aea609267c809a34.png" width="445" height="480" class="img_ev3q"></p>
-<p>And now, here are your questions since the last update.</p>
-<p>Jeffrey asked, "Will the Chromagon make the Cyclops obsolete? If not, in what ways will the Cyclops still be relevant?﻿"</p>
-<p>Chromagnon is not a direct replacement for Cyclops. Chromagnon is an integrated color vector and video processor with ILDA input and output.  Cyclops is an ILDA output module for EuroRack synthesizers. One way you could use them together is to use Cyclops to create patterns from your EuroRack synthesizer, and then use Chromagnon as a post-processor for the resulting patterns, between your EuroRack and your laser.</p>
-<p>Paul Rogers asked, "Will LZX be embracing generative AI, and implementing it into to a module?"</p>
-<p>Interesting question.  As a company dedicated to the longevity of analog and embedded hardware technology, any attempt to integrate Stable Diffusion algorithms, or generative models, into our gear would manifest as a program for one of our FPGA platforms like TBC2 or Memory Palace.  In a way, I feel like the tactile nature of analog feedback, and processing in general, is a different kind of generative intelligence and provides a necessary counterpoint to our culture's current obsession with generative algorithms and models.</p>
-<p>In any case, I'm quite content focusing mostly on analog and partially on embedded digital for the foreseeable future. There are still countless ideas in this area that I would like for LZX to explore.  It is likely that we will develop new solutions for interfacing the analog worlds with the software worlds more seamlessly, rather than developing a generative AI product.</p>
-<p>Dream Taser said, "Hi Lars! The Chromagnon updates are brontosaurus burgers for a hungry caveman! Much appreciated! I wanted to suggest something for the artwork… cavemen projecting torchlight on cave wall, perhaps some animated animals and something to do with northern lights 😁"</p>
-<p>Brilliant ideas! I love the idea of cave paintings in torchlight. Beneath Chromagnon's cheeky persona, this idea is part of the instrumentation concept -- a connection to something primal and prehistoric. I hope Chromagnon taps into the firestarter and toolholder instincts in every human operator's brain, and that they feel personally connected to the visual results.  The initial visual metaphor I have had in my head from the beginning is the "primordial pool" -- a swirling, rotating mass of colors and ingredients.</p>
-<p>Got more questions? Ask ‘em here: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>
 <p>Thanks for tuning in,
 Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
