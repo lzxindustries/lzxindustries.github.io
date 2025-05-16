@@ -4,11 +4,44 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Tue, 22 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 LZX</copyright>
+        <item>
+            <title><![CDATA[This Week In Hell]]></title>
+            <link>https://docs.lzxindustries.net/blog/this-week-in-hell</link>
+            <guid>https://docs.lzxindustries.net/blog/this-week-in-hell</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello fellow gray hairs. I've aged 55-175 years since my last update.  Lots to discuss, and not all of it is bad.]]></description>
+            <content:encoded><![CDATA[<p>Hello fellow gray hairs. I've aged 55-175 years since my last update.  Lots to discuss, and not all of it is bad.</p>
+<p>The new tariffs on imports from China started hitting us full force around the time of my last update. For example, in the past, with a small batch assembly order from one of our overseas vendors for $800 or less, we had not been charged any import tariffs.  This meant that outside of the occasional big delivery we could operate as a small business without the tariffs imposed back in January strangling us.</p>
+<p>On April 23rd, logging in to place my usual purchases for PCB assemblies, I see that for the first time a tariffs line has been added at checkout for 175% of the order's value.  My order was for $284.39 and the additional tariffs charge was $497.69!  This is nearly tripling our primary manufacturing expense: most of the cost of an average LZX module is the PCB assembly and the video grade components mounted on it.</p>
+<p>This change forced me to suspend multiple active production projects and temporarily disband the workshop team.  Since then I've been trying to do everything I can to figure out alternative strategies for us.  Thankfully, there are plenty -- the most relevant of which is that we do have an in house SMT assembly machine.  By May 14th (this week), we saw the tariffs surcharge percentage drop from 175% to 55% at our external vendor.  This difference is enough for us to at least push forward, by only ordering the PCBs but doing all the assembly work here.</p>
+<p>We are going to assume that we'll be paying a 55% surcharge on any purchasing from China right now. For us in the short term that is going to apply directly to PCBs and SMT assembly stencils.  We're going to switch entirely back to in house SMT assembly, which means increased costs of assembly wages and inventory management (but not as much as paying tariffs on these items.)  The effect of which is:</p>
+<ul>
+<li>Effective June 1st, we will raise the pricing on all EuroRack modules and EuroRack modular systems by 20%.</li>
+<li>There may be gaps of availability in some products this year as we pivot to new processes. We will be disabling backorders for any items temporarily going out of production after their next or in-progress batches.</li>
+<li>Pricing on Chromagnon, the Vessel case, cables and other accessories, and power related products like DC Distro will remain the same.</li>
+<li>You can purchase anything on our webstore at the current pricing until May 31st.</li>
+<li>The shorter term cashflow really helps us right now, so please do not feel guilty for jumping in before the prices go up.</li>
+</ul>
+<p>Amidst the scramble over the past month, I have still been pursuing my efforts to guide Chromagnon in for landing.  Part of that is making some careful and informed decisions regarding the reality of manufacturing it smoothly, and how that will integrate into the evolving supply chain equation.  Here is what that looks like:</p>
+<ul>
+<li>We're not going to invest in injection mold tooling for Chromagnon's cases and molded parts, and will pursue alternative means of producing these pieces. This will cost a bit more in the long term, as we switch to more expensive processes and domestic vendors, but it will allow us to ease smoothly into fulfillment without hiccups and without sacrificing the quality of the end product.</li>
+<li>The Chromagnon standalone enclosure will be upgraded from injection molded part to a single piece sheet metal design.  There will be a rear chicklet PCB that adapts the modular style power and sync connectors to the rear of the case.  Here's a look at it:
+<img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromagnon-sheet-metal-boat-preview-53aaa376f879ca7529c71ac23d359c02.png" width="2087" height="1422" class="img_ev3q">
+<em>Rendering of sheet metal boat part for Chromagnon</em></li>
+<li>From the launch date, there will be separate SKUs and prices for the module alone, or the module in its standalone enclosure.  Everyone with a current preorder gets the enclosure as expected.</li>
+<li>We will use our existing Gen3 parts and suitable off the shelf options for control knobs, rather than custom molded parts, in order to guarantee proper fit and no production flow issues.</li>
+<li>Custom button caps and the LED light grid will be combined into a single piece sprue that will be 3D printed by an industrial service in production quality resins. Check out the last posts about knobs early 2024 if you want to see what that looks like.</li>
+<li>We won't be adding a cooling fan or a big rear panel.  The architecture of the core board is changing away from a big integrated FPGA to testable submodules using FPGAs that are lower cost and don't require any cooling.  This means Chromagnon as a module will maintain the same mounting depth as other Gen3 modules.</li>
+<li>We will be launching Chromagnon fulfillment simultaneously with a new device that can work with Chromagnon as a companion, and offers a unique standalone featureset itself.  This is something we've had in development since the release of Scrolls, and it's something we've mentioned in the past.  But we'll save any details for later this Summer.  In any case, it will be Chromagnon's co-pilot in helping fulfillment start and progress strongly.  Our strategy involves these two products sharing similar production lines, so that any new sales help us ship Chromagnons faster.</li>
+</ul>
+<p>With a lot of these decisions made, I am able to wrap up the Chromagnon core board project -- I'll write to you again when that job is done, and when I can show you a photo of the new enclosure piece, toward the end of May.  I believe we have a clear path to launching Chromagnon fulfillment this Summer, and despite recent obstacles, this makes me very happy.</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
         <item>
             <title><![CDATA[Module Docs & Chromagnon Assemblies]]></title>
             <link>https://docs.lzxindustries.net/blog/module-docs-and-chromagnon-assemblies</link>
@@ -281,43 +314,6 @@ Lars</p>]]></content:encoded>
 <ul>
 <li>Lars</li>
 </ul>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Summer Crunch]]></title>
-            <link>https://docs.lzxindustries.net/blog/summer-crunch</link>
-            <guid>https://docs.lzxindustries.net/blog/summer-crunch</guid>
-            <pubDate>Sat, 29 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Dear video friends,]]></description>
-            <content:encoded><![CDATA[<p>Dear video friends,</p>
-<p>June has seen a lot of projects landing at the workshop and some significant pushes in firmware development. Over the Spring we have transitioned into outsourcing SMT assembly of our modules in smaller batches, in an effort to keep things stocked and flowing, and those efforts are running smoothly.</p>
-<p>The Summer is traditionally a period of low sales for us, so we have decided to open a sale for some modules we have lots of stock of. You will find Contour, Matte, and Sum/Dist have been marked down 25%, for the time being, on our webstore. If you've been wanting to pick one of these up, now is a good time to do so.</p>
-<p>Here is a summary of notable recent milestones:</p>
-<p>TBC2 1.0.3 firmware was released.  This includes better support for the VGA input expander and the addition of a 240p input mode.  So pull out your SNES and Chrono Trigger cartridge if you want to travel thru time, saving the world from Lavos, while also traveling thru your analog video circuits.</p>
-<p>If you had an outstanding order for the TBC2 VGA input expander module, it has been shipped.</p>
-<p>We are now stocking fan upgrade kits for TBC2 Mk1 &amp; Mk2 on our webstore.  If you already ordered the Mk1 (Orion style) kits from us, we neglected to send mounting screws in the first few shipments -- but the screws have already been mailed to you in a separate package this week.  So look out for that.</p>
-<p>Memory Palace 2.0.2 firmware was released.  This is a maintenance release which includes a screensaver function to prevent burn-in on your OLED screen in the case that you are logging lots of hours on your device.</p>
-<p>TBC2's video engine firmware has been ported to Chromagnon and is running on the new RevG PCB assembly.  I've put a lot of time into merging work from TBC2 into a common library that is now shared with Chromagnon, to ensure consistent performance across both devices.  This will also set the stage for Memory Palace Mk2 revisions, which will be the big project after Chromagnon development has wrapped.</p>
-<p>This past week I have written a parameter state engine, with auto recovery from loss of power or corrupted backups, to use across our firmware for various modules.  This will ensure that Chromagnon boots back up in the same state in which it was powered down. We'll be able to integrate that functionality into the next firmware release for TBC2 as well.</p>
-<p>Entering July, I am still investing most of my time into Chromagnon firmware and hardware review.  This includes writing tests for validating the control assemblies we've already built and the RevG hardware.  Currently I am improving the software that allows for firmware update from MicroSD card, since with Chromagnon it needs to run in a headless manner. (Unlike TBC2 and Memory Palace, which both used OLED screens and keypads.)</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/thermal-camera-d44ea4d7f072ebf343c1cb51a0c9322b.png" width="480" height="360" class="img_ev3q"></p>
-<p><em>Chromagnon RevG under the thermal camera!</em></p>
-<p>A few background projects landed in June as well, including some parts we will use to revise the Cadet DIY series.  This maintenance revision will be ongoing for a few months, and will bring the core DIY modules up to spec for HD video synthesis timing, and offer some new supply chain/build options for hard to source components.  Once these revisions are complete, we'll offer the PCB and frontpanel sets again via our webstore.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/thonk-cadets-51bd12756080fdf0ea98f98925c9063a.png" width="480" height="360" class="img_ev3q"></p>
-<p>Our order from Thonk for parts to use in building Cadet revisions.</p>
-<p>In our ongoing initiative to offer a line of professional enclosures for our modules, the pieces for a 3U variant of our 6U rackmount case have arrived.  These will be an upgrade option for your Double Vision system, and we'll soon offer a version of the Double Vision system which uses this case.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/case-3u-1c9404300d162ca25a11b4a45e35d153.png" width="480" height="360" class="img_ev3q"></p>
-<p>3U variant of our powered EuroRack case for video synthesizers</p>
-<p>Additionally, a kit variant of our 10 amp DC power and sync distribution bus has arrived, for DIY installations into other cases. This version includes a chassis-mounted DC input jack and screw terminals on the PCB.  The busboard is equivalent to three times the amount of power and number of connectors as our 4HP DC distro module, and it will be suitable for powering cases of Gen3 modules over 252HP.   Look for this on our webstore in July.</p>
-<p>Next case projects will include a portable variant with a lid, and a legacy power supply expander for the 6U and portable cases.  The legacy power supply expander will be perfect for powering audio modules or older generations of LZX modules using the new Vessel cases.  I'm excited to have a case that works with everything.</p>
-<p><strong>Pat asked "The prototypes for the plastic pieces and enclosure look great! I’m stoked that you guys have come this far with the project!. A few weeks ago you said you are hoping to ship unit one in June, is that still the plan?"</strong></p>
-<p>Hi, Pat. Thanks!! We are getting close to that point. The Summer slump I mentioned slowed us down slightly -- and I squeezed in the TBC2 and Memory Palace updates that folks have been waiting on for a while, which delayed us as well. With the firmware project above wrapped up, we will be close to shipping the first unit.  Then we can roll up our sleeves and get our headspace shifted into rolling into a rhythm with the remaining Chromagnon production, documentation, and fulfillment.</p>
-<p><strong>Yuya said "Thank you so much to Lars and all of you who continue to work hard every day towards the launch of Chromagnon! I love Memory Palace. Luckily my Memory Palace display hasn't burned in yet, but I'm super nervous about it happening... Are there plans to release a new firmware that implements a screensaver like TBC2? Also, are there any plans to release a fan upgrade kit like TBC2? Thank you again!"</strong></p>
-<p>Hello, Yuya. Thank you so much for your enthusiasm and support.  It is a relief on my stress levels and a boon to the projects we are working on to hear from you all like this.  As you can read above, the Memory Palace firmware update should help with your concerns about screen burn in.  I will definitely add a fan upgrade kit for Memory Palace to our project queue, now that TBC2 kits are out the door.</p>
-<p>Got more questions, suggestions, comments or high fives? Go for it here: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>
-<p>I am curious what user documentation projects you would like to see us tackle before the end of the year.  I want to know what would add the most value to your experience with LZX modules you already have. So if you have suggestions, please write to us.</p>
-<p>Thanks for tuning in,
-Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
     </channel>
