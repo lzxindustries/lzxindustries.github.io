@@ -4,11 +4,35 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Fri, 16 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 LZX</copyright>
+        <item>
+            <title><![CDATA[pricing-revisions]]></title>
+            <link>https://docs.lzxindustries.net/blog/2025/05/31/pricing-revisions</link>
+            <guid>https://docs.lzxindustries.net/blog/2025/05/31/pricing-revisions</guid>
+            <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[---]]></description>
+            <content:encoded><![CDATA[<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="slug-pricing-revisionstitle-pricing-revisionsauthors-larstags-chromagnon">slug: pricing-revisions
+title: Pricing Revisions
+authors: [lars]
+tags: [chromagnon]<a href="https://docs.lzxindustries.net/blog/2025/05/31/pricing-revisions#slug-pricing-revisionstitle-pricing-revisionsauthors-larstags-chromagnon" class="hash-link" aria-label="Direct link to slug: pricing-revisions
+title: Pricing Revisions
+authors: [lars]
+tags: [chromagnon]" title="Direct link to slug: pricing-revisions
+title: Pricing Revisions
+authors: [lars]
+tags: [chromagnon]">​</a></h2>
+<p>A quick update as we wrap up May. Pricing revisions for all modules and modular systems go into effect tomorrow, June 1st.</p>
+<p>Sheet metal parts for Chromagnon and its companion project are looking great! We're revising and preparing initial production orders.
+<img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/sheet_metal_prototypes-4f07f10a310114ee30562f659381ba1a.jpg" width="3358" height="2618" class="img_ev3q"></p>
+<p>The current focus is on software/hardware testing and revisions to the PCB assemblies.  We've been stuck here for a while, on Chromagnon, but are now making strides.  The outcome of this phase will be ordering the revised Chromagnon Core PCB, and the focus right now is on eliminating any variables that might compromise this next version's viability for immediate production.  That comes in the form of writing software driver tests for new parts we are using, further testing of the subassemblies we've developed, optimizing parts selections for cost and supply chain variance, PCB layout revisions, and so forth.</p>
+<p>At some point tomorrow I'll update the webstore pricing -- if you place an order before then, the price you paid at checkout will be honored.</p>
+<p>Thank you all so much for your orders placed over the past two weeks, and the kind words of support as well.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[This Week In Hell]]></title>
             <link>https://docs.lzxindustries.net/blog/this-week-in-hell</link>
@@ -279,41 +303,6 @@ Lars</p>]]></content:encoded>
 <p>For the digital system, we are using a System-on-Module from MYiR, which you can read more about here. This is based on the Xilinx Zynq system on chip -- the same as employed on your Zybo board.  Xilinx FPGAs are used heavily in broadcast and imaging applications of all kinds. On our host board, we use video encoding and decoding interface ICs such as the ADV7181C, ADV7123 and ADV7125 for interfacing analog video with the Zynq IO ports. I hope you have fun with the Zybo board!</p>
 <p>Talk to you again soon,
 Lars</p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Code Cave]]></title>
-            <link>https://docs.lzxindustries.net/blog/code-cave</link>
-            <guid>https://docs.lzxindustries.net/blog/code-cave</guid>
-            <pubDate>Thu, 08 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Over the past several weeks I have been writing Chromagnon’s firmware, and I’m happy to say that I now have a complete version ready for testing.  I wanted to reach this milestone before I wrote a new blog, as it represents my exit from the Code Cave and back into the workshop.  So let my eyeballs readjust – this blog will mostly be about the software.]]></description>
-            <content:encoded><![CDATA[<p>Over the past several weeks I have been writing Chromagnon’s firmware, and I’m happy to say that I now have a complete version ready for testing.  I wanted to reach this milestone before I wrote a new blog, as it represents my exit from the Code Cave and back into the workshop.  So let my eyeballs readjust – this blog will mostly be about the software.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromagnon-e23b2c0c52bf78d09f10230b703a5f9a.png" width="480" height="400" class="img_ev3q"></p>
-<p><em>My trusty Chromagnon RevG development unit, back at the test bench</em></p>
-<p>From Memory Palace and TBC2 to Chromagnon, I have needed to double down on my embedded software skills. Approaching these instruments, I had many firmware and software projects behind me – but none at this level of structural complexity.  So I was surprised by the scale of what I still needed to learn with regards to architectural patterns and systems level design. Hardware scales easily – five circuits is five circuits – but in software, writing a state control system for five asynchronous modules is a different beast entirely.  The experience has definitely kindled a love for embedded development with modern C++ in general, and I look forward to doing more of it. During the past few weeks of getting cozy with Chromagnon’s digital brain, I felt both confident and effective, and that was a relief.</p>
-<p>What’s next? With firmware in place, we are able to move into a new verification process for the instrument as a whole.  That’s a long list of tests, including nearly 200 different video input conversion modes – in addition to all combinations of Chromagnon’s 12 compositor modes, 3 chroma modes, 3 luma modes, and 4 primary modes. Most of this testing has already been done with prior versions of the hardware, but we still need to repeat the tests now that we have a firmware candidate. In the next blog, I’ll describe how that’s going.</p>
-<p>In other news, we have added the DIY kit version of our power &amp; sync distribution busboard to the webstore.  Check that out here.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/sync-c1b31073f87827f1f18cfd06304d2d49.png" width="480" height="480" class="img_ev3q"></p>
-<p>We also have a restock of Scrolls hitting the shelf. While I have not had time to film it yet, here is a script for a video about Scrolls that you may read.</p>
-<p>Our Summer sale is active, with discounts offered on Sum/Dist, Contour and Matte modules.</p>
-<p>We're still taking orders for Double Vision systems. It has been exciting to watch new video artists dig into the depths of their systems over the Summer.</p>
-<p>Here are your questions, since the last post.</p>
-<p><strong>Luis asked, "Are there any plans to further improve the Memory Palace firmware?"</strong></p>
-<p>Memory Palace Mk2 will be a follow-up project after Chromagnon. The first phase of that project will include some revisions to the existing Mk1 firmware, as our plan is to support concurrent versions. The main difference being that Mk2 will support HD modes.</p>
-<p><strong>Mat asked, "Just curious about the timeframe in regards to the Double Vision preorder. Will there be a long wait? I just ordered recently and will hopefully not have to wait as long as I have for the Chromagnon."</strong></p>
-<p>Since we launched the Double Vision system bundle, the average wait time for a shipment has been about 3 weeks.  I expect that to stay consistent.  We have a good flow coming thru the workshop of stocking the module sets in small batches. Your Double Vision is actually in QC today, and planning to ship tomorrow.  You sent in this question on July 15th, so that seems pretty consistent with the average lead time.</p>
-<p><strong>Thomas asked, "Are preorders for the Chromagnon still open? Nothing happens when I press the preorder button, and I see people selling their preorder slots online.  Am I too late to buy one?"</strong></p>
-<p>Preorders are open. If you click the preorder button on the product page, you should see it added to your shopping cart (but the site doesn't automatically take you there.)  This is not a limited edition -- the date we have Chromagnons in stock and all preorders are fulfilled is still uncertain, but you don't need to worry about missing out.  We hope to keep the instrument in production for many years.</p>
-<p><strong>Patrick said, "It seems like a lot is happening over there right now, and there are many updates and things to discuss in each monthly journal post. Is there any inclination to get back to doing a weekly journal post to keep us more in the loop? Or would that slow production down because it's another thing to think about? Either way, I'm glad Chromagnon is still being worked on. Since June has come and gone, is there any new estimate for when the first unit might ship out?"</strong></p>
-<p>Patrick, I'm sorry the updates have been less frequent.  Currently the core team is down to myself full time and three part timers.  Writing these blog posts is no huge burden, but it does take 2-3 hours out of my work week each time. With hardware development and workshop projects, tasks are shorter -- 1 to 16 hrs each -- to do a board layout, or revision, or build a prototype.  With software or circuit design it's often 3-6 week sprints, during which it can be difficult for me to do anything but write code or run simulations.  With code sprints in the rear window for now, I'll try to up the pace of the updates.  I'm hoping to be past hardware verification and on to production and user docs soon.</p>
-<p><strong>Kazys asked, "How effective is Chromagnon with a Vectrex? Can it do Rutt-Etra style rescanning into X / Y / Z out of the box?"</strong></p>
-<p>We have not recorded any Vectrex monitor tests yet, and that should be the final judge of this -- but you've got the right idea. The scaler decimation settings allow you to output low frequency rasters for lower bandwidth displays, like laser projectors and the Vectrex. I expect some of the middle settings to be right for use with the Vectrex -- a raster size of 120x68, for example.</p>
-<p><strong>Kazys also asked, "If I have a Chromagnon, why would I need an ESG3? Is it still useful?"</strong></p>
-<p>Definitely. Chromagnon has no dedicated RGB level or offset controls, so ESG3 would add a lot, with each of ESG3's six knobs and three switches representing parameters not present on Chromagnon.  Another reason to have an ESG3 is if you are using Chromagnon in the context of a modular system, and want to mix it's output with other sources before the final output.</p>
-<p>If you have questions about hardware development, software development, LZX, or you just need someone to talk to, write to me here:  <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>
-<ul>
-<li>Lars</li>
-</ul>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
     </channel>
