@@ -4,21 +4,49 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Sat, 31 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 LZX</copyright>
         <item>
+            <title><![CDATA[Summer Show & Tell]]></title>
+            <link>https://docs.lzxindustries.net/blog/summer-show-and-tell</link>
+            <guid>https://docs.lzxindustries.net/blog/summer-show-and-tell</guid>
+            <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello eyeball friends -- I'm taking a break from an intense development sprint to say thank you for your support and patience over the past month, as we shift activities and processes in response to the tariffs on most of the parts we use in production.  We have the in house SMT machine running the past couple weeks and are making headway on your recent backorders.]]></description>
+            <content:encoded><![CDATA[<p>Hello eyeball friends -- I'm taking a break from an intense development sprint to say thank you for your support and patience over the past month, as we shift activities and processes in response to the tariffs on most of the parts we use in production.  We have the in house SMT machine running the past couple weeks and are making headway on your recent backorders.</p>
+<p>I've alluded to a plan unfolding regarding Chromagnon and a new companion product that will launch alongside it this year, after some revisions which synergize the embedded digital systems used on both.  Our previous plan was "ship unit one and then work out the production details" and now it has become "ship the first 100 units alongside the first 100 units of the new product."  If things go according to plan, this twin effort will bring the business back into good shape, after suffering some tumultuous years with Chromagnon's tardiness and the lack of our more popular products in the catalog, like Vidiot and Memory Palace.  The shared embedded infrastructure is what I've been working on all Summer so far, on top of coordinating more production in house.  I'm near the end of a software sprint, and will be moving into some hardware revisions and production purchasing next.</p>
+<p>I've prepared a slideshow below.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromagnon_core-88301528483c771025106b65c8afddb8.png" width="1920" height="1080" class="img_ev3q"></p>
+<p>This is the Chromagnon Core, the board I've been working on since its major revision in early 2024.  With what you see here, the new analog submodules we discussed earlier this year, and the embedded system project -- we have all the pieces to the puzzle validated and optimized.  This board is getting changes integrated and the parts list is undergoing a detailed review.  The date at which this is all ready might be variable by several weeks, but becomes easier to estimate as I get closer.</p>
+<p>We have been working for years on more modular embedded systems for FPGA video processing, and that's the focus of the companion product we have named Videomancer.  Here are some photos leading up to where we are with it.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/tbc2x_prototype-a0aa7f11d62ed3105b5c299886c55951.png" width="1920" height="1080" class="img_ev3q"></p>
+<p>This was the first attempt after TBC2 at making the platform more modular, from around 2022 -- it runs the TBC2 firmware, but was never developed beyond that.  Instead we realized HDMI IO and availability as a standalone product would be necessary for this next step.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/analog_to_hdmi_test_platform-2126b029160e07eaabcf61a940a7c8f3.png" width="1920" height="1080" class="img_ev3q"></p>
+<p>This was our first test board for a minimal system designed to convert Analog signals to HDMI.  I did not get very far with it, but enough to lead into the next step.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/evs39_revb_prototype-c4c6df4d32e337f043eac7821080e163.png" width="1920" height="1080" class="img_ev3q"></p>
+<p>I couldn't find the first EVS39-REVA board to show you, but here is the second revision of it -- a standalone video processor with minimal IO.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_prototype-34b918884ea7c6517c9827e061acfab1.png" width="1920" height="1080" class="img_ev3q"></p>
+<p>This led us to what is now production ready hardware for Videomancer in it's latest prototype.  After validating all of the circuits are working properly, the system on Videomancer's core board is being integrated on the Chromagnon core, replacing the previous Zynq SoC based platform.  This means both devices will be able to run off of a shared firmware infrastructure -- and all of that is looking beautiful.</p>
+<p>Now that we are so close, I plan to release my software simulator of Chromagnon so that you can play with it and start getting to know it, albeit in a limited fashion (my GPU cannot handle all the pixel crunching Chromagnon requires, at least not in full resolution!)</p>
+<p>As the Summer moves on, we'd love to hear more from you about your current and ongoing video art projects.  E-mail us or hang out with us in social media and let us know your needs.</p>
+<p>Hopefully you can make it to Video Sync in Portland, OR on Aug 15th-17th?  I will be giving a talk on my journey to developing the set of analog operators for video synthesis used in P-Series.</p>
+<p>Love and light,
+Lars</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
+        <item>
             <title><![CDATA[Pricing Revisions]]></title>
             <link>https://docs.lzxindustries.net/blog/pricing-revisions</link>
             <guid>https://docs.lzxindustries.net/blog/pricing-revisions</guid>
             <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hello, friend. Here’s a quick update as we wrap up May. Pricing revisions for all modules and modular systems go into effect tomorrow, June 1st. At some point tomorrow I'll update the webstore pricing -- if you place an order before then, the price you paid at checkout will be honored. The price revision is an approximate 20% increase for all modules, kits, and modular systems.]]></description>
-            <content:encoded><![CDATA[<p>Hello, friend. Here’s a quick update as we wrap up May. Pricing revisions for all modules and modular systems go into effect tomorrow, June 1st. At some point tomorrow I'll update the webstore pricing -- if you place an order before then, the price you paid at checkout will be honored. The price revision is an approximate 20% increase for all modules, kits, and modular systems.</p>
+            <description><![CDATA[A quick update as we wrap up May. Pricing revisions for all modules and modular systems go into effect tomorrow, June 1st.]]></description>
+            <content:encoded><![CDATA[<p>A quick update as we wrap up May. Pricing revisions for all modules and modular systems go into effect tomorrow, June 1st.</p>
 <p>Sheet metal parts for Chromagnon and its companion project are looking great! We're revising and preparing initial production orders.
 <img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/sheet_metal_prototypes-4f07f10a310114ee30562f659381ba1a.jpg" width="3358" height="2618" class="img_ev3q"></p>
 <p>The current focus is on software/hardware testing and revisions to the PCB assemblies.  We've been stuck here for a while, on Chromagnon, but are now making strides.  The outcome of this phase will be ordering the revised Chromagnon Core PCB, and the focus right now is on eliminating any variables that might compromise this next version's viability for immediate production.  That comes in the form of writing software driver tests for new parts we are using, further testing of the subassemblies we've developed, optimizing parts selections for cost and supply chain variance, PCB layout revisions, and so forth.</p>
+<p>At some point tomorrow I'll update the webstore pricing -- if you place an order before then, the price you paid at checkout will be honored.</p>
 <p>Thank you all so much for your orders placed over the past two weeks, and the kind words of support as well.</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
@@ -271,26 +299,6 @@ Lars</p>]]></content:encoded>
 <p><strong>Paul asked, "Would it be possible to demonstrate through your LZX documentation learning program, the placement and attachment of modules into a Vessel or eurorack case? And if any modules have to be linked together or sync. This is for those who don’t know. Thank you."</strong></p>
 <p>Hi Paul. Yes, certainly! We do have a basic guide to doing this on our website at <a href="https://lzxindustries.net/getting-started" target="_blank" rel="noopener noreferrer">https://lzxindustries.net/getting-started</a>. However, I'd love to expand on that and have some videos and better photos to go along with it.</p>
 <p>Until next time,
-Lars</p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Light At The End]]></title>
-            <link>https://docs.lzxindustries.net/blog/light-at-the-end</link>
-            <guid>https://docs.lzxindustries.net/blog/light-at-the-end</guid>
-            <pubDate>Sat, 31 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[I hope everyone has enjoyed their Summers and is looking forward to the Fall.  For me, this time of year has always meant getting ready to learn, whether that was in my prior career in e-learning development, with my kids starting the next grade, or in my own educational goals. This year it will mean entering a period of content creation for LZX-- documentation, videos, tutorials, and any other resources that serve your own learning and creative pursuits in making video art.]]></description>
-            <content:encoded><![CDATA[<p>I hope everyone has enjoyed their Summers and is looking forward to the Fall.  For me, this time of year has always meant getting ready to learn, whether that was in my prior career in e-learning development, with my kids starting the next grade, or in my own educational goals. This year it will mean entering a period of content creation for LZX-- documentation, videos, tutorials, and any other resources that serve your own learning and creative pursuits in making video art.</p>
-<p>Last week we reached a couple of big Chromagnon milestones: The RevG Core hardware has been fully reviewed; slow scan raster generation for ILDA laser and low-bandwidth displays has been implemented; and we have a complete synthesizer on the workbench -- finally!  Unlike software based visual generators, or simpler analog circuits (like our modules), Chromagnon is a design that has been very difficult to show as a work in progress until all of the pieces, both hardware and firmware, were in play.  I am very glad to be at this point, because you'll no longer have to take my word for it when it comes to what, how, and why Chromagnon does what it does.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vhlNyixE1vo?si=Vl5htKHzqpl1NEQK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/testing-3539a2e8cdd4dafe65b65dc648b8dc5b.png" width="480" height="364" class="img_ev3q"></p>
-<p>Testing in progress.  Excuse the clutter!</p>
-<p>I'll be recording more in September, including a walk through of Chromagnon's user interface and functions, as we continue checking off items on our test list and working towards finalization of the design for production.</p>
-<p>Since our last update, we have one new user question.</p>
-<p>** Pete said "Hi, Lars! Glad to hear your progress update, it must feel pretty good to get out of the cave and into the light!  I'm curious as to what h/w you have chosen for the Chromagnon. I'm interested in FPGAs and have ordered a Zybo board to experiment with." **</p>
-<p>Pete, thanks for writing!  Chromagnon's hardware is quite intensive.  At it's core, it is an analog synthesizer with a fully analog, wideband signal path -- but also, there is a complex digital embedded system which handles the user interface, video input decoding and scaling (SD to HD and HD to SD), and 10-bit ramp waveform generation.</p>
-<p>For the digital system, we are using a System-on-Module from MYiR, which you can read more about here. This is based on the Xilinx Zynq system on chip -- the same as employed on your Zybo board.  Xilinx FPGAs are used heavily in broadcast and imaging applications of all kinds. On our host board, we use video encoding and decoding interface ICs such as the ADV7181C, ADV7123 and ADV7125 for interfacing analog video with the Zynq IO ports. I hope you have fun with the Zybo board!</p>
-<p>Talk to you again soon,
 Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>

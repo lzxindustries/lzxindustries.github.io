@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8121],{68070:s=>{s.exports=JSON.parse('{"tags":[{"label":"Chromagnon","permalink":"/blog/tags/chromagnon","description":"Posts about the Chromagnon video synthesizer","count":28}]}')}}]);
