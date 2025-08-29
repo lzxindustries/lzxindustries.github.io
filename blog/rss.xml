@@ -4,11 +4,39 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Mon, 07 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 LZX</copyright>
+        <item>
+            <title><![CDATA[Video Sync Recap & Forecast for 2025]]></title>
+            <link>https://docs.lzxindustries.net/blog/video-sync-recap-forecast-2025</link>
+            <guid>https://docs.lzxindustries.net/blog/video-sync-recap-forecast-2025</guid>
+            <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We had a wonderful time at Video Sync 2025 here in Portland, OR earlier this month. Our endless thanks to all of the organizers and volunteers involved in the event! I would love to journal about some of my personal highlights and the people I met, but will save it for a less crowded post.]]></description>
+            <content:encoded><![CDATA[<p>We had a wonderful time at Video Sync 2025 here in Portland, OR earlier this month. Our endless thanks to all of the organizers and volunteers involved in the event! I would love to journal about some of my personal highlights and the people I met, but will save it for a less crowded post.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/video_sync_01-3610ca17f164b0bb7ce102c83dd8a2d9.jpg" width="4284" height="5712" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/video_sync_02-719b50b95d4d36e252d716bcf3e254c8.jpg" width="4284" height="5712" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/video_sync_03-f40a37fd5cc32a626ed01f5face5d465.jpg" width="4284" height="5712" class="img_ev3q"></p>
+<p>What's up next for LZX? This year has required some massive juggling of our priorities in response to the fluctuating new tariffs, which have effectively demolished our plans going into this year. We were hoping to be shipping Chromagnon by the end of the Summer, but have spent most of the past few months scrambling to keep the lights and figure out how we are going to continue making our products. We have been doing a lot of assessment and planning in August, and despite it all, we remain optimistic about the road ahead. I will break down the specifics in future updates, but here is the top level plan.</p>
+<p><em>Going into September,</em> we are finishing a large number of in house production projects, and will be caught up on backorders made over the Summer.</p>
+<p><em>By the end of September,</em> our new multi-effects console, Videomancer, will be in production.  During this time we will be polishing the firmware release for Videomancer while also revising Chromagnon hardware to implement  new circuits that were designed and validated for Videomancer.</p>
+<p><em>By the end of October,</em> we will be shipping Videomancer units.  Sales will initially be limited to whatever we have been able to build up to that date or already have in production.  By your request, Chromagnon pre-order customers will be e-mailed a code to allow early access to purchases of Videomancer a few days before the public launch date.</p>
+<p><em>In early November,</em> we will be validating and writing firmware for the revised Chromagnon hardware.  We plan to share a lot of media as we go through this phase.</p>
+<p><em>By the end of December,</em> we expect to have the new build of Chromagnon ready to go into final assembly and fulfillment in January of 2026.</p>
+<p><em>What are the big risks of getting off course?</em>  If the Videomancer launch does very poorly, we may have to reassess our ability to hit this end of year milestone with Chromagnon.  The business is lacking a core cashflow related product right now, and we are depending on Videomancer to be that.  In the past, we've had a lot of unplanned delays related to forecasting firmware development time -- but in the cases ahead of us, I do not think we will.  All of the firmware validation of the platform to be used in Videomancer and the Chromagnon revisions has been accomplished over the Summer, and we're very happy with how it's performing.  Chromagnon's video quality and capabilities will be much better in the end, compared to the previous attempts to finalize the design.</p>
+<p><em>How fast will Chromagnon fulfillment happen?</em>  By the time we hit the hardware/firmware milestone mentioned above, we should be able to assess our position on this better.  But there are two ways we expect it could go.  If we are doing strongly after the Videomancer launch and sales season, we will build Chromagnon in large batches, outsourcing extra help, and hoping to ship all orders in 1-3 wave of shipments.  If that is not possible, we will be merging Chromagnon into the Videomancer production pipeline and start making monthly shipments of a variable number of units dependent on our logistical constraints at the time. With the global economy in flux right now, we don't have a way to forecast.</p>
+<p>Here are a few images to share from Videomancer development.  This must be considered a behind-the-scenes slideshow, so please don't take anything you see here as a final answer (especially the UI mockup!)</p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_inside-6cc7418be424d1d02c62c3038ecce0b5.png" width="1823" height="1321" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_top_rear-3ab1b6733ea4d4041854619530ad6124.png" width="1669" height="1101" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_top-4618b98bd3ae73c307b92fb42b25a1ac.png" width="1377" height="1093" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_ctrl_rev_b_pcb-336b16d3a5af62aaf3b207ad3ef38202.png" width="1756" height="960" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_ctrl_rev_b-2f7cad7a62774f7044b76ac8cede401b.png" width="1888" height="1418" class="img_ev3q"></p>
+<p>Excited to check in with you all again in September,
+Lars</p>]]></content:encoded>
+            <category>Chromagnon</category>
+        </item>
         <item>
             <title><![CDATA[Summer Show & Tell]]></title>
             <link>https://docs.lzxindustries.net/blog/summer-show-and-tell</link>
@@ -272,33 +300,6 @@ Lars</p>]]></content:encoded>
 <p>We'll tell you more about it and more about the docs site in the next update.  I have a little over a week before my Chromagnon board arrives, to make some progress in these areas.</p>
 <p>Other news: more Double Vision systems are being built this month and are available to order now.  We have healthy stock of most Gen3 modules, if you're looking to pick up something new for your system this Fall.</p>
 <p>Thanks for reading -- please write in using this form if you have questions: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Modular Submodules]]></title>
-            <link>https://docs.lzxindustries.net/blog/modular-submodules</link>
-            <guid>https://docs.lzxindustries.net/blog/modular-submodules</guid>
-            <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[September flew right past us here at LZX, with steady (if tedious) progress toward Chromagnon production on my end, and multiple longer term production projects wrapping up in the workshop.]]></description>
-            <content:encoded><![CDATA[<p>September flew right past us here at LZX, with steady (if tedious) progress toward Chromagnon production on my end, and multiple longer term production projects wrapping up in the workshop.</p>
-<p>During spring cleaning earlier this year, we uncovered our remaining stock of Vidiot specific production parts, such as enclosures and side panels.  Rather than sending them to the junk, we've been making progress over the Sumer on building up a limited batch of 24 units using those parts.  You can order one now at <a href="https://lzxindustries.net/products/vidiot" target="_blank" rel="noopener noreferrer">https://lzxindustries.net/products/vidiot</a></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/vidiot-f78c26636acedb582e5250d1d2d970a8.png" width="480" height="270" class="img_ev3q"></p>
-<p>We've made some revisions to our Double Vision system bundle -- including a full 3U EuroRack enclosure using our new sync and power distribution board architecture.  This version also includes the TBC2 expander, in lieu a DC Distro.  We have a couple systems in stock right now for purchse: at <a href="https://lzxindustries.net/products/double-vision-system" target="_blank" rel="noopener noreferrer">https://lzxindustries.net/products/double-vision-system</a></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/double-vision-94e0122ed94973695ca8ed6f704f28ac.png" width="480" height="270" class="img_ev3q"></p>
-<p>On the Chromagnon front, I have been laser focused (pun intended) on preparing the hardware for production.  After this last prototype review, the full context is a lot easier to see, including the remaining steps needed until we're actually placing the order for production core boards and molded parts. This process has been grueling, as the core board's BOM and parts count are massive. Thus, I've been breaking some repetitive parts of the analog circuit into submodules.</p>
-<p>The first of those submodules is a four quadrant multiplier sub-assembly that encapsulates our discrete design. This design is based on topologies in classic multiplier ICs such as MC1494 and MC1495, which are long obsolete.  A core requirement of the Chromagnon design is the implementation of this discrete multiplier, as there are over 20 of them in its analog circuit!  We've been working on this circuit since before Chromagnon was even conceived, and after so many revisions I'm very pleased with how it is performing.  Here's a look at the submodule.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/submodule-5044199d99470952d22aa4fe9987c5c1.png" width="480" height="265" class="img_ev3q"></p>
-<p>This submodule is being reintegrated into Chromagnon's core board, which reduces the BOM count by a few hundred parts and will allow pre-testing/calibration of the analog circuit. We have already received our initial order of these submodules and are testing them now.</p>
-<p>Revisions to Chromagnon Core RevH will be ordered by the end of this week.  I'm not used to spending entire weeks on a single PCB layout, so that gives you an idea of the scale of the effort required to push this forward. This is the first version of the board that is being 100% assembled out of our workshop, which means we're priming it to be ready to go, and it is a candidate for production.  I'd love to have it all confirmed and initial quantities ordered by the end of October -- there's not a lot left to stand in our way of that happening.</p>
-<p>And now, here are answers to the questions you have submitted since the last update:</p>
-<p><strong>Marty asked, "Looking forward to shipping on Chromagnon. Well done on all the work so far. When shipping does occur. Will the cost of the unit, detailed for customs. Reflect the date of purchase or current value? I'm just worried about the extra tax I'm going to pay when it ships to Australia."</strong></p>
-<p>Hi, Marty. The customs info will reflect the price you paid on your original sales invoice.</p>
-<p><strong>Pat asked, "Can we expect Chromagnon unit #1 to ship out by Halloween?"</strong></p>
-<p>Probably not, Pat!  In the next Chromagnon milestone, I'm hoping to be telling you we've got RevH confirmed and have ordered initial production parts. That is getting very close, and would mean we have unit #1 here. Whether or not it's shipping by that date, I don't know -- firmware is about 95% done, but there's still a few items to wrap up and test once the hardware is sealed.</p>
-<p><strong>Paul asked, "Would it be possible to demonstrate through your LZX documentation learning program, the placement and attachment of modules into a Vessel or eurorack case? And if any modules have to be linked together or sync. This is for those who don’t know. Thank you."</strong></p>
-<p>Hi Paul. Yes, certainly! We do have a basic guide to doing this on our website at <a href="https://lzxindustries.net/getting-started" target="_blank" rel="noopener noreferrer">https://lzxindustries.net/getting-started</a>. However, I'd love to expand on that and have some videos and better photos to go along with it.</p>
-<p>Until next time,
-Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
     </channel>
