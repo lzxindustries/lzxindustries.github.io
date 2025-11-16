@@ -51,7 +51,7 @@
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_prototype-34b918884ea7c6517c9827e061acfab1.png" width="1920" height="1080" class="img_ev3q"></p>
 <p>This led us to what is now production ready hardware for Videomancer in it's latest prototype.  After validating all of the circuits are working properly, the system on Videomancer's core board is being integrated on the Chromagnon core, replacing the previous Zynq SoC based platform.  This means both devices will be able to run off of a shared firmware infrastructure -- and all of that is looking beautiful.</p>
 <p>As the Summer moves on, we'd love to hear more from you about your current and ongoing video art projects.  E-mail us or hang out with us in social media and let us know what you're working on!</p>
-<p>Hopefully you can make it to <a href="https://videosync.xyz/portland2025" target="_blank" rel="noopener noreferrer">Video Sync in Portland, OR on Aug 15th-17th</a>?  I will be giving a talk on my journey to developing the set of analog operators for video synthesis used in P-Series.</p>
+<p>Hopefully you can make it to <a href="https://videosync.xyz/portland2025" target="_blank" rel="noopener noreferrer" class="">Video Sync in Portland, OR on Aug 15th-17th</a>?  I will be giving a talk on my journey to developing the set of analog operators for video synthesis used in P-Series.</p>
 <p>Love and light,
 Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
@@ -82,23 +82,23 @@ Lars</p>]]></content:encoded>
 <p>This change forced me to suspend multiple active production projects and temporarily disband the workshop team.  Since then I've been trying to do everything I can to figure out alternative strategies for LZX. Thankfully, there are plenty -- the most relevant of which is that we do have an in house SMT assembly machine. On May 14th the tariffs surcharge percentage dropped from 175% to 55% at our external vendor. This difference is enough for us to at least push forward, by only ordering the PCBs and doing all the assembly work here at LZX HQ.</p>
 <p>We must assume that we'll be paying a 55% surcharge on any purchasing from China from now on (unless after this 90 day "pause" on tariffs they go up again). For LZX in the short term, the 55% tariff is going to apply directly to PCBs and SMT assembly stencils.  We're going to switch entirely back to in house SMT assembly, which means increased costs of assembly wages and inventory management (but not as much as paying tariffs on these items).  The effect of which is:</p>
 <ul>
-<li>Effective June 1st, we will increase the pricing on all EuroRack modules and EuroRack modular systems by 20%.</li>
-<li>There may be gaps of availability in some products this year as we pivot to new processes. We will be disabling backorders for any items temporarily going out of production after their next or current batches.</li>
-<li>Pricing on Chromagnon, the Vessel case, cables, accessories, and power related products (like DC Distro) will remain the same.</li>
-<li>You can purchase anything on our webstore at the current pricing until May 31st.</li>
-<li>The shorter term cashflow really helps us right now, so please do not feel guilty for making purchases before the prices go up.</li>
+<li class="">Effective June 1st, we will increase the pricing on all EuroRack modules and EuroRack modular systems by 20%.</li>
+<li class="">There may be gaps of availability in some products this year as we pivot to new processes. We will be disabling backorders for any items temporarily going out of production after their next or current batches.</li>
+<li class="">Pricing on Chromagnon, the Vessel case, cables, accessories, and power related products (like DC Distro) will remain the same.</li>
+<li class="">You can purchase anything on our webstore at the current pricing until May 31st.</li>
+<li class="">The shorter term cashflow really helps us right now, so please do not feel guilty for making purchases before the prices go up.</li>
 </ul>
 <p>Amidst the scramble of the past month, I have continued to pursue my efforts to guide Chromagnon in for landing. Part of that is making some careful and informed decisions regarding the reality of manufacturing it smoothly, and how that will integrate into the evolving supply chain equation. Here is what that looks like:</p>
 <ul>
-<li>We're not going to invest in injection mold tooling for Chromagnon's cases and molded parts, and will pursue alternative means of producing these pieces. This will cost a bit more in the long term, as we switch to more expensive processes and domestic vendors, but it will allow us to ease smoothly into fulfillment without hiccups and without sacrificing the quality of the end product.</li>
-<li>The Chromagnon standalone enclosure will be upgraded from injection molded part to a single piece sheet metal design.  There will be a rear chicklet PCB that adapts the modular style power and sync connectors to the rear of the case.  Here's a look at it:
+<li class="">We're not going to invest in injection mold tooling for Chromagnon's cases and molded parts, and will pursue alternative means of producing these pieces. This will cost a bit more in the long term, as we switch to more expensive processes and domestic vendors, but it will allow us to ease smoothly into fulfillment without hiccups and without sacrificing the quality of the end product.</li>
+<li class="">The Chromagnon standalone enclosure will be upgraded from injection molded part to a single piece sheet metal design.  There will be a rear chicklet PCB that adapts the modular style power and sync connectors to the rear of the case.  Here's a look at it:
 <img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromagnon-sheet-metal-boat-preview-53aaa376f879ca7529c71ac23d359c02.png" width="2087" height="1422" class="img_ev3q">
 <em>Rendering of sheet metal boat part for Chromagnon</em></li>
-<li>From the launch date, there will be separate SKUs and prices for the module alone, or the module in its standalone enclosure.  Everyone with a current preorder gets the enclosure as expected.</li>
-<li>We will use our existing Gen3 parts and suitable off the shelf options for control knobs, rather than custom molded parts, in order to guarantee proper fit and no production flow issues.</li>
-<li>Custom button caps and the LED light grid will be combined into a single piece sprue that will be 3D printed by an industrial service in production quality resins. Check out the last posts about knobs early 2024 if you want to see what that looks like.</li>
-<li>We won't be adding a cooling fan or a big rear panel. The architecture of the core board is changing away from a big integrated FPGA to testable submodules using FPGAs that are lower cost and don't require any cooling.  This means Chromagnon as a module will maintain the same mounting depth as other Gen3 modules.</li>
-<li>We will be launching Chromagnon fulfillment simultaneously with a new device that can work with Chromagnon as a companion, and offers a unique standalone feature set.  This is something we've had in development since the release of Scrolls, and it's something we've mentioned in the past, but we'll save any spoilers for later this Summer. In any case, it will be Chromagnon's co-pilot in helping initiate fulfillment. Our strategy involves these two products sharing similar production lines, so that sales of the new product will help us ship Chromagnons faster.</li>
+<li class="">From the launch date, there will be separate SKUs and prices for the module alone, or the module in its standalone enclosure.  Everyone with a current preorder gets the enclosure as expected.</li>
+<li class="">We will use our existing Gen3 parts and suitable off the shelf options for control knobs, rather than custom molded parts, in order to guarantee proper fit and no production flow issues.</li>
+<li class="">Custom button caps and the LED light grid will be combined into a single piece sprue that will be 3D printed by an industrial service in production quality resins. Check out the last posts about knobs early 2024 if you want to see what that looks like.</li>
+<li class="">We won't be adding a cooling fan or a big rear panel. The architecture of the core board is changing away from a big integrated FPGA to testable submodules using FPGAs that are lower cost and don't require any cooling.  This means Chromagnon as a module will maintain the same mounting depth as other Gen3 modules.</li>
+<li class="">We will be launching Chromagnon fulfillment simultaneously with a new device that can work with Chromagnon as a companion, and offers a unique standalone feature set.  This is something we've had in development since the release of Scrolls, and it's something we've mentioned in the past, but we'll save any spoilers for later this Summer. In any case, it will be Chromagnon's co-pilot in helping initiate fulfillment. Our strategy involves these two products sharing similar production lines, so that sales of the new product will help us ship Chromagnons faster.</li>
 </ul>
 <p>Having been forced to make the above decisions, I am in a better position to be able to wrap up the Chromagnon core board project -- I'll write to you again when that job is done, and when I can show you a photo of the new enclosure piece, toward the end of May. I believe we have a clear path to launching Chromagnon fulfillment this Summer, and despite recent obstacles, this makes me very happy.</p>]]></content:encoded>
             <category>Chromagnon</category>
@@ -117,17 +117,17 @@ Lars</p>]]></content:encoded>
 <em>Modular subassemblies</em></p>
 <p>Pictured above you can see:</p>
 <ul>
-<li>FQM-REVC, a quad multiplier submodule. This circuit is an enhanced derivative of the venerable MC1494 multiplier topology, optimized for video transmission and bandwidths.  It has individual trimming points for null, bias and gain.</li>
-<li>DEC-REVA, a fully encapsulated decoder/encoder submodule designed to transform CVBS and Component video inputs into 1V RGB signals.</li>
-<li>FWR-REVA, a quad rectifier submodule.  This circuit leverages the enhanced performance of our new P series rectifier, and will ensure that Chromagnon's shape generation functions do not produce distortions around the mirror thresholds of diamonds and other shapes.</li>
-<li>FQA-REVA, a quad active attenuverter submodule.  This circuit is a revision of our classic null gap active video attenuverter design.</li>
-<li>HGA-REVA, a quad high gain clipping amp submodule.  The test board is shown, but the assemblies are missing in this photo.  This design provides high gain amplification of an input signal, with the integrated limiting amplifier clipping the outputs.  It has a few uses, but soft key generation is the most obvious one.  This is a new revision of circuits from Doorway, Staircase/Stairs, and Topogram.</li>
+<li class="">FQM-REVC, a quad multiplier submodule. This circuit is an enhanced derivative of the venerable MC1494 multiplier topology, optimized for video transmission and bandwidths.  It has individual trimming points for null, bias and gain.</li>
+<li class="">DEC-REVA, a fully encapsulated decoder/encoder submodule designed to transform CVBS and Component video inputs into 1V RGB signals.</li>
+<li class="">FWR-REVA, a quad rectifier submodule.  This circuit leverages the enhanced performance of our new P series rectifier, and will ensure that Chromagnon's shape generation functions do not produce distortions around the mirror thresholds of diamonds and other shapes.</li>
+<li class="">FQA-REVA, a quad active attenuverter submodule.  This circuit is a revision of our classic null gap active video attenuverter design.</li>
+<li class="">HGA-REVA, a quad high gain clipping amp submodule.  The test board is shown, but the assemblies are missing in this photo.  This design provides high gain amplification of an input signal, with the integrated limiting amplifier clipping the outputs.  It has a few uses, but soft key generation is the most obvious one.  This is a new revision of circuits from Doorway, Staircase/Stairs, and Topogram.</li>
 </ul>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/fqm-revc-3cf26e5050747f35f192ed64fc7d1afe.jpg" width="1280" height="1001" class="img_ev3q">
 <em>A closer look at FQM-REVC</em></p>
 <p>The best part of these submodules testing well, is that we are much closer to done!! We have one more submodule design in progress, and then the next revision of the Chromagnon Core RevI can be completed -- with most of the circuitry moved to these submodules, the next Chromnagnon core board revision will go fast rather than being another tedious revision of a giant board.  I look forward to providing an update on that in the next update.</p>
-<p>Our content designers have been plowing through the massive amounts of documentation required for our new docs website, and we've just published an update that includes baseline content for the remaining Gen3 modules without proper user manuals.  We'll be adding more illustrations and written content to this over time: <a href="https://docs.lzxindustries.net/docs/modules/module-list" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net/docs/modules/module-list</a></p>
-<p>After getting held up in customs, we finally have some kits in stock for our Precision Rectifier &amp; Multipler (PRM) module.  This module is a basic ingredient of video synth functions, and the number of functions you can patch with it is a long list.  Read about them on the docs website here: <a href="https://docs.lzxindustries.net/docs/modules/prm" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net/docs/modules/prm</a></p>
+<p>Our content designers have been plowing through the massive amounts of documentation required for our new docs website, and we've just published an update that includes baseline content for the remaining Gen3 modules without proper user manuals.  We'll be adding more illustrations and written content to this over time: <a href="https://docs.lzxindustries.net/docs/modules/module-list" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net/docs/modules/module-list</a></p>
+<p>After getting held up in customs, we finally have some kits in stock for our Precision Rectifier &amp; Multipler (PRM) module.  This module is a basic ingredient of video synth functions, and the number of functions you can patch with it is a long list.  Read about them on the docs website here: <a href="https://docs.lzxindustries.net/docs/modules/prm" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net/docs/modules/prm</a></p>
 <p>Times are tough for the whole industry of USA based synth makers right now.  It is with undying gratitude that we thank you for helping us keep the dream alive here at LZX Industries.</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
@@ -144,34 +144,34 @@ Lars</p>]]></content:encoded>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/p-series-rack-3888e60077212e7adbdc88619dd45cbb.jpg" width="4075" height="3056" class="img_ev3q"></p>
 <p>PROGRAMMABLE</p>
 <ul>
-<li>PGO: 4HP Programmable Gain &amp; Offset</li>
-<li>PAB: 4HP Programmable Active Buffers</li>
+<li class="">PGO: 4HP Programmable Gain &amp; Offset</li>
+<li class="">PAB: 4HP Programmable Active Buffers</li>
 </ul>
 <p>PRECISION</p>
 <ul>
-<li>PRM: 4HP Precision Rectifier &amp; Multiplier</li>
+<li class="">PRM: 4HP Precision Rectifier &amp; Multiplier</li>
 </ul>
 <p>PASSIVE</p>
 <ul>
-<li>MLT: 8HP Passive Multiples</li>
-<li>LNK: 4HP Passive Links</li>
-<li>P: 2HP Passive Potentiometer</li>
+<li class="">MLT: 8HP Passive Multiples</li>
+<li class="">LNK: 4HP Passive Links</li>
+<li class="">P: 2HP Passive Potentiometer</li>
 </ul>
 <p>All P Series modules are available in 3 variants:</p>
 <ul>
-<li>Fully assembled, including any power cables</li>
-<li>Full DIY kit, all parts included</li>
-<li>Partial DIY kit, SMT assemblies and frontpanels only</li>
+<li class="">Fully assembled, including any power cables</li>
+<li class="">Full DIY kit, all parts included</li>
+<li class="">Partial DIY kit, SMT assemblies and frontpanels only</li>
 </ul>
 <p>We have stock of all variants available now, except PRM -- we'll have those added to stock soon.  But you're welcome to place a backorder for that one. There has also been a price drop on the PGO partial DIY kit.</p>
 <p>Other modules in development for 2025 include:</p>
 <ul>
-<li>An RGB-to-HDMI encoder.</li>
-<li>A system sync/waveform generator, with support for legacy connectors and some new tricks.</li>
-<li>A sync distribution amplifier with front and rear connectors, for sync connections with external devices and expander cases.</li>
-<li>An extended version of our first rotator module (Navigator) merged with features from our polar-to-cartesian module (Colorspace Mapper/Mapper).</li>
+<li class="">An RGB-to-HDMI encoder.</li>
+<li class="">A system sync/waveform generator, with support for legacy connectors and some new tricks.</li>
+<li class="">A sync distribution amplifier with front and rear connectors, for sync connections with external devices and expander cases.</li>
+<li class="">An extended version of our first rotator module (Navigator) merged with features from our polar-to-cartesian module (Colorspace Mapper/Mapper).</li>
 </ul>
-<p>In parting, check out some new documentation work by our collaborators.  There are beautifully illustrated and animated docs now available for DSG3, Angles, Keychain and Proc.  There are also initial drafts up for the P Series modules. Check it out at <a href="https://docs.lzxindustries.net/" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net</a></p>
+<p>In parting, check out some new documentation work by our collaborators.  There are beautifully illustrated and animated docs now available for DSG3, Angles, Keychain and Proc.  There are also initial drafts up for the P Series modules. Check it out at <a href="https://docs.lzxindustries.net/" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net</a></p>
 <p>We'll continue regularly adding to the docs throughout 2025.  Please let us know what you think of them.</p>
 <p>Until next time,</p>
 <p>Lars</p>]]></content:encoded>
@@ -190,23 +190,23 @@ Lars</p>]]></content:encoded>
 <p>Jonah and I have also been wrapping up the details on a few new modules that have been in development, and trying to "close all our open tabs" in this regard. Here's a list of modular projects we've finalizing.</p>
 <p>Analog Computing Operators</p>
 <ul>
-<li>PGO, Programmable Gain &amp; Offset (4HP) - available now!</li>
-<li>PRM, Precision Rectifier &amp; Multiplier (4HP)</li>
-<li>PAB, Programmable Active Buffers (4HP)</li>
+<li class="">PGO, Programmable Gain &amp; Offset (4HP) - available now!</li>
+<li class="">PRM, Precision Rectifier &amp; Multiplier (4HP)</li>
+<li class="">PAB, Programmable Active Buffers (4HP)</li>
 </ul>
 <p>Passive Utilities</p>
 <ul>
-<li>MLT, Passive Multiples (8HP)</li>
-<li>LNK, Passive Links (4HP)</li>
-<li>P, Passive Potentiomter (2HP)</li>
+<li class="">MLT, Passive Multiples (8HP)</li>
+<li class="">LNK, Passive Links (4HP)</li>
+<li class="">P, Passive Potentiomter (2HP)</li>
 </ul>
 <p>Other Projects</p>
 <ul>
-<li>New video encoder designs, including digital outputs</li>
-<li>A slim new audio envelope/low frequency event generator module</li>
-<li>Expedition Mk2 releases such as a new War of the Ants and Sensory Translator</li>
-<li>EuroRack +/-12V power supply expanders for the Vessel 168/Vessel 84 cases.</li>
-<li>The Vessel 208 case, which will feature a high quality latching lid for travel</li>
+<li class="">New video encoder designs, including digital outputs</li>
+<li class="">A slim new audio envelope/low frequency event generator module</li>
+<li class="">Expedition Mk2 releases such as a new War of the Ants and Sensory Translator</li>
+<li class="">EuroRack +/-12V power supply expanders for the Vessel 168/Vessel 84 cases.</li>
+<li class="">The Vessel 208 case, which will feature a high quality latching lid for travel</li>
 </ul>
 <p>Also in the past few weeks I have been working with graphic designer Ramin Rahni, who has been developing illustrations for the Gen3 modules for our documentation website we launched with PGO back in October. I'd also like to shout out Gary MacLeod, a community member who has helped immensely with solving issues with our website -- which now loads much faster, and has better product galleries.  We have Aaron Ross, a beloved community member and instructional designer, lined up to help with content editing and development too.  I'm very grateful for the opportunity to work with these pros in a bartered exchange for modules -- as our budgets are quite slim going into Chromagnon season.</p>
 <p>In parting, I received a note recently that expressed frustration over having not received an apology for the run-on-sentence that has been the Chromagon project timeline.  To be clear and quite frank: I am deeply sorry for the wait, and I take full and unequivocal responsibility for it. I feel the sorriness of it deep in my bones each night as I'm trying fall asleep.  I feel it deep in my gut every time I pause to think about the number of artists who made a purchase with their budget for creative equipment they do not yet have in their hands.  This project has been the exact opposite of the scenario I wanted with LZX, and the biggest project planning/timing blunder I've ever made in my life.  I also feel quite guilty I can't just lock myself in a room 24/7 until it's done -- the business has to be run, kids have to eat, rent has to be paid, so products still have to be developed alongside.  I'm continuously rotating through projects, and moving Chromagnon forward with as many resources as I can give it.  I'm really looking forward to delivering on the promise of this device, and ending this chapter in our shared story.  Despite it all, thank you for believing in the dream of Chromagnon. You have all been very understanding and I owe you my gratitude. I can't speak for all of you, but I know for some it will have been more than worth the wait.</p>
@@ -243,7 +243,7 @@ Lars</p>]]></content:encoded>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/pgo-modules-workbench-ffc0049e38aaaebd3fc85da024c04315.jpg" width="4080" height="3060" class="img_ev3q"></p>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/pgo-diy-kits-77ee5d7a6dfbfeeb3611c8fbaa32f312.jpg" width="3517" height="2717" class="img_ev3q"></p>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/pgo-module-box-056fb359ad03b859448bc27084b360be.jpg" width="3060" height="4080" class="img_ev3q"></p>
-<p>This module is the first in a new series of modules titled P Series, which will focus on core utility modules that are available in both assembled and DIY forms.  We have also used PGO to prototype a more complete approach to our product documentation, and you can see what that looks like here at <a href="https://docs.lzxindustries.net/docs/modules/pgo" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net/docs/modules/pgo</a>.  P Series can be considered the successor to Cadet series, as well as Expedition modules providing raw functions, such as Bridge and Arch. We have a few more planned, and we'll release them over the upcoming months.</p>
+<p>This module is the first in a new series of modules titled P Series, which will focus on core utility modules that are available in both assembled and DIY forms.  We have also used PGO to prototype a more complete approach to our product documentation, and you can see what that looks like here at <a href="https://docs.lzxindustries.net/docs/modules/pgo" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net/docs/modules/pgo</a>.  P Series can be considered the successor to Cadet series, as well as Expedition modules providing raw functions, such as Bridge and Arch. We have a few more planned, and we'll release them over the upcoming months.</p>
 <p>PGO may not appeal to every video synthesist -- it is a raw function, and is the kind of module you can use as a building block in patching more complex custom functions. For myself, I'm very excitd to have 16 of them in their own rack, and using that rack for future development ideas.  For existing Gen3 owners, you could use it this way -- or in a few other contexts as well.  Check out the docs linked above for more on that topic.</p>
 <p>In other news, we have a few new variations for the Double Vision System available.  The first is the option to purchase Double Vision with our 168HP modular case, allowing 84HP of empty space to grow into.</p>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/double-vision-system-6u-19adf8ece2e7f769b8fc333482a2fa52.png" width="1024" height="547" class="img_ev3q"></p>
@@ -262,14 +262,14 @@ Lars</p>]]></content:encoded>
 <p><em>Pat said, "Hi! I just finished reading the latest monthly journal entry (November). It sounds like you guys are making some great progress but I'm a little confused with all the technical talk and where Chromagnon sits along the timeline of being finished. Would it be possible to include some type of metric in each post for the layman? Say, like a percentage of completion where 100% means the unit is ready to ship? I appreciate all the details but it's hard for me to figure out what it all means in the big picture."</em></p>
 <p>I understand -- I appreciate that the jargon may be frustrating to read when you are looking for an answer to a simple question. At the beginning of the year on January 5th's blog, I outlined 3 milestones to completing this project:</p>
 <ul>
-<li>Production ready</li>
-<li>Ship unit one</li>
-<li>Ship all pre-orders</li>
+<li class="">Production ready</li>
+<li class="">Ship unit one</li>
+<li class="">Ship all pre-orders</li>
 </ul>
 <p>Since there are so many moving pieces involved in the project, it would be difficult to quantify <em>percentage complete</em> in terms of the overall ongoing project.  For example, most of the production work is already done, since Chromagnon's control board assembly went into production back in 2021-2022. Going into this year, the "Production ready" milestone includes finalizing parts design, PCB design, and firmware.  Compared to where we were in January, parts design is 100% done, PCB design is <em>pending</em> 100% done, and firmware is 95% done.  We were at this state back in August too, but the most recent PCB design needed more work, and it took a few weeks to make that revision.  So in other words, <em>if</em> no more hardware revisions are neccessary on this incoming prototype -- we will be moving past the Production ready milestone finally, before the end of the year.  The leap from Production Ready to Ship Unit One is not so big, and much easier to estimate. It will happen right after production ready, as most of the tasks involved in prepping for that next milestone have already been completed.  I hope this helps you understand better where we are with the project.</p>
 <p><em>Dan asked, "Do you think Chromagnon will be shipping by Christmas 2024?"</em></p>
 <p>It is quite possible we will reach the Ship Unit One milestone (see above reply to Pat) before the end of the year. Sometime in December, after reviewing the next incoming PCB prototype, I will know for sure.</p>
-<p>Thanks for reading -- please write in using this form if you have questions: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>]]></content:encoded>
+<p>Thanks for reading -- please write in using this form if you have questions: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer" class="">https://wkf.ms/47lhPPA</a></p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
         <item>
@@ -287,12 +287,12 @@ Lars</p>]]></content:encoded>
 <em>Chromagnon Core RevH</em></p>
 <p>The board's BOM is so big it was causing issues with the vendor's system initially -- thankfully they were able to resolve that, but it cost us over a week.  I wanted to hit this milestone before publishing a new blog.  It's nice to be writing this one knowing that assembly is underway, and that I'll be able to begin testing RevH immediately when it arrives in the latter half of November.</p>
 <p>Despite being behind where I wanted to be at the end of October, this milestone is quite exciting.  With the off site assembly process flowing smoothly, we have the stage set for formal production when it is go time.   I look forward to writing another update about Chromagnon toward the end of the month.</p>
-<p>In other news, in the time in between Chromagnon tasks, I have been working on our new documentation website at <a href="https://docs.lzxindustries.net/" target="_blank" rel="noopener noreferrer">https://docs.lzxindustries.net</a>.  You may be there already, as it is the new location for this blog.  Most of the content is hidden from public view for now, but I'm quite happy with how the illustration and writing process is going so far.  We'll be migrating most content from our current website to this new static site soon -- including all module documentation, resources and articles.</p>
+<p>In other news, in the time in between Chromagnon tasks, I have been working on our new documentation website at <a href="https://docs.lzxindustries.net/" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net</a>.  You may be there already, as it is the new location for this blog.  Most of the content is hidden from public view for now, but I'm quite happy with how the illustration and writing process is going so far.  We'll be migrating most content from our current website to this new static site soon -- including all module documentation, resources and articles.</p>
 <p>Finally, here's a teaser of a new module we have been working on. It will be available as a DIY project as well as assembled.</p>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/pgo-rgb-a5e059f12aacc9ee3a0e94168db9212a.png" width="1600" height="1200" class="img_ev3q"></p>
 <p>We'll tell you more about it and more about the docs site in the next update.  I have a little over a week before my Chromagnon board arrives, to make some progress in these areas.</p>
 <p>Other news: more Double Vision systems are being built this month and are available to order now.  We have healthy stock of most Gen3 modules, if you're looking to pick up something new for your system this Fall.</p>
-<p>Thanks for reading -- please write in using this form if you have questions: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer">https://wkf.ms/47lhPPA</a></p>]]></content:encoded>
+<p>Thanks for reading -- please write in using this form if you have questions: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer" class="">https://wkf.ms/47lhPPA</a></p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
     </channel>
