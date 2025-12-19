@@ -2,12 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.lzxindustries.net/blog</id>
     <title>LZX Technical Manual Blog</title>
-    <updated>2025-08-21T00:00:00.000Z</updated>
+    <updated>2025-12-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.lzxindustries.net/blog"/>
     <subtitle>LZX Technical Manual Blog</subtitle>
     <icon>https://docs.lzxindustries.net/img/favicon.ico</icon>
     <rights>© 2025 LZX</rights>
+    <entry>
+        <title type="html"><![CDATA[Chromagnon Simulator Downloads]]></title>
+        <id>https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads</id>
+        <link href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads"/>
+        <updated>2025-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows, macOS, and Linux.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!  The Windows version should run fine, but the MacOS and Linux versions are largely untested.  If you have trouble running them, find access to a Windows machine to play with the app.  If I hear about any fixes necessary to get them running on your platform, I'll post about it here.  I'll share some more news about Chromagnon and Videomancer soon.]]></summary>
+        <content type="html"><![CDATA[<p>Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows, macOS, and Linux.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!  The Windows version should run fine, but the MacOS and Linux versions are largely untested.  If you have trouble running them, find access to a Windows machine to play with the app.  If I hear about any fixes necessary to get them running on your platform, I'll post about it here.  I'll share some more news about Chromagnon and Videomancer soon.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download-links">Download Links<a href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads#download-links" class="hash-link" aria-label="Direct link to Download Links" title="Direct link to Download Links" translate="no">​</a></h2>
+<p>Choose the version for your operating system:</p>
+<ul>
+<li class=""><strong>Windows</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-windows-portable-ed1e0321dfdede4205fcf2fd5423ef39.zip" target="_blank" class="">chromagnon-simulator-windows-portable.zip</a></li>
+<li class=""><strong>macOS</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-macos-portable-14823c660a4bceec42f7e3041eea7686.zip" target="_blank" class="">chromagnon-simulator-macos-portable.zip</a></li>
+<li class=""><strong>Linux</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-linux-portable-fc0c51d5374c7f432929228678b487b8.zip" target="_blank" class="">chromagnon-simulator-linux-portable.zip</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h2>
+<p>Simply download the appropriate zip file for your platform, extract it, and run the application. No installation required - these are portable versions that run directly from the extracted folder.</p>]]></content>
+        <author>
+            <name>Lars Larsen</name>
+            <uri>https://github.com/creatorlars</uri>
+        </author>
+        <category label="Chromagnon" term="Chromagnon"/>
+        <category label="software" term="software"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Video Sync Recap & Forecast for 2025]]></title>
         <id>https://docs.lzxindustries.net/blog/video-sync-recap-forecast-2025</id>
@@ -300,33 +323,6 @@ Lars</p>]]></content>
 <p>Since there are so many moving pieces involved in the project, it would be difficult to quantify <em>percentage complete</em> in terms of the overall ongoing project.  For example, most of the production work is already done, since Chromagnon's control board assembly went into production back in 2021-2022. Going into this year, the "Production ready" milestone includes finalizing parts design, PCB design, and firmware.  Compared to where we were in January, parts design is 100% done, PCB design is <em>pending</em> 100% done, and firmware is 95% done.  We were at this state back in August too, but the most recent PCB design needed more work, and it took a few weeks to make that revision.  So in other words, <em>if</em> no more hardware revisions are neccessary on this incoming prototype -- we will be moving past the Production ready milestone finally, before the end of the year.  The leap from Production Ready to Ship Unit One is not so big, and much easier to estimate. It will happen right after production ready, as most of the tasks involved in prepping for that next milestone have already been completed.  I hope this helps you understand better where we are with the project.</p>
 <p><em>Dan asked, "Do you think Chromagnon will be shipping by Christmas 2024?"</em></p>
 <p>It is quite possible we will reach the Ship Unit One milestone (see above reply to Pat) before the end of the year. Sometime in December, after reviewing the next incoming PCB prototype, I will know for sure.</p>
-<p>Thanks for reading -- please write in using this form if you have questions: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer" class="">https://wkf.ms/47lhPPA</a></p>]]></content>
-        <author>
-            <name>Lars Larsen</name>
-            <uri>https://github.com/creatorlars</uri>
-        </author>
-        <category label="Chromagnon" term="Chromagnon"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chromagnon Core Recap]]></title>
-        <id>https://docs.lzxindustries.net/blog/chromagnon-core-recap</id>
-        <link href="https://docs.lzxindustries.net/blog/chromagnon-core-recap"/>
-        <updated>2024-11-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello video fiends -- we hope everyone had a spooky Halloween!]]></summary>
-        <content type="html"><![CDATA[<p>Hello video fiends -- we hope everyone had a spooky Halloween!</p>
-<p>Per my last missive at the beginning of October, I was focusing in on revisions to the Chromagnon Core RevH board.  The plan was to have those revisions complete and the board reviewed before the end of October, and I was developing multiple discrete submodules to aid in that task. I'm happy to say that the board is now ordered, but with a few weeks of hassle -- both in the revision process, and the coordination process with our external vendor.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/fqm-submodule-revb-8b456477d575843a2bfb634326ec0231.png" width="1600" height="734" class="img_ev3q"></p>
-<p><em>A discrete quad multiplier subassembly and testing jig</em></p>
-<p>After racing between various solutions, I was able to settle on one that did not require submodules at all, in order to fit the full circuit onto the existing assembly -- which is a good thing, for Chromagnon.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromagnon-core-revh-render-b9c55c52bf466479bf4e1f335e9fedcb.png" width="1559" height="668" class="img_ev3q">
-<em>Chromagnon Core RevH</em></p>
-<p>The board's BOM is so big it was causing issues with the vendor's system initially -- thankfully they were able to resolve that, but it cost us over a week.  I wanted to hit this milestone before publishing a new blog.  It's nice to be writing this one knowing that assembly is underway, and that I'll be able to begin testing RevH immediately when it arrives in the latter half of November.</p>
-<p>Despite being behind where I wanted to be at the end of October, this milestone is quite exciting.  With the off site assembly process flowing smoothly, we have the stage set for formal production when it is go time.   I look forward to writing another update about Chromagnon toward the end of the month.</p>
-<p>In other news, in the time in between Chromagnon tasks, I have been working on our new documentation website at <a href="https://docs.lzxindustries.net/" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net</a>.  You may be there already, as it is the new location for this blog.  Most of the content is hidden from public view for now, but I'm quite happy with how the illustration and writing process is going so far.  We'll be migrating most content from our current website to this new static site soon -- including all module documentation, resources and articles.</p>
-<p>Finally, here's a teaser of a new module we have been working on. It will be available as a DIY project as well as assembled.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/pgo-rgb-a5e059f12aacc9ee3a0e94168db9212a.png" width="1600" height="1200" class="img_ev3q"></p>
-<p>We'll tell you more about it and more about the docs site in the next update.  I have a little over a week before my Chromagnon board arrives, to make some progress in these areas.</p>
-<p>Other news: more Double Vision systems are being built this month and are available to order now.  We have healthy stock of most Gen3 modules, if you're looking to pick up something new for your system this Fall.</p>
 <p>Thanks for reading -- please write in using this form if you have questions: <a href="https://wkf.ms/47lhPPA" target="_blank" rel="noopener noreferrer" class="">https://wkf.ms/47lhPPA</a></p>]]></content>
         <author>
             <name>Lars Larsen</name>
