@@ -13,23 +13,21 @@
         <id>https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads</id>
         <link href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads"/>
         <updated>2025-12-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows, macOS, and Linux.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!  The Windows version should run fine, but the MacOS and Linux versions are largely untested.  If you have trouble running them, find access to a Windows machine to play with the app.  If I hear about any fixes necessary to get them running on your platform, I'll post about it here.  I'll share some more news about Chromagnon and Videomancer soon.]]></summary>
-        <content type="html"><![CDATA[<p>Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows, macOS, and Linux.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!  The Windows version should run fine, but the MacOS and Linux versions are largely untested.  If you have trouble running them, find access to a Windows machine to play with the app.  If I hear about any fixes necessary to get them running on your platform, I'll post about it here.  I'll share some more news about Chromagnon and Videomancer soon.</p>
+        <summary type="html"><![CDATA[Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!]]></summary>
+        <content type="html"><![CDATA[<p>Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download-links">Download Links<a href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads#download-links" class="hash-link" aria-label="Direct link to Download Links" title="Direct link to Download Links" translate="no">​</a></h2>
-<p>Choose the version for your operating system:</p>
 <ul>
 <li class=""><strong>Windows</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-windows-portable-ed1e0321dfdede4205fcf2fd5423ef39.zip" target="_blank" class="">chromagnon-simulator-windows-portable.zip</a></li>
-<li class=""><strong>macOS</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-macos-portable-14823c660a4bceec42f7e3041eea7686.zip" target="_blank" class="">chromagnon-simulator-macos-portable.zip</a></li>
-<li class=""><strong>Linux</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-linux-portable-fc0c51d5374c7f432929228678b487b8.zip" target="_blank" class="">chromagnon-simulator-linux-portable.zip</a></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h2>
-<p>Simply download the appropriate zip file for your platform, extract it, and run the application. No installation required - these are portable versions that run directly from the extracted folder.</p>]]></content>
+<!-- -->
+<!-- -->
+]]></content>
         <author>
             <name>Lars Larsen</name>
             <uri>https://github.com/creatorlars</uri>
         </author>
         <category label="Chromagnon" term="Chromagnon"/>
-        <category label="software" term="software"/>
+        <category label="Software" term="Software"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Video Sync Recap & Forecast for 2025]]></title>
@@ -48,7 +46,7 @@
 <p><em>How fast will Chromagnon fulfillment happen?</em>  By the time we hit the hardware/firmware milestones mentioned above, we will be able to assess our position on this better.  But there are two ways we expect it could go.  If we are doing strongly after the sales season, we will build Chromagnon in large batches, outsourcing extra help, and hoping to ship all orders in 1-3 waves of shipments.  If that is not possible, we will be integrating Chromagnon into our existing production workflows and start making monthly shipments of a variable number of units dependent on our logistical constraints at the time. With the global economy in flux right now, we don't have a way to forecast this accurately.  This may be a year without many video synthesizers under the tree, just due to the general instability of the global market right now.</p>
 <p>Here are a few images to share from Videomancer development.  This must be considered a behind-the-scenes slideshow, so please don't take anything you see here as a final answer.</p>
 <p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_inside-6cc7418be424d1d02c62c3038ecce0b5.png" width="1823" height="1321" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_ctrl_rev_b_pcb-336b16d3a5af62aaf3b207ad3ef38202.png" width="1756" height="960" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/videomancer_ctrl_rev_b_pcb-336b16d3a5af62aaf3b207ad3ef38202.PNG" width="1756" height="960" class="img_ev3q"></p>
 <p>Thanks for reading, and I am excited to check in with you all again in September.</p>]]></content>
         <author>
             <name>Lars Larsen</name>
