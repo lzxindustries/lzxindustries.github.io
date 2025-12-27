@@ -14,15 +14,47 @@
             <link>https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads</link>
             <guid>https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads</guid>
             <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!]]></description>
-            <content:encoded><![CDATA[<p>Hi everyone! As promised, I've made my Chromagnon Simulator available for download as portable applications for Windows.  This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy!</p>
+            <description><![CDATA[Hi everyone! As promised, I've made my Chromagnon Simulator application available for download. This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy! The MacOS build has some issues, but can be made to work with the installation instructions below.]]></description>
+            <content:encoded><![CDATA[<p>Hi everyone! As promised, I've made my Chromagnon Simulator application available for download. This was a tool created for design reference during development of the hardware, so it is not very polished or useful beyond getting a preview of the instrument's functionality -- which I hope you will enjoy! The MacOS build has some issues, but can be made to work with the installation instructions below.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download-links">Download Links<a href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads#download-links" class="hash-link" aria-label="Direct link to Download Links" title="Direct link to Download Links" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>Windows</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-windows-portable-ed1e0321dfdede4205fcf2fd5423ef39.zip" target="_blank" class="">chromagnon-simulator-windows-portable.zip</a></li>
+<li class=""><strong>MacOS</strong>: <a href="https://docs.lzxindustries.net/assets/files/chromagnon-simulator-macos-portable-14823c660a4bceec42f7e3041eea7686.zip" target="_blank" class="">chromagnon-simulator-macos-portable.zip</a></li>
 </ul>
-<!-- -->
-<!-- -->
-]]></content:encoded>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="windows-installation">Windows Installation<a href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads#windows-installation" class="hash-link" aria-label="Direct link to Windows Installation" title="Direct link to Windows Installation" translate="no">​</a></h2>
+<p>Simply download the appropriate zip file for your platform, extract it, and run the application. No installation required - these are portable versions that run directly from the extracted folder.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="macos-installation">MacOS Installation<a href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads#macos-installation" class="hash-link" aria-label="Direct link to MacOS Installation" title="Direct link to MacOS Installation" translate="no">​</a></h2>
+<p>There are some issues with the MacOS build, but our user Adam was able to get it to work.</p>
+<ul>
+<li class="">Download and extract “chromagnon-simulator-macos-portable.zip”</li>
+<li class="">Open up the extracted “Chromagnon Simulator-0.1.0 Darwin” folder</li>
+<li class="">Open up the “bin” folder</li>
+<li class="">Drag the “simulator-chromagnon.app” into your “Applications” folder</li>
+<li class="">Navigate to your “Applications” folder, right click “simulator-chromagnon.app”, and select “Show Package Contents”</li>
+<li class="">Open up the “Contents” folder</li>
+<li class="">Leave this folder open, and open up a separate file explorer window and navigate back to the original extracted “Chromagnon Simulator-0.1.0 Darwin” folder</li>
+<li class="">Right click the “simulator-chromagnon.app” and select “Show Package Contents”</li>
+<li class="">Open up the “Contents” folder</li>
+<li class="">Drag the “Frameworks” folder into the “Contents” folder opened up in step 6</li>
+<li class="">[Skip if you already have homebrew installed] Open Terminal and paste the following command to install homebrew then hit ENTER:</li>
+</ul>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><br></span></code></pre></div></div>
+<ul>
+<li class="">When prompted, hit ENTER to continue the installation of homebrew</li>
+<li class="">In terminal enter the following command to install SMFL2.6 and hit ENTER:</li>
+</ul>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">brew install sfml@2</span><br></span></code></pre></div></div>
+<ul>
+<li class="">In terminal enter the following command to remove MacOS security restrictions from the simulator app and hit ENTER:</li>
+</ul>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo xattr -rd com.apple.quarantine /Applications/simulator-chromagnon.app</span><br></span></code></pre></div></div>
+<ul>
+<li class="">In terminal, enter the following command to point the simulator to the correct library files and hit ENTER:</li>
+</ul>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd /Applications/simulator-chromagnon.app/Contents/Frameworks</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">rm libsfml-*.dylib</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ln -s /opt/homebrew/opt/sfml@2/lib/libsfml-graphics.2.6.dylib libsfml-graphics.2.6.dylib</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ln -s /opt/homebrew/opt/sfml@2/lib/libsfml-window.2.6.dylib libsfml-window.2.6.dylib</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ln -s /opt/homebrew/opt/sfml@2/lib/libsfml-system.2.6.dylib libsfml-system.2.6.dylib</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ln -s /opt/homebrew/opt/sfml@2/lib/libsfml-audio.2.6.dylib libsfml-audio.2.6.dylib</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ln -s /opt/homebrew/opt/sfml@2/lib/libsfml-network.2.6.dylib libsfml-network.2.6.dylib</span><br></span></code></pre></div></div>
+<ul>
+<li class="">You should now be able to navigate to your “Applications” folder and open “simulator-chromagnon.app” as normal</li>
+</ul>]]></content:encoded>
             <category>Chromagnon</category>
             <category>Software</category>
         </item>
