@@ -4,11 +4,28 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2026 LZX</copyright>
+        <item>
+            <title><![CDATA[Artist Feature: Evan Henry]]></title>
+            <link>https://docs.lzxindustries.net/blog/artist-feature-evan-henry</link>
+            <guid>https://docs.lzxindustries.net/blog/artist-feature-evan-henry</guid>
+            <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Evan Henry (@Cinema.AV) is both an audio and visual artist who often works with live bands and audio synth creators to make collaborative live shows and performances. He started his journey at Dallas Ambient Music Nights, occasionally performing "some video tape I found at a thrift store, like a National Geographic or Mind's Eye sorta thing." When Brian Tomerlin — his now longtime friend — brought his 5–6ft high CRT setup to a show and performed using various video devices, "I just sat there, most of the night, like I'd often do as a child, just glued to those televisions." Afterward he was hooked, finding any way he could learn, and eventually acquiring his own setup to bring to shows.]]></description>
+            <content:encoded><![CDATA[<p>Evan Henry (<a href="https://www.instagram.com/cinema.av" target="_blank" rel="noopener noreferrer" class="">@Cinema.AV</a>) is both an audio and visual artist who often works with live bands and audio synth creators to make collaborative live shows and performances. He started his journey at Dallas Ambient Music Nights, occasionally performing "some video tape I found at a thrift store, like a National Geographic or Mind's Eye sorta thing." When Brian Tomerlin — his now longtime friend — brought his 5–6ft high CRT setup to a show and performed using various video devices, "I just sat there, most of the night, like I'd often do as a child, just glued to those televisions." Afterward he was hooked, finding any way he could learn, and eventually acquiring his own setup to bring to shows.</p>
+<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_01-254da29f59b4759608af44d462083332.jpg" width="4032" height="3024" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_02-cbfec3cd0871757fe939f46d86fcc7cc.jpg" width="1484" height="1059" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="process">Process<a href="https://docs.lzxindustries.net/blog/artist-feature-evan-henry#process" class="hash-link" aria-label="Direct link to Process" title="Direct link to Process" translate="no">​</a></h2>
+<p>"The setup grew and evolved into a full blown LZX system, talking multiple cases, and then I became known as one of those guys who does 'modular visuals', which apparently is quite a spectacle worth booking." Because of this, he soon began touring and collaborating with various artists. Although his style has evolved, he starts his process by patching on a video system, getting it on a capture card, and following it up with additional patching through Resolume and various tweaking and editing. "I just goof around for a while, capture, maybe post a few snippets online over the course of a couple weeks, and see what sticks."</p>
+<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_03-81f580f360cc431c48b5cc4115beec41.jpg" width="3852" height="2594" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-work">Current Work<a href="https://docs.lzxindustries.net/blog/artist-feature-evan-henry#current-work" class="hash-link" aria-label="Direct link to Current Work" title="Direct link to Current Work" translate="no">​</a></h2>
+<p>Henry is currently working on visuals for EBM artist Kontravoid's upcoming European tour, reworking and editing some of his previous work into new and interesting visuals that match the musical elements of the show. "It's always nice to see old pieces mix with new ones for something totally unique and of itself. Much like when I play live for bands and various other projects." Evan is looking forward to working on his next record in collaboration with Kris Baha, upcoming local events, and live performances.</p>
+<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_04-7fe06315380651f293e9ac050936873f.jpg" width="800" height="600" class="img_ev3q"></p>]]></content:encoded>
+            <category>Community</category>
+        </item>
         <item>
             <title><![CDATA[Artist Feature: Lauren Klotzman]]></title>
             <link>https://docs.lzxindustries.net/blog/artist-feature-lauren-klotzman</link>
@@ -264,52 +281,6 @@ Lars</p>]]></content:encoded>
 <p>Our content designers have been plowing through the massive amounts of documentation required for our new docs website, and we've just published an update that includes baseline content for the remaining Gen3 modules without proper user manuals.  We'll be adding more illustrations and written content to this over time: <a href="https://docs.lzxindustries.net/docs/modules/module-list" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net/docs/modules/module-list</a></p>
 <p>After getting held up in customs, we finally have some kits in stock for our Precision Rectifier &amp; Multipler (PRM) module.  This module is a basic ingredient of video synth functions, and the number of functions you can patch with it is a long list.  Read about them on the docs website here: <a href="https://docs.lzxindustries.net/docs/modules/prm" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net/docs/modules/prm</a></p>
 <p>Times are tough for the whole industry of USA based synth makers right now.  It is with undying gratitude that we thank you for helping us keep the dream alive here at LZX Industries.</p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[The Three Ps]]></title>
-            <link>https://docs.lzxindustries.net/blog/passive-programmable-and-precision</link>
-            <guid>https://docs.lzxindustries.net/blog/passive-programmable-and-precision</guid>
-            <pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hi video friends,]]></description>
-            <content:encoded><![CDATA[<p>Hi video friends,</p>
-<p>I'm writing to provide you with the news about current and ongoing projects at LZX.</p>
-<p>The current Chromagnon Core PCB RevI revision remains a work in progress. Following the release of this version, I expect to move into fulfillment plans and scheduling. I'm currently weighing a few options which will have a big impact on how that all goes, and playing catch up on projects delayed in January and February.  The pace at which progress can be made with Chromagnon is set by the health of our sales and the synth industry in general, and this year has started roughly in that regard.  Despite that, I remain confident that LZX and Chromagnon will pull through strongly.</p>
-<p>After a year's hiatus, we released our first new module in November last year: PGO.  We now have five more in this series available, in what we are calling the P series: modules which fit one of the three themes: Passive, Precision or Programmable.  P Series functions are not complex, exciting video effects on an individual basis: they are the building blocks of them. Those of you who wish to dig into the nuts and bolts of analog graphics will find that all the right operators are here to patch most of the functions in our other modules.  As we consider revising earlier modules and developing  new modules, this series provides a chance to encapsulate our best practices in video synth module design thus far, and provide a solid foundation on which to do so.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/p-series-rack-3888e60077212e7adbdc88619dd45cbb.jpg" width="4075" height="3056" class="img_ev3q"></p>
-<p>PROGRAMMABLE</p>
-<ul>
-<li class="">PGO: 4HP Programmable Gain &amp; Offset</li>
-<li class="">PAB: 4HP Programmable Active Buffers</li>
-</ul>
-<p>PRECISION</p>
-<ul>
-<li class="">PRM: 4HP Precision Rectifier &amp; Multiplier</li>
-</ul>
-<p>PASSIVE</p>
-<ul>
-<li class="">MLT: 8HP Passive Multiples</li>
-<li class="">LNK: 4HP Passive Links</li>
-<li class="">P: 2HP Passive Potentiometer</li>
-</ul>
-<p>All P Series modules are available in 3 variants:</p>
-<ul>
-<li class="">Fully assembled, including any power cables</li>
-<li class="">Full DIY kit, all parts included</li>
-<li class="">Partial DIY kit, SMT assemblies and frontpanels only</li>
-</ul>
-<p>We have stock of all variants available now, except PRM -- we'll have those added to stock soon.  But you're welcome to place a backorder for that one. There has also been a price drop on the PGO partial DIY kit.</p>
-<p>Other modules in development for 2025 include:</p>
-<ul>
-<li class="">An RGB-to-HDMI encoder.</li>
-<li class="">A system sync/waveform generator, with support for legacy connectors and some new tricks.</li>
-<li class="">A sync distribution amplifier with front and rear connectors, for sync connections with external devices and expander cases.</li>
-<li class="">An extended version of our first rotator module (Navigator) merged with features from our polar-to-cartesian module (Colorspace Mapper/Mapper).</li>
-</ul>
-<p>In parting, check out some new documentation work by our collaborators.  There are beautifully illustrated and animated docs now available for DSG3, Angles, Keychain and Proc.  There are also initial drafts up for the P Series modules. Check it out at <a href="https://docs.lzxindustries.net/" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net</a></p>
-<p>We'll continue regularly adding to the docs throughout 2025.  Please let us know what you think of them.</p>
-<p>Until next time,</p>
-<p>Lars</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
     </channel>
