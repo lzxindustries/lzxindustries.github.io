@@ -4,11 +4,32 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Wed, 25 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2026 LZX</copyright>
+        <item>
+            <title><![CDATA[Artist Feature: Majxr Tom]]></title>
+            <link>https://docs.lzxindustries.net/blog/artist-feature-majxr-tom</link>
+            <guid>https://docs.lzxindustries.net/blog/artist-feature-majxr-tom</guid>
+            <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Majxr Tom (@Majxrtom) is an audio-visual artist who began his journey inspired by Richard Wagner's idea of Gesamtkunstwerk — or "total artwork." This philosophy combines all forms of creation, such as writing, music, and visuals to create a synergistic sum, completely unique from its parts. "After many years of working on the craft of my music, I wanted a visual accompaniment to it. The visual and the music always have to speak the same language, and breathe together as if they were a part of the same entity," he explains.]]></description>
+            <content:encoded><![CDATA[<p>Majxr Tom (<a href="https://www.instagram.com/majxrtom" target="_blank" rel="noopener noreferrer" class="">@Majxrtom</a>) is an audio-visual artist who began his journey inspired by Richard Wagner's idea of Gesamtkunstwerk — or "total artwork." This philosophy combines all forms of creation, such as writing, music, and visuals to create a synergistic sum, completely unique from its parts. "After many years of working on the craft of my music, I wanted a visual accompaniment to it. The visual and the music always have to speak the same language, and breathe together as if they were a part of the same entity," he explains.</p>
+<p><img decoding="async" loading="lazy" alt="Majxr Tom" src="https://docs.lzxindustries.net/assets/images/majxr_tom_01-9d0ec84ed8d3d4d797d4927f4906459d.jpg" width="2120" height="1200" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Majxr Tom" src="https://docs.lzxindustries.net/assets/images/majxr_tom_02-7d7db6cebf5a6d6bf45c80562b7964ac.jpg" width="1125" height="2000" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="process">Process<a href="https://docs.lzxindustries.net/blog/artist-feature-majxr-tom#process" class="hash-link" aria-label="Direct link to Process" title="Direct link to Process" translate="no">​</a></h2>
+<p>Although it varies, his artistic process begins with capturing images with infrared photography, writing matching music, patching with Eurorack, and programming final musical touches. "Sometimes I like to just jam out on my Eurorack rig, go to town, and then find and/or create a visual to match the energy. Sometimes it comes out more abstract. Sometimes relaxing. Sometimes driving. Always awesome."</p>
+<p><img decoding="async" loading="lazy" alt="Majxr Tom" src="https://docs.lzxindustries.net/assets/images/majxr_tom_03-6ce66346494df4f2e99c4d4a09d6099d.jpg" width="2200" height="2200" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Majxr Tom" src="https://docs.lzxindustries.net/assets/images/majxr_tom_04-c1f6800ac08852f1dd00cf9f8b448bfa.jpg" width="2000" height="2000" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="themes--style">Themes &amp; Style<a href="https://docs.lzxindustries.net/blog/artist-feature-majxr-tom#themes--style" class="hash-link" aria-label="Direct link to Themes &amp; Style" title="Direct link to Themes &amp; Style" translate="no">​</a></h2>
+<p>He describes the theme of his art to be the manipulation of time, whether that starts with literal slow-motion visuals or audio, or reducing its pitch and playback speed — he loves to combine old tech and new. "It's from the combination of anachronistic artistic mediums, like using modern software like Blender with old analog oscilloscopes. Analog synthesizer gear combined with modern DAW software."</p>
+<p><img decoding="async" loading="lazy" alt="Majxr Tom" src="https://docs.lzxindustries.net/assets/images/majxr_tom_05-5a9c6493ba9b4e0fbbe3fc0154b12ea3.jpg" width="2000" height="1070" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-work">Current Work<a href="https://docs.lzxindustries.net/blog/artist-feature-majxr-tom#current-work" class="hash-link" aria-label="Direct link to Current Work" title="Direct link to Current Work" translate="no">​</a></h2>
+<p>Although he only started sharing his work publicly this year, he is currently working on short form pieces to eventually create an impressive body of work that showcases his art to a potential likeminded audience of fellow creatives. His current goal is to release one piece of work per day this year, showing his commitment to his long-term goals as an artist. Majxr Tom is looking forward to producing new musical pieces into fully fledged ideas and projects, and looks forward to incorporating Chromagnon into his future creations.</p>
+<p><img decoding="async" loading="lazy" alt="Majxr Tom" src="https://docs.lzxindustries.net/assets/images/majxr_tom_06-c46214d2d43b03b1edacd0bf2174a9e7.jpg" width="2120" height="1279" class="img_ev3q"></p>]]></content:encoded>
+            <category>Community</category>
+        </item>
         <item>
             <title><![CDATA[Artist Feature: Evan Henry]]></title>
             <link>https://docs.lzxindustries.net/blog/artist-feature-evan-henry</link>
@@ -253,34 +274,6 @@ Lars</p>]]></content:encoded>
 <li class="">We will be launching Chromagnon fulfillment simultaneously with a new device that can work with Chromagnon as a companion, and offers a unique standalone feature set.  This is something we've had in development since the release of Scrolls, and it's something we've mentioned in the past, but we'll save any spoilers for later this Summer. In any case, it will be Chromagnon's co-pilot in helping initiate fulfillment. Our strategy involves these two products sharing similar production lines, so that sales of the new product will help us ship Chromagnons faster.</li>
 </ul>
 <p>Having been forced to make the above decisions, I am in a better position to be able to wrap up the Chromagnon core board project -- I'll write to you again when that job is done, and when I can show you a photo of the new enclosure piece, toward the end of May. I believe we have a clear path to launching Chromagnon fulfillment this Summer, and despite recent obstacles, this makes me very happy.</p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Module Docs & Chromagnon Assemblies]]></title>
-            <link>https://docs.lzxindustries.net/blog/module-docs-and-chromagnon-assemblies</link>
-            <guid>https://docs.lzxindustries.net/blog/module-docs-and-chromagnon-assemblies</guid>
-            <pubDate>Tue, 22 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[It has been a highly productive past month here at LZX HQ, despite many ups and downs.  We've made a big progress push on Chromagnon with new PCB designs for subassemblies and their test boards, we've got PRM kits in stock, and we've published another round of content for our docs website.]]></description>
-            <content:encoded><![CDATA[<p>It has been a highly productive past month here at LZX HQ, despite many ups and downs.  We've made a big progress push on Chromagnon with new PCB designs for subassemblies and their test boards, we've got PRM kits in stock, and we've published another round of content for our docs website.</p>
-<p>The current political climate and new tariffs imposed on imports from China have us heavily concerned for everything we do here.  We received a tax bill in the past month that was several times higher than anything we've seen before. Those of you who have been following our company for a while know that we follow a market price methodology to pricing our products, which means that what you pay for them is a direct product of the hard costs involved in parts and labor -- in other words, if the cost of the parts go up, the price will need to go up at some point as well.  We aren't there yet, as we're hoping the situation will change.  If you've been looking at picking up some modules, it is a good time to get in before that happens.  We will honor all orders and backorders at the current pricing levels.</p>
-<p>If you've been following along with Chromagnon, we've been pushing for over a year on a fully integrated single board solution designed to finalize the Chromagnon design so that it can enter production.  We've been stuck at a stasis point on the next revision of that board for a few month, as you all are holding the line without much news.  I've realized that the integrated single board approach has been holding us back from finalizing the design, and that the lost time in sealing the design is costing us more than time spent on alternative approaches -- such as the modular subassemblies we were working on earlier in the project.  We've decided to pick up that thread and make a move toward a new version of the subassemblies, and integrating them into the next revision of the core.  This will ensure that we cut no corners when it comes to precision and stability, even though it will raise our production costs and labor when it comes time for production.</p>
-<p>I'm happy to say that this effort has been a great success -- we've designed, built and validated 5 different submodules and their test boards in the past month.  The test boards allow us to calibrate and test each submodule before installation on the main assembly.</p>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/chromagnon-subassemblies-5be7a5db5b5c84b870d017bab5ec9b1c.jpg" width="1280" height="760" class="img_ev3q">
-<em>Modular subassemblies</em></p>
-<p>Pictured above you can see:</p>
-<ul>
-<li class="">FQM-REVC, a quad multiplier submodule. This circuit is an enhanced derivative of the venerable MC1494 multiplier topology, optimized for video transmission and bandwidths.  It has individual trimming points for null, bias and gain.</li>
-<li class="">DEC-REVA, a fully encapsulated decoder/encoder submodule designed to transform CVBS and Component video inputs into 1V RGB signals.</li>
-<li class="">FWR-REVA, a quad rectifier submodule.  This circuit leverages the enhanced performance of our new P series rectifier, and will ensure that Chromagnon's shape generation functions do not produce distortions around the mirror thresholds of diamonds and other shapes.</li>
-<li class="">FQA-REVA, a quad active attenuverter submodule.  This circuit is a revision of our classic null gap active video attenuverter design.</li>
-<li class="">HGA-REVA, a quad high gain clipping amp submodule.  The test board is shown, but the assemblies are missing in this photo.  This design provides high gain amplification of an input signal, with the integrated limiting amplifier clipping the outputs.  It has a few uses, but soft key generation is the most obvious one.  This is a new revision of circuits from Doorway, Staircase/Stairs, and Topogram.</li>
-</ul>
-<p><img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/fqm-revc-3cf26e5050747f35f192ed64fc7d1afe.jpg" width="1280" height="1001" class="img_ev3q">
-<em>A closer look at FQM-REVC</em></p>
-<p>The best part of these submodules testing well, is that we are much closer to done!! We have one more submodule design in progress, and then the next revision of the Chromagnon Core RevI can be completed -- with most of the circuitry moved to these submodules, the next Chromnagnon core board revision will go fast rather than being another tedious revision of a giant board.  I look forward to providing an update on that in the next update.</p>
-<p>Our content designers have been plowing through the massive amounts of documentation required for our new docs website, and we've just published an update that includes baseline content for the remaining Gen3 modules without proper user manuals.  We'll be adding more illustrations and written content to this over time: <a href="https://docs.lzxindustries.net/docs/modules/module-list" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net/docs/modules/module-list</a></p>
-<p>After getting held up in customs, we finally have some kits in stock for our Precision Rectifier &amp; Multipler (PRM) module.  This module is a basic ingredient of video synth functions, and the number of functions you can patch with it is a long list.  Read about them on the docs website here: <a href="https://docs.lzxindustries.net/docs/modules/prm" target="_blank" rel="noopener noreferrer" class="">https://docs.lzxindustries.net/docs/modules/prm</a></p>
-<p>Times are tough for the whole industry of USA based synth makers right now.  It is with undying gratitude that we thank you for helping us keep the dream alive here at LZX Industries.</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
     </channel>
