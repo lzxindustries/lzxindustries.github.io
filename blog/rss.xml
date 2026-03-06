@@ -4,11 +4,37 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Thu, 05 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2026 LZX</copyright>
+        <item>
+            <title><![CDATA[Chromagnon: FPGA Deeper Dive]]></title>
+            <link>https://docs.lzxindustries.net/blog/chromagnon-fpga-deeper-dive</link>
+            <guid>https://docs.lzxindustries.net/blog/chromagnon-fpga-deeper-dive</guid>
+            <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yesterday's Chromagnon update generated a lot of great discussion on Discord about the move to FPGA-based signal processing.  I ended up writing quite a bit in the thread answering questions, and wanted to collect those thoughts here for everyone who wasn't following along.]]></description>
+            <content:encoded><![CDATA[<p>Yesterday's <a class="" href="https://docs.lzxindustries.net/blog/chromagnon-building-it-right">Chromagnon update</a> generated a lot of great discussion on <a href="https://discord.gg/lzx" target="_blank" rel="noopener noreferrer" class="">Discord</a> about the move to FPGA-based signal processing.  I ended up writing quite a bit in the thread answering questions, and wanted to collect those thoughts here for everyone who wasn't following along.</p>
+<p>FPGA has always been the right answer for this instrument design.  I have just been very stubborn in not seeing that.  The decision is about delivering the best instrument I can, and knowing it is not going to have issues in the field with bandwidth, noise, or lack of precision.  The cost of both approaches is about the same.  The savings have more to do with IO infrastructure -- the original design used some much more expensive parts than necessary, which made the project unfeasible post-tariffs, hence the redesign.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-changed">What Changed<a href="https://docs.lzxindustries.net/blog/chromagnon-fpga-deeper-dive#what-changed" class="hash-link" aria-label="Direct link to What Changed" title="Direct link to What Changed" translate="no">​</a></h2>
+<p>Chromagnon is a hybrid analog/digital instrument both before and after the updates -- just different configurations thereof.  What's changed is that I am using high speed digital signal processing for the multiplier blocks, rather than discrete analog multiplier circuits.  In order to do that, I now need a large number of high speed ADC/DAC parts -- which cost about the same as the discrete analog multiplier blocks they replace.  So the change is more about <em>how we are multiplying things</em> than anything else.  Chromagnon's design requires 24 multipliers, whether they are analog or DSP based.</p>
+<p>A simpler way to think about it: Chromagnon has ring mod and wavefolders in its signal path.  Those moved from analog to DSP, but everything else stayed the same.</p>
+<p>The side benefits are that the signal path is more malleable, and it becomes possible to support alternate firmware or make improvements after launch.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-hasnt-changed">What Hasn't Changed<a href="https://docs.lzxindustries.net/blog/chromagnon-fpga-deeper-dive#what-hasnt-changed" class="hash-link" aria-label="Direct link to What Hasn't Changed" title="Direct link to What Hasn't Changed" translate="no">​</a></h2>
+<p>There have never been any analog oscillators or ramp generators in Chromagnon's design.  Those have always been digital and part of the timing/sync system.  The IO signal path and modulation signal path are all still analog, can be processed externally and in feedback with analog processors, and will still contain analog artifacts.</p>
+<p>For Rutt/Etra style scan processing, you still need an external XY monitor, and if anything the high speed DSP multiplication will only improve fidelity for that application.  The classic scanline displacement effect comes from summing luma with the XY signals -- that remains purely analog.  It's just the multiplication stages (for wave shaping, rotation, and curve shaping) that become DSP based.</p>
+<p>It is disappointing for me to not use some of the circuits I have put so much work into.  But ultimately it is the Chromagnon instrument design that I am selling.  That is the user controls, the signal flow, and the IO points.  The rest is implementation details.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="an-audio-analogy">An Audio Analogy<a href="https://docs.lzxindustries.net/blog/chromagnon-fpga-deeper-dive#an-audio-analogy" class="hash-link" aria-label="Direct link to An Audio Analogy" title="Direct link to An Audio Analogy" translate="no">​</a></h2>
+<p>If you're coming from the audio POV, here is a good analogy: FM synthesis.</p>
+<p>The Yamaha DX7 was a DSP engine that enabled sounds impossible to produce with analog circuits easily -- bell tones, metallic textures, etc.  People have tried to make "analog FM synthesis" many times, which is an interesting and perhaps worthy pursuit, but extremely difficult and expensive -- requiring thermal perfection and pitch tracking perfection to get close to the same sound.</p>
+<p>Now swap things around -- instead of "FM operator synthesis," with Chromagnon we have "complex graphics/shape synthesis."  The bell tone is analogous to shapes with complex curves like circles and spirals.  Not impossible to do in analog, but the engineering requirements to produce things like "my rotation is not wobbly" or "my diamond doesn't have rounded edges" are extremely difficult to pull off -- the same way analog FM operators would be.  You can think of it like I've been trying to make an analog FM synth with Chromagnon.  Not the greatest idea, unless I had an unlimited budget and the device can cost $4000+ (which in this case, is not possible.)  I tried to implement with discrete analog, which made it all even harder.  With FPGA I am moving to a more natural fit -- making the core synthesis engine DSP-based fits the design much better.  It will be capable of a lot more range than the analog multipliers would have allowed, and produce those complex shapes in a way that highlights the instrument design itself.</p>
+<hr>
+<p>If you missed yesterday's post covering the full production plan and schedule, <a class="" href="https://docs.lzxindustries.net/blog/chromagnon-building-it-right">start there</a>.  See you in April with board designs to show.</p>
+<p>Lars</p>]]></content:encoded>
+            <category>Chromagnon</category>
+            <category>engineering</category>
+        </item>
         <item>
             <title><![CDATA[Chromagnon: Building It Right]]></title>
             <link>https://docs.lzxindustries.net/blog/chromagnon-building-it-right</link>
@@ -363,20 +389,6 @@ Lars</p>
 <p>Hopefully you can make it to <a href="https://videosync.xyz/portland2025" target="_blank" rel="noopener noreferrer" class="">Video Sync in Portland, OR on Aug 15th-17th</a>?  I will be giving a talk on my journey to developing the set of analog operators for video synthesis used in P-Series.</p>
 <p>Love and light,
 Lars</p>]]></content:encoded>
-            <category>Chromagnon</category>
-        </item>
-        <item>
-            <title><![CDATA[Pricing Revisions]]></title>
-            <link>https://docs.lzxindustries.net/blog/pricing-revisions</link>
-            <guid>https://docs.lzxindustries.net/blog/pricing-revisions</guid>
-            <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[A quick update as we wrap up May. Pricing revisions for all modules and modular systems go into effect tomorrow, June 1st.]]></description>
-            <content:encoded><![CDATA[<p>A quick update as we wrap up May. Pricing revisions for all modules and modular systems go into effect tomorrow, June 1st.</p>
-<p>Sheet metal parts for Chromagnon and its companion project are looking great! We're revising and preparing initial production orders.
-<img decoding="async" loading="lazy" src="https://docs.lzxindustries.net/assets/images/sheet_metal_prototypes-4f07f10a310114ee30562f659381ba1a.jpg" width="3358" height="2618" class="img_ev3q"></p>
-<p>The current focus is on software/hardware testing and revisions to the PCB assemblies.  We've been stuck here for a while, on Chromagnon, but are now making strides.  The outcome of this phase will be ordering the revised Chromagnon Core PCB, and the focus right now is on eliminating any variables that might compromise this next version's viability for immediate production.  That comes in the form of writing software driver tests for new parts we are using, further testing of the subassemblies we've developed, optimizing parts selections for cost and supply chain variance, PCB layout revisions, and so forth.</p>
-<p>At some point tomorrow I'll update the webstore pricing -- if you place an order before then, the price you paid at checkout will be honored.</p>
-<p>Thank you all so much for your orders placed over the past two weeks, and the kind words of support as well.</p>]]></content:encoded>
             <category>Chromagnon</category>
         </item>
     </channel>
