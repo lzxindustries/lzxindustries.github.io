@@ -15,7 +15,7 @@
 
 <link rel="preload" href="static/font/ReliefSingleLineOutline-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.19b370a0.css">
-<script src="/assets/js/runtime~main.fbbf65bc.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.ac072a84.js" defer="defer"></script>
 <script src="/assets/js/main.e8d7a0f8.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -469,7 +469,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="usb-midi">USB MIDI<a href="#usb-midi" class="hash-link" aria-label="Direct link to USB MIDI" title="Direct link to USB MIDI" translate="no">​</a></h2>
 <p>Videomancer supports MIDI input and output over two USB connections and one TRS connection. MIDI messages control modulation parameters, recall presets, synchronize tempo, and trigger one-shot events. All three MIDI ports share the same message handling — any CC, note, clock, or program change message is processed identically regardless of which port it arrives on.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usb-midi-host-controller-input">USB MIDI Host (Controller Input)<a href="#usb-midi-host-controller-input" class="hash-link" aria-label="Direct link to USB MIDI Host (Controller Input)" title="Direct link to USB MIDI Host (Controller Input)" translate="no">​</a></h3>
-<p>The rear-panel <strong>USB Host</strong> port (Type A connector) accepts USB MIDI controllers — keyboards, knob boxes, pad controllers, and any other class-compliant USB MIDI device. Videomancer acts as the USB host, providing power and recognizing the connected device automatically.</p>
+<p>The rear-panel <strong>USB Host</strong> port (USB-C connector) accepts USB MIDI controllers — keyboards, knob boxes, pad controllers, and any other class-compliant USB MIDI device. Videomancer acts as the USB host, providing power and recognizing the connected device automatically.</p>
 <p><strong>How to use it</strong>:</p>
 <ol>
 <li class="">Plug a USB MIDI controller into the USB Host port on the rear panel.</li>
@@ -479,10 +479,10 @@
 <p>Any class-compliant USB MIDI device works. Common examples include Novation Launch Control, Korg nanoKONTROL, Arturia MiniLab, Akai MPK Mini, and generic USB MIDI keyboards. Devices that require vendor-specific drivers (non-class-compliant) are not supported.</p>
 <p>The USB Host port can also accept USB HID devices (mice, keyboards, gamepads) — see <a href="#usb-hid-devices" class="">USB HID Devices</a>. If a device provides both MIDI and HID interfaces (uncommon), both are active simultaneously. A USB hub can be used to connect multiple devices to the single host port.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usb-midi-device-computer-connection">USB MIDI Device (Computer Connection)<a href="#usb-midi-device-computer-connection" class="hash-link" aria-label="Direct link to USB MIDI Device (Computer Connection)" title="Direct link to USB MIDI Device (Computer Connection)" translate="no">​</a></h3>
-<p>The front-panel <strong>USB Device</strong> port (Micro-B connector, also used for firmware updates) allows a computer to send MIDI to Videomancer. When connected to a computer via USB, Videomancer appears as a class-compliant USB MIDI device — no driver installation is needed on macOS, Windows, or Linux. The device name appears in your DAW or MIDI software&#x27;s device list.</p>
+<p>The front-panel <strong>USB Device</strong> port (USB-C connector, also used for firmware updates) allows a computer to send MIDI to Videomancer. When connected to a computer via USB, Videomancer appears as a class-compliant USB MIDI device — no driver installation is needed on macOS, Windows, or Linux. The device name appears in your DAW or MIDI software&#x27;s device list.</p>
 <p><strong>How to use it</strong>:</p>
 <ol>
-<li class="">Connect Videomancer to your computer with a USB cable (Micro-B to USB-A or USB-C).</li>
+<li class="">Connect Videomancer to your computer with a USB-C cable.</li>
 <li class="">Videomancer appears as a MIDI device in your DAW, Max/MSP, TouchDesigner, or other MIDI software.</li>
 <li class="">Send MIDI CC, notes, clock, or program change messages from the software.</li>
 </ol>
@@ -584,7 +584,7 @@
 <p>The channel filter is set in the Settings menu and persists across power cycles.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="trs-midi">TRS MIDI<a href="#trs-midi" class="hash-link" aria-label="Direct link to TRS MIDI" title="Direct link to TRS MIDI" translate="no">​</a></h2>
-<p>Videomancer&#x27;s rear panel has a TRS MIDI input jack and a TRS MIDI output jack, providing standard 5-pin-DIN-equivalent MIDI connectivity using 3.5mm TRS cables.</p>
+<p>Videomancer&#x27;s rear panel has a TRS MIDI input jack and a TRS MIDI output jack, using 3.5mm TRS cables with <strong>Type A</strong> pinout (MIDI Manufacturers Association standard).</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="connection">Connection<a href="#connection" class="hash-link" aria-label="Direct link to Connection" title="Direct link to Connection" translate="no">​</a></h3>
 <p>The TRS jacks follow the <strong>TRS-A</strong> (MIDI Manufacturers Association standard) wiring convention. To connect a device with a traditional 5-pin DIN MIDI connector, use a TRS-A to DIN adapter cable. TRS-B adapters (used by some Korg and Arturia products) will not work without a TRS-A-to-B converter.</p>
 <p><strong>Input</strong>: Connect a MIDI controller, sequencer, or DAW interface to the TRS MIDI In jack. All standard MIDI messages are supported.</p>
@@ -601,7 +601,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="supported-device-types">Supported Device Types<a href="#supported-device-types" class="hash-link" aria-label="Direct link to Supported Device Types" title="Direct link to Supported Device Types" translate="no">​</a></h3>
 <table><thead><tr><th>Device Type</th><th>Input Style</th><th>Typical Use</th></tr></thead><tbody><tr><td><strong>Mouse</strong></td><td>Accumulated relative position</td><td>Sweep parameters by dragging</td></tr><tr><td><strong>Keyboard</strong></td><td>Gate (any key pressed)</td><td>Trigger envelopes and gates</td></tr><tr><td><strong>Gamepad</strong></td><td>Analog sticks, triggers, buttons</td><td>Two-axis control, spring-return</td></tr><tr><td><strong>Drawing Tablet</strong></td><td>Absolute position, pressure</td><td>Pressure-expressive gestural control</td></tr><tr><td><strong>Joystick</strong></td><td>Up to 6 axes, hat switch, buttons</td><td>Multi-axis flight stick, HOTAS, throttle</td></tr><tr><td><strong>Sensor</strong></td><td>Accelerometer, gyroscope</td><td>Motion-controlled tilt/shake modulation</td></tr></tbody></table>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="connecting-devices">Connecting Devices<a href="#connecting-devices" class="hash-link" aria-label="Direct link to Connecting Devices" title="Direct link to Connecting Devices" translate="no">​</a></h3>
-<p>Plug the USB device into the USB Host port (Type A, rear panel). The device is recognized automatically within a few seconds. Up to <strong>four HID devices</strong> can be connected simultaneously using a USB hub — for example, a mouse and a gamepad, or a keyboard and a drawing tablet.</p>
+<p>Plug the USB device into the USB Host port (USB-C, rear panel). The device is recognized automatically within a few seconds. Up to <strong>four HID devices</strong> can be connected simultaneously using a USB hub — for example, a mouse and a gamepad, or a keyboard and a drawing tablet.</p>
 <p>When a device is connected, the LCD briefly indicates the connection. If the current modulator is set to a matching HID operator (Mouse, Keyboard, Gamepad, Tablet, Joystick, or Sensor), input begins immediately.</p>
 <p>HID state is persistent — the accumulated mouse position, keyboard gate, gamepad axes, and tablet coordinates are maintained even when you switch the modulator to a different operator and back. Disconnecting a device freezes the last known state. Reconnecting does not reset values — the previous state persists until the next power cycle.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mouse">Mouse<a href="#mouse" class="hash-link" aria-label="Direct link to Mouse" title="Direct link to Mouse" translate="no">​</a></h3>
@@ -714,7 +714,7 @@
 <li class=""><strong>MIDI Learn is your CC shortcut</strong>. Do not memorize CC numbers — long-press any modulator button, wiggle a knob on your controller, and the mapping is done. The assignment persists across power cycles and is stored per-preset.</li>
 <li class=""><strong>14-bit CC for smooth sweeps</strong>. If your MIDI controller supports high-resolution CC (MSB + LSB pairs), Videomancer uses both values for full precision. This eliminates the stepping visible with standard-resolution CC on slowly moving parameters.</li>
 <li class=""><strong>USB hub for multi-device setups</strong>. A single USB hub on the host port supports up to four HID devices simultaneously — combine a MIDI controller and a gamepad, or a keyboard and a drawing tablet, for layered input sources.</li>
-<li class=""><strong>TRS MIDI for hardware rigs</strong>. Use TRS MIDI for connecting to Eurorack MIDI-to-CV modules, drum machines, and hardware sequencers. The TRS-A standard is used — check your adapter if connecting to devices with 5-pin DIN.</li>
+<li class=""><strong>TRS MIDI for hardware rigs</strong>. Use TRS MIDI for connecting to Eurorack MIDI-to-CV modules, drum machines, and hardware sequencers. The Type A pinout is used — check your adapter if connecting to devices with 5-pin DIN.</li>
 <li class=""><strong>FFT bands for frequency isolation</strong>. Assign different FFT bands to different modulators for multi-band audio reactivity — bass drives one parameter, treble drives another. Use slow Slew for smooth energy tracking or fast Slew for rhythmic transient response.</li>
 <li class=""><strong>Channel filter for multi-device MIDI</strong>. When multiple MIDI devices are connected, set the channel filter to isolate one device&#x27;s channel. Set it to Omni when using a single controller.</li>
 <li class=""><strong>CV gain for quiet signals</strong>. If your CV source does not fill the full voltage range, turn up the Space knob to amplify — the gain reaches 4× at maximum. The output is clamped, so overdriving is safe — it just clips at maximum.</li>
