@@ -2,12 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.lzxindustries.net/blog</id>
     <title>LZX Technical Manual Blog</title>
-    <updated>2026-03-17T00:00:00.000Z</updated>
+    <updated>2026-03-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.lzxindustries.net/blog"/>
     <subtitle>LZX Technical Manual Blog</subtitle>
     <icon>https://docs.lzxindustries.net/img/favicon.ico</icon>
     <rights>© 2026 LZX</rights>
+    <entry>
+        <title type="html"><![CDATA[TBC2 Firmware 1.0.7]]></title>
+        <id>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7</id>
+        <link href="https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TBC2 firmware version 1.0.7 is now available for download.]]></summary>
+        <content type="html"><![CDATA[<p>TBC2 firmware version 1.0.7 is now available for download.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class="">Fixed GUI slider behavior for Mk1 compatibility</li>
+<li class="">Fixed GUI labeling error in ramp generator</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download">Download<a href="https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7#download" class="hash-link" aria-label="Direct link to Download" title="Direct link to Download" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://docs.lzxindustries.net/assets/files/tbc2_1.0.7-830104240d6ae2ff031dd267935cc9c7.zip" target="_blank" class="">TBC2 Firmware 1.0.7</a></li>
+</ul>
+<p>See the <a class="" href="https://docs.lzxindustries.net/docs/modules/tbc2">TBC2 documentation</a> for firmware update instructions.</p>]]></content>
+        <author>
+            <name>Lars Larsen</name>
+            <uri>https://github.com/creatorlars</uri>
+        </author>
+        <category label="Gen3" term="Gen3"/>
+        <category label="Software" term="Software"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TBC2 Firmware 1.0.6]]></title>
         <id>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.6</id>
@@ -385,36 +410,5 @@ Lars</p>
             <uri>https://github.com/KatMarz13</uri>
         </author>
         <category label="Community" term="Community"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Year End Update]]></title>
-        <id>https://docs.lzxindustries.net/blog/year-end-update</id>
-        <link href="https://docs.lzxindustries.net/blog/year-end-update"/>
-        <updated>2025-12-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Back in August, we laid out our plans for finishing 2025 and getting into 2026. Here's how it all turned out.]]></summary>
-        <content type="html"><![CDATA[<p>Back in August, we laid out our plans for finishing 2025 and getting into 2026. Here's how it all turned out.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="videomancer">Videomancer<a href="https://docs.lzxindustries.net/blog/year-end-update#videomancer" class="hash-link" aria-label="Direct link to Videomancer" title="Direct link to Videomancer" translate="no">​</a></h2>
-<p>Videomancer is shipping now. Batches 1 and 2 (160 units total) have shipped, and Batch 3 (the final 80 units) is shipping over the next two weeks. Orders are currently closed but will reopen in January 2026 with new stock ready to ship.</p>
-<p>Production and shipping have gone very well. We've partnered with a new contract assembly house that will help us keep up with demand going forward.</p>
-<p>Firmware is in beta, with a major release planned for January that fixes bugs and adds new features and programs.</p>
-<p><img decoding="async" loading="lazy" alt="Behind the scenes: Videomancer production" src="https://docs.lzxindustries.net/assets/images/videomancer-pcbs-09c8f661e404529850b64f1765db76b8.jpg" width="3360" height="2620" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="Components ready for assembly" src="https://docs.lzxindustries.net/assets/images/videomancer-components-f2a2cb607218d9fdaa1e991d30be1dfc.jpg" width="3401" height="2645" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="Stickers and dice included with each unit" src="https://docs.lzxindustries.net/assets/images/videomancer-stickers-19b8a1358e70573974e96bbbb01a39e1.jpg" width="3024" height="4032" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="Testing and validation setup" src="https://docs.lzxindustries.net/assets/images/videomancer-testing-5c4702b5956df0c76808f6678dda6867.jpg" width="3420" height="2657" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="chromagnon">Chromagnon<a href="https://docs.lzxindustries.net/blog/year-end-update#chromagnon" class="hash-link" aria-label="Direct link to Chromagnon" title="Direct link to Chromagnon" translate="no">​</a></h2>
-<p>Chromagnon progress stretched longer than expected in 2025, mainly because Videomancer's success kept me focused on production and shipping through October and November. Currently I'm wrapping up the next Videomancer firmware release, then transitioning to Chromagnon hardware revisions in January.</p>
-<p>A realistic timeline for Chromagnon production is toward the end of Q1 2026. The good news: Videomancer's success means we have no barriers to completing Chromagnon and moving into production. We'll integrate Chromagnon assembly orders with our third-party contractor, using the same large-batch approach that worked well for Videomancer - batches of 80-120 units.</p>
-<p>If you'd like to preview Chromagnon's functionality, check out the <a class="" href="https://docs.lzxindustries.net/blog/chromagnon-simulator-downloads">Chromagnon Simulator downloads</a> we released earlier this month.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="looking-back-looking-forward">Looking Back, Looking Forward<a href="https://docs.lzxindustries.net/blog/year-end-update#looking-back-looking-forward" class="hash-link" aria-label="Direct link to Looking Back, Looking Forward" title="Direct link to Looking Back, Looking Forward" translate="no">​</a></h2>
-<p>2025 started with a strong sprint on Chromagnon's analog design. Then tariffs and rising component costs threw a monkey wrench in our plans. Shelving exciting analog work to address the production crisis was disappointing, but necessary.</p>
-<p>Videomancer turned out to be a fascinating project - hot-swappable FPGA firmware, lean and affordable FPGA video processing architecture, and our first open source releases with the <a href="https://github.com/lzxindustries/videomancer-sdk" target="_blank" rel="noopener noreferrer" class="">Videomancer SDK</a>.</p>
-<p>2026 will be even more exciting. I plan to spend most of the year on Chromagnon and iterating Videomancer's codebase and programs. We may start work on Memory Palace 2 before year's end, and I'd like to squeeze in some new analog module designs that have been brewing.</p>
-<p>Thanks for sticking with us through all the twists and turns. See you in 2026.</p>]]></content>
-        <author>
-            <name>Lars Larsen</name>
-            <uri>https://github.com/creatorlars</uri>
-        </author>
-        <category label="Chromagnon" term="Chromagnon"/>
-        <category label="Videomancer" term="Videomancer"/>
     </entry>
 </feed>
