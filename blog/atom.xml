@@ -9,6 +9,19 @@
     <icon>https://docs.lzxindustries.net/img/favicon.ico</icon>
     <rights>© 2026 LZX</rights>
     <entry>
+        <title type="html"><![CDATA[Videomancer Update Pushed to 3/20]]></title>
+        <id>https://docs.lzxindustries.net/blog/videomancer-update-delay</id>
+        <link href="https://docs.lzxindustries.net/blog/videomancer-update-delay"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></summary>
+        <content type="html"><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content>
+        <author>
+            <name>Lars Larsen</name>
+            <uri>https://github.com/creatorlars</uri>
+        </author>
+        <category label="Videomancer" term="Videomancer"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[TBC2 Firmware 1.0.7]]></title>
         <id>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7</id>
         <link href="https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7"/>
@@ -34,17 +47,31 @@
         <category label="Software" term="Software"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Videomancer Update Pushed to 3/20]]></title>
-        <id>https://docs.lzxindustries.net/blog/videomancer-update-delay</id>
-        <link href="https://docs.lzxindustries.net/blog/videomancer-update-delay"/>
-        <updated>2026-03-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></summary>
-        <content type="html"><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content>
+        <title type="html"><![CDATA[Artist Feature: Devin Greenwood]]></title>
+        <id>https://docs.lzxindustries.net/blog/artist-feature-devin-greenwood</id>
+        <link href="https://docs.lzxindustries.net/blog/artist-feature-devin-greenwood"/>
+        <updated>2026-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Devin Greenwood is a New York-based composer and audio-visual artist whose work explores the intersection of wave phenomena and collective behavior. He began his journey after discovering his love of scan-processing, using an oscilloscope he had purchased on Craigslist for his recording studio. "Then years later, right before the pandemic, I happened to walk into a Nam June Paik show at the Tate Modern in London and somehow I knew, in that moment, that my future was tied to video art."]]></summary>
+        <content type="html"><![CDATA[<p>Devin Greenwood is a New York-based composer and audio-visual artist whose work explores the intersection of wave phenomena and collective behavior. He began his journey after discovering his love of scan-processing, using an oscilloscope he had purchased on Craigslist for his recording studio. "Then years later, right before the pandemic, I happened to walk into a Nam June Paik show at the Tate Modern in London and somehow I knew, in that moment, that my future was tied to video art."</p>
+<p><img decoding="async" loading="lazy" alt="Devin Greenwood" src="https://docs.lzxindustries.net/assets/images/devin_greenwood_01-da4f1da4027126509c96c46cf90f579c.png" width="4096" height="2161" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Devin Greenwood" src="https://docs.lzxindustries.net/assets/images/devin_greenwood_02-09ec6dd013b093ce8fbabd182a66dafe.png" width="4096" height="2160" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="background">Background<a href="https://docs.lzxindustries.net/blog/artist-feature-devin-greenwood#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background" translate="no">​</a></h2>
+<p>During this time he coincidentally met Benton C Bainbridge, who complimented his work and encouraged him to visit his studio in the Bronx, where he began to learn about the world of vector synthesis. Over the next few years he would invest in a larger setup, easily fusing the world of music production — one he was already very familiar with — and the world of visuals. He valued putting his best foot forward at every step of his process. "It turned out that I could reliably make very personal artworks that I really loved, and it honestly transformed me as a person."</p>
+<p><img decoding="async" loading="lazy" alt="Devin Greenwood" src="https://docs.lzxindustries.net/assets/images/devin_greenwood_03-ae1a1559f919da4356055eaae3ee0519.png" width="1920" height="1080" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Devin Greenwood" src="https://docs.lzxindustries.net/assets/images/devin_greenwood_04-7a3f0a5b2c29751409073c3f50bc2e0e.png" width="4096" height="2160" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="process">Process<a href="https://docs.lzxindustries.net/blog/artist-feature-devin-greenwood#process" class="hash-link" aria-label="Direct link to Process" title="Direct link to Process" translate="no">​</a></h2>
+<p>Devin views his process as very intentional layers that cascade upon each other — layers of music, editing, performance, and visuals. "I try to make each layer of the process joyful. Each step is an event! A party. And then when all the steps are combined, something useful has been created that didn't exist, and that makes me happy."</p>
+<p><img decoding="async" loading="lazy" alt="Devin Greenwood" src="https://docs.lzxindustries.net/assets/images/devin_greenwood_05-9ea1702382da5add6ecf15ae0c7c7cd5.png" width="4096" height="2160" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-work">Current Work<a href="https://docs.lzxindustries.net/blog/artist-feature-devin-greenwood#current-work" class="hash-link" aria-label="Direct link to Current Work" title="Direct link to Current Work" translate="no">​</a></h2>
+<p>Devin is currently working on musical productions with accompanying films, such as his work composing <em>Polycule: For Six Singers</em> via a video score of color as the backdrop for their performance. He is also working on a piece inspired by his father, who passed away in 2023, set to old Super 8 footage his father had shot of him as a baby.</p>
+<p>Devin is looking forward to further exploring the world of scanline manipulation, a world with a lot of unexplored territory for him.</p>
+<p>"The flicker of the oscilloscopic image contains something of the fascination-with-fire that feels ancestral and ancient to me. It's like the knowledge of fire gave our ancestors the ability to feel protected and warm and nourished in a way that changed their relationship to their surroundings. It made new curiosities and desires possible. Marshall McLuhan called all technology 'extensions' of the human body, and fire was the first 'extension' that harnessed the power of the universe itself."</p>
+<p><img decoding="async" loading="lazy" alt="Devin Greenwood" src="https://docs.lzxindustries.net/assets/images/devin_greenwood_06-93d05602a4e2c1e7927e0d5ab9115127.png" width="4096" height="2160" class="img_ev3q"></p>]]></content>
         <author>
-            <name>Lars Larsen</name>
-            <uri>https://github.com/creatorlars</uri>
+            <name>Kat Larsen</name>
+            <uri>https://github.com/KatMarz13</uri>
         </author>
-        <category label="Videomancer" term="Videomancer"/>
+        <category label="Community" term="Community"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[TBC2 Firmware 1.0.6]]></title>
@@ -352,32 +379,6 @@ Lars</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-work">Current Work<a href="https://docs.lzxindustries.net/blog/artist-feature-evan-henry#current-work" class="hash-link" aria-label="Direct link to Current Work" title="Direct link to Current Work" translate="no">​</a></h2>
 <p>Henry is currently working on visuals for EBM artist Kontravoid's upcoming European tour, reworking and editing some of his previous work into new and interesting visuals that match the musical elements of the show. "It's always nice to see old pieces mix with new ones for something totally unique and of itself. Much like when I play live for bands and various other projects." Evan is looking forward to working on his next record in collaboration with Kris Baha, upcoming local events, and live performances.</p>
 <p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_04-7fe06315380651f293e9ac050936873f.jpg" width="800" height="600" class="img_ev3q"></p>]]></content>
-        <author>
-            <name>Kat Larsen</name>
-            <uri>https://github.com/KatMarz13</uri>
-        </author>
-        <category label="Community" term="Community"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Artist Feature: Lauren Klotzman]]></title>
-        <id>https://docs.lzxindustries.net/blog/artist-feature-lauren-klotzman</id>
-        <link href="https://docs.lzxindustries.net/blog/artist-feature-lauren-klotzman"/>
-        <updated>2026-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lauren Klotzman is a multi-medium conceptualist who conducts an anti-disciplinary philosophy in their creative process. "Klotzman is an instrumentalist, operating an analog modular video synthesizer to create 'video paintings' via electricity." Klotzman views time and energy as one, composing life and therefore the art that flows through it.]]></summary>
-        <content type="html"><![CDATA[<p>Lauren Klotzman is a multi-medium conceptualist who conducts an anti-disciplinary philosophy in their creative process. "Klotzman is an instrumentalist, operating an analog modular video synthesizer to create 'video paintings' via electricity." Klotzman views time and energy as one, composing life and therefore the art that flows through it.</p>
-<p><img decoding="async" loading="lazy" alt="Lauren Klotzman" src="https://docs.lzxindustries.net/assets/images/klotzman_01-9f96c474e6327812d32f05308086d07f.jpg" width="2256" height="1290" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="Lauren Klotzman" src="https://docs.lzxindustries.net/assets/images/klotzman_02-68d13fd2229c647a800e0cdfcb1107e6.jpg" width="3000" height="1942" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="background">Background<a href="https://docs.lzxindustries.net/blog/artist-feature-lauren-klotzman#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background" translate="no">​</a></h2>
-<p>Based in Texas, Klotzman grew up wanting to pursue animation. However, rather than the fluidity and non-linear nature of cartooning, they found themself more interested in complex shapes and angular designs. "My drawings were pretty firmly rooted in geometric abstraction," they'd admit. After being told by a professor that the art they wished to create was outside the scope of traditional animation courses, Lauren acknowledged that animation wasn't the avenue that accurately matched their creative vision.</p>
-<p><img decoding="async" loading="lazy" alt="Lauren Klotzman" src="https://docs.lzxindustries.net/assets/images/klotzman_03-82a3ba9154a30008a5a2b3eb6faec9d5.jpg" width="2250" height="1240" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="Lauren Klotzman" src="https://docs.lzxindustries.net/assets/images/klotzman_04-922b730212377a084a49f5c4aafabb9e.jpg" width="2221" height="1290" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="process">Process<a href="https://docs.lzxindustries.net/blog/artist-feature-lauren-klotzman#process" class="hash-link" aria-label="Direct link to Process" title="Direct link to Process" translate="no">​</a></h2>
-<p>Rather than describing it as a "creative process," Klotzman views the creation of their process as an intuitive conception of many energy forms given visual form. "That can be as literal as the electricity which courses through the system or as woo-woo as energies which are more easily described as being within the realm of the spiritual." Lauren doesn't go into creating a patch with a suspected outcome; they let art flow naturally. "Sometimes, I am not even looking at a video monitor while I am patching: it's more of a contemplative practice or a meditation than anything else," they admit. Simply put, they let the cables land where they want to and the patch becomes organically unique.</p>
-<p><img decoding="async" loading="lazy" alt="Lauren Klotzman" src="https://docs.lzxindustries.net/assets/images/klotzman_05-938c5752a21366f9024a429d02291cd2.jpg" width="2285" height="1290" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="Lauren Klotzman" src="https://docs.lzxindustries.net/assets/images/klotzman_06-ff4a18b2e10f75445e7e726984c9a33d.jpg" width="2229" height="1290" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-work">Current Work<a href="https://docs.lzxindustries.net/blog/artist-feature-lauren-klotzman#current-work" class="hash-link" aria-label="Direct link to Current Work" title="Direct link to Current Work" translate="no">​</a></h2>
-<p>Klotzman is currently working on setting up a new studio space, which has halted the synthesis part of their creative toolshed for the time being. "I've taken time to work in older ways that have less to do with synthesis, but I am very excited to eventually finalize a new setup which will be conducive to creating works which are even longer and more complicated than what I have previously created," they're excited to mention. Lauren is looking forward to creating with both their older and newer tools, upcoming shows, and potential collaborations.</p>
-<p><img decoding="async" loading="lazy" alt="Lauren Klotzman" src="https://docs.lzxindustries.net/assets/images/klotzman_07-cf4f35bb1095366b3c802e52f4aa59d8.jpg" width="2648" height="3514" class="img_ev3q"></p>]]></content>
         <author>
             <name>Kat Larsen</name>
             <uri>https://github.com/KatMarz13</uri>
