@@ -4,11 +4,42 @@
         <title>LZX Technical Manual Blog</title>
         <link>https://docs.lzxindustries.net/blog</link>
         <description>LZX Technical Manual Blog</description>
-        <lastBuildDate>Thu, 19 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2026 LZX</copyright>
+        <item>
+            <title><![CDATA[Videomancer Firmware 1.0.0-rc.4]]></title>
+            <link>https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4</link>
+            <guid>https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4</guid>
+            <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is the latest release candidate of the Videomancer firmware.]]></description>
+            <content:encoded><![CDATA[<p>It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is the latest release candidate of the Videomancer firmware.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's New<a href="https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>25 embedded programs</strong> — Bitcullis, Colorbars, Corollas, Delirium, Elastica, Faultplane, Fauxtress, Glorious, Howler, Isotherm, Kintsugi, Lumarian, Moire, Mycelium, Passthru, Perlin, Pinwheel, Pong, Sabattier, Scramble, Shadebob, STIC, Stipple, YUV Amplifier, and YUV Phaser. Each ships with 3 factory presets.</li>
+<li class=""><strong>Developer Mode for in-progress programs</strong> — some programs are still work in progress and are hidden by default. Enable <strong>Developer Mode</strong> to view and test those draft programs.</li>
+<li class=""><strong>New modulation sources</strong> — mouse, keyboard, gamepad, tablet, triggered envelope, step sequencer, and FFT band modes.</li>
+<li class=""><strong>MIDI output</strong> — CC output mode for controlling external gear from Videomancer parameters.</li>
+<li class=""><strong>Performance and stability</strong> — eliminated UI lag, fixed pot response, and resolved crashes during FPGA configuration and program switching.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download">Download<a href="https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#download" class="hash-link" aria-label="Direct link to Download" title="Direct link to Download" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://docs.lzxindustries.net/assets/files/videomancer_1.0.0-rc.4-6f5f75529529870627bd07a35e733675.uf2" target="_blank" class="">videomancer_1.0.0-rc.4.uf2</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h2>
+<p>Power off your Videomancer. Hold the <strong>BOOT</strong> button while connecting USB-C to your computer. The device will appear as a USB drive. Drag and drop the <code>.uf2</code> file onto the drive. The device will reboot automatically when the transfer completes.</p>
+<p>See the <a class="" href="https://docs.lzxindustries.net/docs/instruments/videomancer">Videomancer documentation</a> for full details.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="documentation">Documentation<a href="https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation" translate="no">​</a></h2>
+<p>Updated program guides and modulation operator documentation are available:</p>
+<ul>
+<li class=""><a class="" href="https://docs.lzxindustries.net/docs/category/programs">Program Guides</a></li>
+<li class=""><a class="" href="https://docs.lzxindustries.net/docs/instruments/videomancer/modulation-operators">Modulation Operators</a></li>
+</ul>]]></content:encoded>
+            <category>Videomancer</category>
+            <category>Software</category>
+        </item>
         <item>
             <title><![CDATA[Videomancer Update Pushed to 3/20]]></title>
             <link>https://docs.lzxindustries.net/blog/videomancer-update-delay</link>
@@ -327,23 +358,6 @@ Lars</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-work">Current Work<a href="https://docs.lzxindustries.net/blog/artist-feature-majxr-tom#current-work" class="hash-link" aria-label="Direct link to Current Work" title="Direct link to Current Work" translate="no">​</a></h2>
 <p>Although he only started sharing his work publicly this year, he is currently working on short form pieces to eventually create an impressive body of work that showcases his art to a potential likeminded audience of fellow creatives. His current goal is to release one piece of work per day this year, showing his commitment to his long-term goals as an artist. Majxr Tom is looking forward to producing new musical pieces into fully fledged ideas and projects, and looks forward to incorporating Chromagnon into his future creations.</p>
 <p><img decoding="async" loading="lazy" alt="Majxr Tom" src="https://docs.lzxindustries.net/assets/images/majxr_tom_06-c46214d2d43b03b1edacd0bf2174a9e7.jpg" width="2120" height="1279" class="img_ev3q"></p>]]></content:encoded>
-            <category>Community</category>
-        </item>
-        <item>
-            <title><![CDATA[Artist Feature: Evan Henry]]></title>
-            <link>https://docs.lzxindustries.net/blog/artist-feature-evan-henry</link>
-            <guid>https://docs.lzxindustries.net/blog/artist-feature-evan-henry</guid>
-            <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Evan Henry (@Cinema.AV) is both an audio and visual artist who often works with live bands and audio synth creators to make collaborative live shows and performances. He started his journey at Dallas Ambient Music Nights, occasionally performing "some video tape I found at a thrift store, like a National Geographic or Mind's Eye sorta thing." When Brian Tomerlin — his now longtime friend — brought his 5–6ft high CRT setup to a show and performed using various video devices, "I just sat there, most of the night, like I'd often do as a child, just glued to those televisions." Afterward he was hooked, finding any way he could learn, and eventually acquiring his own setup to bring to shows.]]></description>
-            <content:encoded><![CDATA[<p>Evan Henry (<a href="https://www.instagram.com/cinema.av" target="_blank" rel="noopener noreferrer" class="">@Cinema.AV</a>) is both an audio and visual artist who often works with live bands and audio synth creators to make collaborative live shows and performances. He started his journey at Dallas Ambient Music Nights, occasionally performing "some video tape I found at a thrift store, like a National Geographic or Mind's Eye sorta thing." When Brian Tomerlin — his now longtime friend — brought his 5–6ft high CRT setup to a show and performed using various video devices, "I just sat there, most of the night, like I'd often do as a child, just glued to those televisions." Afterward he was hooked, finding any way he could learn, and eventually acquiring his own setup to bring to shows.</p>
-<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_01-254da29f59b4759608af44d462083332.jpg" width="4032" height="3024" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_02-cbfec3cd0871757fe939f46d86fcc7cc.jpg" width="1484" height="1059" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="process">Process<a href="https://docs.lzxindustries.net/blog/artist-feature-evan-henry#process" class="hash-link" aria-label="Direct link to Process" title="Direct link to Process" translate="no">​</a></h2>
-<p>"The setup grew and evolved into a full blown LZX system, talking multiple cases, and then I became known as one of those guys who does 'modular visuals', which apparently is quite a spectacle worth booking." Because of this, he soon began touring and collaborating with various artists. Although his style has evolved, he starts his process by patching on a video system, getting it on a capture card, and following it up with additional patching through Resolume and various tweaking and editing. "I just goof around for a while, capture, maybe post a few snippets online over the course of a couple weeks, and see what sticks."</p>
-<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_03-81f580f360cc431c48b5cc4115beec41.jpg" width="3852" height="2594" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-work">Current Work<a href="https://docs.lzxindustries.net/blog/artist-feature-evan-henry#current-work" class="hash-link" aria-label="Direct link to Current Work" title="Direct link to Current Work" translate="no">​</a></h2>
-<p>Henry is currently working on visuals for EBM artist Kontravoid's upcoming European tour, reworking and editing some of his previous work into new and interesting visuals that match the musical elements of the show. "It's always nice to see old pieces mix with new ones for something totally unique and of itself. Much like when I play live for bands and various other projects." Evan is looking forward to working on his next record in collaboration with Kris Baha, upcoming local events, and live performances.</p>
-<p><img decoding="async" loading="lazy" alt="Evan Henry" src="https://docs.lzxindustries.net/assets/images/evan_henry_04-7fe06315380651f293e9ac050936873f.jpg" width="800" height="600" class="img_ev3q"></p>]]></content:encoded>
             <category>Community</category>
         </item>
     </channel>
