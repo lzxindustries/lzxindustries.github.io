@@ -14,8 +14,10 @@
             <link>https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4</link>
             <guid>https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4</guid>
             <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is the latest release candidate of the Videomancer firmware.]]></description>
-            <content:encoded><![CDATA[<p>It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is the latest release candidate of the Videomancer firmware.</p>
+            <description><![CDATA[It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is a pre-release build of the Videomancer firmware.]]></description>
+            <content:encoded><![CDATA[<p>It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is a pre-release build of the Videomancer firmware.</p>
+<p>We're ready to receive issue reports and feature requests as you put this version through real-world use. Please send feedback to <strong><a href="mailto:support@lzxindustries.net" target="_blank" rel="noopener noreferrer" class="">support@lzxindustries.net</a></strong> or post in the new <strong>#issue-reports</strong> channel on our Discord server.</p>
+<p>For the time being, we intend to continue releasing new Videomancer firmware versions on a weekly schedule.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's New<a href="https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>25 embedded programs</strong> — Bitcullis, Colorbars, Corollas, Delirium, Elastica, Faultplane, Fauxtress, Glorious, Howler, Isotherm, Kintsugi, Lumarian, Moire, Mycelium, Passthru, Perlin, Pinwheel, Pong, Sabattier, Scramble, Shadebob, STIC, Stipple, YUV Amplifier, and YUV Phaser. Each ships with 3 factory presets.</li>
@@ -41,15 +43,6 @@
             <category>Software</category>
         </item>
         <item>
-            <title><![CDATA[Videomancer Update Pushed to 3/20]]></title>
-            <link>https://docs.lzxindustries.net/blog/videomancer-update-delay</link>
-            <guid>https://docs.lzxindustries.net/blog/videomancer-update-delay</guid>
-            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></description>
-            <content:encoded><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content:encoded>
-            <category>Videomancer</category>
-        </item>
-        <item>
             <title><![CDATA[TBC2 Firmware 1.0.7]]></title>
             <link>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7</link>
             <guid>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7</guid>
@@ -69,6 +62,15 @@
 <p>See the <a class="" href="https://docs.lzxindustries.net/docs/modules/tbc2">TBC2 documentation</a> for firmware update instructions.</p>]]></content:encoded>
             <category>Gen3</category>
             <category>Software</category>
+        </item>
+        <item>
+            <title><![CDATA[Videomancer Update Pushed to 3/20]]></title>
+            <link>https://docs.lzxindustries.net/blog/videomancer-update-delay</link>
+            <guid>https://docs.lzxindustries.net/blog/videomancer-update-delay</guid>
+            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></description>
+            <content:encoded><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content:encoded>
+            <category>Videomancer</category>
         </item>
         <item>
             <title><![CDATA[Artist Feature: Devin Greenwood]]></title>

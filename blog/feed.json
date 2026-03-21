@@ -6,10 +6,10 @@
     "items": [
         {
             "id": "https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4",
-            "content_html": "<p>It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is the latest release candidate of the Videomancer firmware.</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"whats-new\">What's New<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#whats-new\" class=\"hash-link\" aria-label=\"Direct link to What's New\" title=\"Direct link to What's New\" translate=\"no\">​</a></h2>\n<ul>\n<li class=\"\"><strong>25 embedded programs</strong> — Bitcullis, Colorbars, Corollas, Delirium, Elastica, Faultplane, Fauxtress, Glorious, Howler, Isotherm, Kintsugi, Lumarian, Moire, Mycelium, Passthru, Perlin, Pinwheel, Pong, Sabattier, Scramble, Shadebob, STIC, Stipple, YUV Amplifier, and YUV Phaser. Each ships with 3 factory presets.</li>\n<li class=\"\"><strong>Developer Mode for in-progress programs</strong> — some programs are still work in progress and are hidden by default. Enable <strong>Developer Mode</strong> to view and test those draft programs.</li>\n<li class=\"\"><strong>New modulation sources</strong> — mouse, keyboard, gamepad, tablet, triggered envelope, step sequencer, and FFT band modes.</li>\n<li class=\"\"><strong>MIDI output</strong> — CC output mode for controlling external gear from Videomancer parameters.</li>\n<li class=\"\"><strong>Performance and stability</strong> — eliminated UI lag, fixed pot response, and resolved crashes during FPGA configuration and program switching.</li>\n</ul>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"download\">Download<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#download\" class=\"hash-link\" aria-label=\"Direct link to Download\" title=\"Direct link to Download\" translate=\"no\">​</a></h2>\n<ul>\n<li class=\"\"><a href=\"https://docs.lzxindustries.net/assets/files/videomancer_1.0.0-rc.4-6f5f75529529870627bd07a35e733675.uf2\" target=\"_blank\" class=\"\">videomancer_1.0.0-rc.4.uf2</a></li>\n</ul>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"installation\">Installation<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#installation\" class=\"hash-link\" aria-label=\"Direct link to Installation\" title=\"Direct link to Installation\" translate=\"no\">​</a></h2>\n<p>Power off your Videomancer. Hold the <strong>BOOT</strong> button while connecting USB-C to your computer. The device will appear as a USB drive. Drag and drop the <code>.uf2</code> file onto the drive. The device will reboot automatically when the transfer completes.</p>\n<p>See the <a class=\"\" href=\"https://docs.lzxindustries.net/docs/instruments/videomancer\">Videomancer documentation</a> for full details.</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"documentation\">Documentation<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#documentation\" class=\"hash-link\" aria-label=\"Direct link to Documentation\" title=\"Direct link to Documentation\" translate=\"no\">​</a></h2>\n<p>Updated program guides and modulation operator documentation are available:</p>\n<ul>\n<li class=\"\"><a class=\"\" href=\"https://docs.lzxindustries.net/docs/category/programs\">Program Guides</a></li>\n<li class=\"\"><a class=\"\" href=\"https://docs.lzxindustries.net/docs/instruments/videomancer/modulation-operators\">Modulation Operators</a></li>\n</ul>",
+            "content_html": "<p>It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is a pre-release build of the Videomancer firmware.</p>\n<p>We're ready to receive issue reports and feature requests as you put this version through real-world use. Please send feedback to <strong><a href=\"mailto:support@lzxindustries.net\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">support@lzxindustries.net</a></strong> or post in the new <strong>#issue-reports</strong> channel on our Discord server.</p>\n<p>For the time being, we intend to continue releasing new Videomancer firmware versions on a weekly schedule.</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"whats-new\">What's New<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#whats-new\" class=\"hash-link\" aria-label=\"Direct link to What's New\" title=\"Direct link to What's New\" translate=\"no\">​</a></h2>\n<ul>\n<li class=\"\"><strong>25 embedded programs</strong> — Bitcullis, Colorbars, Corollas, Delirium, Elastica, Faultplane, Fauxtress, Glorious, Howler, Isotherm, Kintsugi, Lumarian, Moire, Mycelium, Passthru, Perlin, Pinwheel, Pong, Sabattier, Scramble, Shadebob, STIC, Stipple, YUV Amplifier, and YUV Phaser. Each ships with 3 factory presets.</li>\n<li class=\"\"><strong>Developer Mode for in-progress programs</strong> — some programs are still work in progress and are hidden by default. Enable <strong>Developer Mode</strong> to view and test those draft programs.</li>\n<li class=\"\"><strong>New modulation sources</strong> — mouse, keyboard, gamepad, tablet, triggered envelope, step sequencer, and FFT band modes.</li>\n<li class=\"\"><strong>MIDI output</strong> — CC output mode for controlling external gear from Videomancer parameters.</li>\n<li class=\"\"><strong>Performance and stability</strong> — eliminated UI lag, fixed pot response, and resolved crashes during FPGA configuration and program switching.</li>\n</ul>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"download\">Download<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#download\" class=\"hash-link\" aria-label=\"Direct link to Download\" title=\"Direct link to Download\" translate=\"no\">​</a></h2>\n<ul>\n<li class=\"\"><a href=\"https://docs.lzxindustries.net/assets/files/videomancer_1.0.0-rc.4-6f5f75529529870627bd07a35e733675.uf2\" target=\"_blank\" class=\"\">videomancer_1.0.0-rc.4.uf2</a></li>\n</ul>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"installation\">Installation<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#installation\" class=\"hash-link\" aria-label=\"Direct link to Installation\" title=\"Direct link to Installation\" translate=\"no\">​</a></h2>\n<p>Power off your Videomancer. Hold the <strong>BOOT</strong> button while connecting USB-C to your computer. The device will appear as a USB drive. Drag and drop the <code>.uf2</code> file onto the drive. The device will reboot automatically when the transfer completes.</p>\n<p>See the <a class=\"\" href=\"https://docs.lzxindustries.net/docs/instruments/videomancer\">Videomancer documentation</a> for full details.</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"documentation\">Documentation<a href=\"https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#documentation\" class=\"hash-link\" aria-label=\"Direct link to Documentation\" title=\"Direct link to Documentation\" translate=\"no\">​</a></h2>\n<p>Updated program guides and modulation operator documentation are available:</p>\n<ul>\n<li class=\"\"><a class=\"\" href=\"https://docs.lzxindustries.net/docs/category/programs\">Program Guides</a></li>\n<li class=\"\"><a class=\"\" href=\"https://docs.lzxindustries.net/docs/instruments/videomancer/modulation-operators\">Modulation Operators</a></li>\n</ul>",
             "url": "https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4",
             "title": "Videomancer Firmware 1.0.0-rc.4",
-            "summary": "It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is the latest release candidate of the Videomancer firmware.",
+            "summary": "It's been a busy couple of weeks — two TBC2 firmware updates, a Devin Greenwood artist feature, and a preview release that gave the adventurous among you a taste of what was cooking. As promised, here's the March 20th Videomancer update. Version 1.0.0-rc.4 is a pre-release build of the Videomancer firmware.",
             "date_modified": "2026-03-20T00:00:00.000Z",
             "author": {
                 "name": "Lars Larsen",
@@ -18,21 +18,6 @@
             "tags": [
                 "Videomancer",
                 "Software"
-            ]
-        },
-        {
-            "id": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
-            "content_html": "<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>",
-            "url": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
-            "title": "Videomancer Update Pushed to 3/20",
-            "summary": "The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.",
-            "date_modified": "2026-03-19T00:00:00.000Z",
-            "author": {
-                "name": "Lars Larsen",
-                "url": "https://github.com/creatorlars"
-            },
-            "tags": [
-                "Videomancer"
             ]
         },
         {
@@ -49,6 +34,21 @@
             "tags": [
                 "Gen3",
                 "Software"
+            ]
+        },
+        {
+            "id": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
+            "content_html": "<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>",
+            "url": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
+            "title": "Videomancer Update Pushed to 3/20",
+            "summary": "The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.",
+            "date_modified": "2026-03-19T00:00:00.000Z",
+            "author": {
+                "name": "Lars Larsen",
+                "url": "https://github.com/creatorlars"
+            },
+            "tags": [
+                "Videomancer"
             ]
         },
         {
