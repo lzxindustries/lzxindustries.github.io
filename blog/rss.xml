@@ -62,6 +62,15 @@
             <category>Software</category>
         </item>
         <item>
+            <title><![CDATA[Videomancer Update Pushed to 3/20]]></title>
+            <link>https://docs.lzxindustries.net/blog/videomancer-update-delay</link>
+            <guid>https://docs.lzxindustries.net/blog/videomancer-update-delay</guid>
+            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></description>
+            <content:encoded><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content:encoded>
+            <category>Videomancer</category>
+        </item>
+        <item>
             <title><![CDATA[TBC2 Firmware 1.0.7]]></title>
             <link>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7</link>
             <guid>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7</guid>
@@ -81,15 +90,6 @@
 <p>See the <a class="" href="https://docs.lzxindustries.net/docs/modules/tbc2">TBC2 documentation</a> for firmware update instructions.</p>]]></content:encoded>
             <category>Gen3</category>
             <category>Software</category>
-        </item>
-        <item>
-            <title><![CDATA[Videomancer Update Pushed to 3/20]]></title>
-            <link>https://docs.lzxindustries.net/blog/videomancer-update-delay</link>
-            <guid>https://docs.lzxindustries.net/blog/videomancer-update-delay</guid>
-            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></description>
-            <content:encoded><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content:encoded>
-            <category>Videomancer</category>
         </item>
         <item>
             <title><![CDATA[Artist Feature: Devin Greenwood]]></title>
