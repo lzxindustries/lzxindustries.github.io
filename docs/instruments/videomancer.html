@@ -14,9 +14,9 @@
 
 
 <link rel="preload" href="static/font/ReliefSingleLineOutline-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.75324d80.css">
-<script src="/assets/js/runtime~main.7914e5ed.js" defer="defer"></script>
-<script src="/assets/js/main.258ac7e5.js" defer="defer"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.b70c2fdb.css">
+<script src="/assets/js/runtime~main.eeb5b309.js" defer="defer"></script>
+<script src="/assets/js/main.e8a04f28.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -272,6 +272,8 @@
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="video-inputs-and-outputs">Video Inputs and Outputs<a href="#video-inputs-and-outputs" class="hash-link" aria-label="Direct link to Video Inputs and Outputs" title="Direct link to Video Inputs and Outputs" translate="no">​</a></h3>
 <p>Videomancer provides many options for video inputs and outputs, making it exceptionally flexible. It&#x27;s compatible with nearly any video device with HDMI or analog connections.</p>
+<img src="/assets/images/videomancer_LCD_vid_route_HDMI-b11138dd37c13b16e4231ebf4210b079.png" alt="Videomancer Vid Route Mode display">
+<p><em>Video Routing</em></p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-procedure">General procedure<a href="#general-procedure" class="hash-link" aria-label="Direct link to General procedure" title="Direct link to General procedure" translate="no">​</a></h4>
 <p>To choose from the available video inputs and outputs:</p>
 <ul>
@@ -295,6 +297,8 @@
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>In every Vid Route Mode except Dual In, the same signal is sent to the HDMI and analog outputs.</p></div></div>
 <p><strong>Dual In Route Mode</strong></p>
 <p>Integrate Videomancer with analog devices such as a modular synthesizer with <strong>Dual In</strong> Mode. Videomancer routes incoming HDMI video to the active analog output. Process video with an external device, or chain of devices. Video connected to Videomancer&#x27;s active analog input is routed to the processor.</p>
+<img src="/img/instruments/videomancer/videomancer_routing_diagram_dual_in.svg" alt="Videomancer Dual In routing diagram showing connections to a modular synth" style="width:100%;height:auto">
+<p><em>Dual In routing diagram showing connections to a modular synth</em></p>
 <p><strong>Dual In setup procedure:</strong></p>
 <ol>
 <li class="">Connect Videomancer&#x27;s analog output to the input of another device.</li>
@@ -405,11 +409,56 @@
 <p>On the other hand, there&#x27;s no issue at all when integrating a modular system using Dual Mode. As long as the modular is receiving sync from Videomancer, the only phase delay will be from the analog patch.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="operation">Operation<a href="#operation" class="hash-link" aria-label="Direct link to Operation" title="Direct link to Operation" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="system">System<a href="#system" class="hash-link" aria-label="Direct link to System" title="Direct link to System" translate="no">​</a></h3>
-<p>Pressing the <strong>SYSTEM</strong> button activates the System menu. By default, the current <strong>Program</strong>, video input, and format standard are displayed. Turn the Rotary Encoder to cycle through the System submenus:</p>
-<table><thead><tr><th style="text-align:left">Menu</th><th style="text-align:left">Display Text</th><th style="text-align:left">Options</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Video Route Mode</strong></td><td style="text-align:left">Vid Route Mode</td><td style="text-align:left">HDMI In, Dual In, Standalone, Analog In</td></tr><tr><td style="text-align:left"><strong>Analog Input Mode</strong></td><td style="text-align:left">Analog In Mode</td><td style="text-align:left">YPbPr, RGB SOG, RGB 1V, CVBS/S-Video</td></tr><tr><td style="text-align:left"><strong>Analog Output Mode</strong></td><td style="text-align:left">Analog Out Mode</td><td style="text-align:left">CVBS/S-Vid, YPbPr, RGB</td></tr><tr><td style="text-align:left"><strong>HDMI Output Mode</strong></td><td style="text-align:left">HDMI Out Mode</td><td style="text-align:left">HDMI, DVI</td></tr><tr><td style="text-align:left"><strong>MIDI Channel</strong></td><td style="text-align:left">MIDI Channel</td><td style="text-align:left">Disabled, Omni, CH 1 – CH 16</td></tr><tr><td style="text-align:left"><strong>MIDI Output Mode</strong></td><td style="text-align:left">MIDI Out Mode</td><td style="text-align:left">Disabled, Manual+Mod, Manual Only, Mod Only</td></tr><tr><td style="text-align:left"><strong>Developer Mode</strong></td><td style="text-align:left">Developer Mode</td><td style="text-align:left">Disabled, Enabled</td></tr><tr><td style="text-align:left"><strong>Soft Pickup</strong></td><td style="text-align:left">Soft Pickup</td><td style="text-align:left">Disabled, Enabled</td></tr><tr><td style="text-align:left"><strong>Language</strong></td><td style="text-align:left">Language</td><td style="text-align:left">English, Deustch, Francais, Espanol, Dansk, Svenska, Suomi, Italiano, Portugues, Indonesia, Nederlands, Norsk, Turkce, Catala, Polski, Hrvatski, Romana, Cestina</td></tr><tr><td style="text-align:left"><strong>Preferred Timing</strong></td><td style="text-align:left">Pref. Timing</td><td style="text-align:left"><a class="" href="/docs/instruments/videomancer#supported-formats-and-standards">Video Formats and Standards</a></td></tr></tbody></table>
-<p>To make changes to System settings:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="menu-structure">Menu Structure<a href="#menu-structure" class="hash-link" aria-label="Direct link to Menu Structure" title="Direct link to Menu Structure" translate="no">​</a></h3>
+<p>The following outline illustrates the overall structure of the Videomancer menus. Specific options per menu are listed or described in the corresponding sections of this User Guide, or in supplemental documents such as the <a class="" href="/docs/instruments/videomancer/modulation-operators">Modulation Guide</a>.</p>
 <ul>
+<li class=""><strong>SYSTEM</strong>, <strong>MOTION</strong>, and <strong>STATE</strong> menus are chosen by pressing the labeled white Button, indicated by a circled bullet character:  <span class="system-ui">◉</span></li>
+<li class=""><strong>Parameter</strong> menus are chosen by repeatedly pressing a black Parameter Button, labeled <strong>1</strong> through <strong>*</strong> (12), indicated by a hollow bullet character:  <span class="system-ui">○</span></li>
+<li class="">Most menus are chosen by turning the Rotary Encoder, indicated by a left-right horizontal arrow:  <span class="system-ui">↔</span></li>
+<li class="">Any menu accessed by pressing the Rotary Encoder is indicated by a down arrow:  <span class="system-ui">↓</span></li>
+</ul>
+<span class="code-like-block"><p>Videomancer
+│
+├── SYSTEM ◉
+│   ├─ Current Program, Video In, and format <span class="system-ui">↔</span>
+|   |   └─ Program Selection ↓
+│   ├─ Video Route Mode <span class="system-ui">↔</span>
+│   ├─ Analog In Mode <span class="system-ui">↔</span>
+│   ├─ Analog Out Mode <span class="system-ui">↔</span>
+│   ├─ HDMI Out Mode <span class="system-ui">↔</span>
+│   ├─ MIDI Channel <span class="system-ui">↔</span>
+│   ├─ MIDI Out Mode <span class="system-ui">↔</span>
+│   ├─ Developer Mode <span class="system-ui">↔</span>
+│   ├─ Soft Pickup <span class="system-ui">↔</span>
+│   ├─ Language <span class="system-ui">↔</span>
+│   ├─ Preferred Timing <span class="system-ui">↔</span>
+|   └─ Escape to Parameter menu ◉
+│
+├── MOTION ◉
+│   ├─ Timecode &amp; Beats Per Minute
+│   ├─ Motion Overview ◉
+|   └─ Escape to Parameter menu ◉
+│
+├── STATE ◉
+│   ├─ Presets <span class="system-ui">↔</span>
+|   └─ Escape to Parameter menu ◉
+│
+└── Parameter ○
+    ├─ Manual ○
+    ├─ Time ○
+    ├─ Space ○
+    ├─ Slope ○
+    └─ Modulation Selection ○ <span class="system-ui">↔</span></p></span>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="system">SYSTEM<a href="#system" class="hash-link" aria-label="Direct link to SYSTEM" title="Direct link to SYSTEM" translate="no">​</a></h3>
+<p>Press the <strong>SYSTEM</strong> button to access the System menus. By default, the current <strong>Program</strong>, video input, and format standard are displayed.</p>
+<img src="/assets/images/videomancer_LCD_system_status-95c7501550c1df54d9a0da4844656ece.png" alt="Videomancer System Status display">
+<p><em>System Status</em></p>
+<p>Turn the Rotary Encoder to cycle through the System menus:</p>
+<table><thead><tr><th style="text-align:left">Menu</th><th style="text-align:left">Display Text</th><th style="text-align:left">Options</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Video Route Mode</strong></td><td style="text-align:left">Vid Route Mode</td><td style="text-align:left">HDMI In, Dual In, Standalone, Analog In</td></tr><tr><td style="text-align:left"><strong>Analog Input Mode</strong></td><td style="text-align:left">Analog In Mode</td><td style="text-align:left">YPbPr, RGB SOG, RGB 1V, CVBS/S-Video</td></tr><tr><td style="text-align:left"><strong>Analog Output Mode</strong></td><td style="text-align:left">Analog Out Mode</td><td style="text-align:left">CVBS/S-Vid, YPbPr, RGB</td></tr><tr><td style="text-align:left"><strong>HDMI Output Mode</strong></td><td style="text-align:left">HDMI Out Mode</td><td style="text-align:left">HDMI, DVI</td></tr><tr><td style="text-align:left"><strong>MIDI Channel</strong></td><td style="text-align:left">MIDI Channel</td><td style="text-align:left">Disabled, Omni, CH 1 – CH 16</td></tr><tr><td style="text-align:left"><strong>MIDI Output Mode</strong></td><td style="text-align:left">MIDI Out Mode</td><td style="text-align:left">Disabled, Manual+Mod, Manual Only, Mod Only</td></tr><tr><td style="text-align:left"><strong>Developer Mode</strong></td><td style="text-align:left">Developer Mode</td><td style="text-align:left">Disabled, Enabled</td></tr><tr><td style="text-align:left"><strong>Soft Pickup</strong></td><td style="text-align:left">Soft Pickup</td><td style="text-align:left">Disabled, Enabled</td></tr><tr><td style="text-align:left"><strong>Language</strong></td><td style="text-align:left">Language</td><td style="text-align:left">English, Deustch, Francais, Espanol, Dansk, Svenska, Suomi, Italiano, Portugues, Indonesia, Nederlands, Norsk, Turkce, Catala, Polski, Hrvatski, Romana, Cestina</td></tr><tr><td style="text-align:left"><strong>Preferred Timing</strong></td><td style="text-align:left">Pref. Timing</td><td style="text-align:left"><a class="" href="/docs/instruments/videomancer#supported-formats-and-standards">Video Formats and Standards</a></td></tr></tbody></table>
+<p><strong>System settings procedure:</strong></p>
+<ul>
+<li class="">Press the SYSTEM button</li>
 <li class="">Turn the Rotary Encoder to choose a System submenu</li>
 <li class="">Press the Rotary Encoder to move the cursor to the bottom row</li>
 <li class="">Turn the Rotary Encoder to change the setting</li>
@@ -430,9 +479,20 @@
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Some Programs may default to a black output. Typically, the <strong>* Slider</strong> for Parameter 12 performs the function of fading to black, or luminance keying to black. After loading a Program, it may be necessary to move the Slider to its furthest extents in order to see an image.</p></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters" translate="no">​</a></h3>
-<p>Any <strong>Parameter</strong> 1 through 12 can be adjusted manually at any time via the Parameter Knobs, Switches, or Fader. If Videomancer is in Parameter display mode, then the Parameter number, name, and values of the <em>focused</em> Parameter are shown onscreen.</p>
-<p>To enter Parameter display mode, press any of the Parameter buttons labeled <strong>1</strong> through <strong>*</strong> (Parameters 1 through 12). The selected Parameter is given focus and its properties are displayed.</p>
-<p>If Parameter display mode is active, simply moving a Parameter control brings that Parameter into focus and displays the Parameter&#x27;s <strong>Manual</strong> value onscreen. Moving a Time, Space, or Slope control knob displays the associated Modulation property and its value.</p>
+<p>Any <strong>Parameter</strong> 1 through 12 can be adjusted manually at any time via the Parameter Knobs, Switches, or Fader. If Videomancer is in Parameter display mode, then the Parameter number, name, and values of the <em><strong>focused</strong></em> Parameter are shown onscreen.</p>
+<img src="/assets/images/videomancer_LCD_parameter-74c3dea2d156f13ba533c9fe0494a3b5.png" alt="Videomancer Parameter Mode display">
+<p><em>Parameter mode</em></p>
+<p>To enter Parameter display mode, press any of the Parameter buttons labeled <strong>1</strong> through <strong>*</strong> (Parameters 1 through 12). The selected Parameter is given focus and its properties are displayed. The top row of the display lists the Parameter number and name.</p>
+<p>The bottom row displays additional information:</p>
+<ul>
+<li class="">Manual value of the physical control</li>
+<li class="">Name and value of the Time Modulation Knob</li>
+<li class="">Name and value of the Space Modulation Knob</li>
+<li class="">Name and value of the Slope Modulation Knob</li>
+<li class="">Modulation Operator assigned to the Parameter</li>
+</ul>
+<p>Press the Parameter button repeatedly to cycle through all Parameter display modes.</p>
+<p>If any Parameter display mode is active, simply moving a different Parameter control brings that Parameter into focus and its <strong>Manual</strong> value onscreen. Moving a Time, Space, or Slope control knob displays the associated Modulation property and its value.</p>
 <p>If Videomancer is in <strong>SYSTEM</strong>, <strong>MOTION</strong>, or <strong>STATE</strong> mode, then the LCD display shows the menus for that mode. In this case, the properties of the focused Parameter are not displayed. However, all Parameter controls are still active. The <strong>Time</strong>, <strong>Space</strong>, and <strong>Slope</strong> Modulation controls for the focused Parameter are also active.</p>
 <p><strong>Soft Pickup</strong></p>
 <p>Parameter controls feature an optional soft takeover method for updating the value Parameter. When <strong>Soft Pickup</strong> is enabled, the physical control must be moved beyond the current Parameter value in order to take effect. When the Parameter value doesn&#x27;t match the physical control position, an exclamation point ( <strong>!</strong> ) is displayed on the left side of the value.</p>
@@ -443,7 +503,8 @@
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext mathvariant="bold">Parameter</mtext><mo>=</mo><mtext mathvariant="bold">Manual</mtext><mo>+</mo><mtext mathvariant="bold">Modulation</mtext><mo>+</mo><mtext mathvariant="bold">MIDI</mtext></mrow><annotation encoding="application/x-tex">\textbf{Parameter} = \textbf{Manual} + \textbf{Modulation} + \textbf{MIDI}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6861em"></span><span class="mord text"><span class="mord textbf">Parameter</span></span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em"></span><span class="mord text"><span class="mord textbf">Manual</span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em"></span><span class="mord text"><span class="mord textbf">Modulation</span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.6861em"></span><span class="mord text"><span class="mord textbf">MIDI</span></span></span></span></span></span>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="modulation-operators">Modulation Operators<a href="#modulation-operators" class="hash-link" aria-label="Direct link to Modulation Operators" title="Direct link to Modulation Operators" translate="no">​</a></h4>
 <p>Videomancer features dozens of <strong>Modulation Operators</strong> of various types, ranging from raw control voltage input to generative algorithms. Modulation Operators are documented in full in the <a class="" href="/docs/instruments/videomancer/modulation-operators">Modulation Guide</a>.</p>
-<p>Modulation Operator sample rate is usually latched to the current video format. Values are constrained to the current frame/field rate. This prevents frame tearing that could occur if a modulation value changes in the middle of a frame. Additionally, some Modulation Operators, such as <strong>Audio In</strong>, are capable of operating at video line rate.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p><strong>MOTION</strong> transport playback usually needs to be running to apply modulation. Press the <strong>PLAY</strong> button to enable all Modulation Operators.</p></div></div>
+<p>Modulation Operator sample rate is latched to the current video format. Values are usually constrained to the current frame/field rate. This prevents frame tearing that could occur if a modulation value changes in the middle of a frame. Additionally, some Modulation Operators, such as <strong>Audio In</strong>, are capable of operating at the higher sample rate of individual video scanlines.</p>
 <p><strong>Modulation Operators include:</strong></p>
 <ul>
 <li class="">External signals<!-- -->
@@ -472,14 +533,9 @@
 <li class="">Sensor</li>
 </ul>
 </li>
-<li class="">MIDI<!-- -->
-<ul>
-<li class="">Continuous Controllers</li>
-<li class="">MIDI Keys</li>
 </ul>
-</li>
-</ul>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>The <strong>MOTION</strong> button doesn&#x27;t choose Modulation operators. Pressing the MOTION button displays the current <strong>Timecode</strong> and <strong>BPM</strong> (beats per minute).</p></div></div>
+<img src="/assets/images/videomancer_LCD_modulation_selection-25a7f14b9c1e59651eddb34c51a81e44.png" alt="Videomancer Modulation Selection display">
+<p><em>Modulation Selection</em></p>
 <p><strong>Modulation Operator selection procedure:</strong></p>
 <ul>
 <li class="">Give focus to the desired Parameter by pressing its button, or by adjusting its physical Knob, Switch, or Fader</li>
@@ -487,14 +543,16 @@
 <li class="">Turn the Rotary Encoder to cycle through the available Modulation Operators</li>
 </ul>
 <p>Selection of a Modulation Operator takes place immediately. If the name of a Modulation Operator is displayed, it&#x27;s active.</p>
-<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p><strong>MOTION</strong> transport playback needs to be running to apply any modulation. Press the <strong>PLAY</strong> button to enable all Modulation Operators.</p></div></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>The <strong>MOTION</strong> button doesn&#x27;t choose Modulation operators. Pressing the MOTION button displays the current <strong>Timecode</strong> and <strong>BPM</strong> (beats per minute).</p></div></div>
 <p><strong>Disabling Modulation</strong></p>
-<p>To control Parameters with the physical controls only, disable the Modulation operator. When the Modulation Operator name is displayed, scroll to set the Modulation mode to <strong>Disabled</strong>, or simply press the Rotary Encoder.</p>
+<p>To change Parameter values with Manual controls and/or MIDI only, disable the Modulation operator. When the Modulation Operator name is displayed, turn the Rotary Encoder to set the Modulation mode to <strong>Disabled</strong>, or simply press the Rotary Encoder.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modulation-control-knobs">Modulation Control Knobs<a href="#modulation-control-knobs" class="hash-link" aria-label="Direct link to Modulation Control Knobs" title="Direct link to Modulation Control Knobs" translate="no">​</a></h3>
 <p>Modulation Operator properties are adjusted with the <strong>Time</strong>, <strong>Space</strong>, and <strong>Slope</strong> knobs. Adjusting one of those knobs brings the associated property into focus, and the property&#x27;s value is displayed onscreen. The values can also be displayed without changing them by repeatedly pressing the desired Parameter button.</p>
 <p><strong>Space</strong> controls the <strong>Gain</strong> or amplitude of modulation. The range of the Gain property depends on the current Modulation Operator. For example, <strong>LFO</strong> modulators have a maximum Gain of 100%. <strong>CV</strong> and <strong>Audio</strong> modulators have a maximum Gain of 400% to accommodate sources with different voltage ranges.</p>
 <p><strong>Time</strong> and <strong>Slope</strong> knobs perform different functions depending on the active Modulation Operator, as described in the <a class="" href="/docs/instruments/videomancer/modulation-operators">Modulation Guide</a>. For example, Time adjusts the period of an oscillator, and Slope chooses the waveform type.</p>
+<img src="/assets/images/videomancer_LCD_slope_wave_sine-a2a046f481c5b05a2b9f8b43ac8eee06.png" alt="Videomancer Slope display">
+<p><em>Slope display showing Sine LFO waveform selection</em></p>
 <p>If Modulation is disabled, and no Modulation Operator is assigned to the focused Parameter, then the Time, Space, and Slope controls have no effect. The LCD screen merely displays the name of the active Knob and its value from 0 to 100.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="midi-modulation">MIDI Modulation<a href="#midi-modulation" class="hash-link" aria-label="Direct link to MIDI Modulation" title="Direct link to MIDI Modulation" translate="no">​</a></h3>
@@ -505,13 +563,16 @@
 <p>Videomancer can control external devices via MIDI Continuous Controller messages. Send the values of Parameter Manual controls, active Modulation Operators, or their combined values.  Choose the desired behavior from <strong>System → MIDI Out Mode</strong>.</p>
 <table><thead><tr><th style="text-align:left">MIDI Out</th><th style="text-align:left">Display Text</th></tr></thead><tbody><tr><td style="text-align:left">None</td><td style="text-align:left">Disabled</td></tr><tr><td style="text-align:left">Manual control + Modulation Operator</td><td style="text-align:left">Manual+Mod</td></tr><tr><td style="text-align:left">Manual control</td><td style="text-align:left">Manual Only</td></tr><tr><td style="text-align:left">Modulation Operator</td><td style="text-align:left">Mod Only</td></tr></tbody></table>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="motion">Motion<a href="#motion" class="hash-link" aria-label="Direct link to Motion" title="Direct link to Motion" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="motion">MOTION<a href="#motion" class="hash-link" aria-label="Direct link to MOTION" title="Direct link to MOTION" translate="no">​</a></h3>
 <p>Press the <strong>MOTION</strong> button to display the current values of Timecode (<strong>TC</strong>) and Beats Per Minute (<strong>BPM</strong>).</p>
+<img src="/assets/images/videomancer_LCD_timecode_bpm-40531186c60893f7649234346c5a78fc.png" alt="Videomancer Timecode and BPM display">
+<p><em>Timecode and Beats Per Minute</em></p>
 <p>Modulation within Videomancer is usually linked to the Timecode displayed in Motion mode. Videomancer can generate timecode internally, or <a class="" href="/docs/instruments/videomancer#midi-synchronization">synchronize to MIDI</a>.</p>
 <p>Modulation is deterministic based on Videomancer&#x27;s timecode. For example, oscillators begin with a phase of zero at timecode value <code>00:00:00:00</code>. If the Time properties of Modulation Operators don&#x27;t change, then the exact same Modulation patterns are generated each time playback begins from zero.</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="internal-synchronization">Internal Synchronization<a href="#internal-synchronization" class="hash-link" aria-label="Direct link to Internal Synchronization" title="Direct link to Internal Synchronization" translate="no">​</a></h4>
 <p>Press the <strong>START</strong> button to activate playback of internal Timecode.</p>
 <p>Press the <strong>STOP</strong> button to deactivate playback of internal Timecode. The time index is reset to <code>00:00:00:00</code>.</p>
+<p>When the transport is stopped, a left arrow ( <strong>←</strong> )appears on the lower left of the display. When the transport is running, a right arrow ( <strong>→</strong> ) is displayed.</p>
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Videomancer does not have a manual pause button. Stopping playback sends the timecode value to zero, resetting all modulation. Use <a class="" href="/docs/instruments/videomancer#midi-synchronization">MIDI Timecode</a> if you wish to pause and resume playback.</p></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="internal-bpm-tempo">Internal BPM Tempo<a href="#internal-bpm-tempo" class="hash-link" aria-label="Direct link to Internal BPM Tempo" title="Direct link to Internal BPM Tempo" translate="no">​</a></h4>
 <p>To change the <strong>BPM</strong> value numerically:</p>
@@ -531,6 +592,22 @@
 <li class="">Press the <strong>TAP</strong> button again to finish sampling the tempo</li>
 </ul>
 <p>The new tempo takes effect immediately.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="motion-overview">MOTION Overview<a href="#motion-overview" class="hash-link" aria-label="Direct link to MOTION Overview" title="Direct link to MOTION Overview" translate="no">​</a></h4>
+<p>Pressing the MOTION button a second time brings up the <strong>Motion Overview</strong> display.</p>
+<img src="/assets/images/videomancer_LCD_motion_overview-6d0b82a1c6b9f968f8454cd3969d38a9.png" alt="Videomancer Motion Overview display">
+<p><em>Motion Overview</em></p>
+<p>The illustration above indicates the following:</p>
+<ul>
+<li class="">Parameter 1 Modulation Operator is <strong>Free LFO</strong></li>
+<li class="">Parameter 3 Modulation Operator is <strong>Turing Machine</strong></li>
+<li class="">Playback is stopped</li>
+<li class="">Beats Per Minute is 120.00</li>
+<li class="">Two Modulation Operators are active</li>
+</ul>
+<p>The top row lists all active Modulation Operators. Each character or symbol to the right of the word <strong>Mod</strong> represents one of the 12 Parameters, in numerical order from left to right. The first place is Parameter 1, the second is Parameter 2, etc. The table below lists which Modulation Operator is signified by each symbol.</p>
+<table><thead><tr><th style="text-align:left">Symbol</th><th style="text-align:left">Modulation Operator</th><th style="text-align:left">Symbol</th><th style="text-align:left">Modulation Operator</th></tr></thead><tbody><tr><td style="text-align:left"><span class="system-ui">•</span></td><td style="text-align:left">Disabled</td><td style="text-align:left">K</td><td style="text-align:left">Comparator</td></tr><tr><td style="text-align:left">L</td><td style="text-align:left">Free LFO</td><td style="text-align:left">N</td><td style="text-align:left">Pendulum</td></tr><tr><td style="text-align:left">S</td><td style="text-align:left">Sync LFO</td><td style="text-align:left">W</td><td style="text-align:left">Drift</td></tr><tr><td style="text-align:left">C</td><td style="text-align:left">CV Input</td><td style="text-align:left">*</td><td style="text-align:left">Ring Mod</td></tr><tr><td style="text-align:left">A</td><td style="text-align:left">Audio Input</td><td style="text-align:left">#</td><td style="text-align:left">Cellular</td></tr><tr><td style="text-align:left">R</td><td style="text-align:left">Random</td><td style="text-align:left">P</td><td style="text-align:left">Pulse Width</td></tr><tr><td style="text-align:left">E</td><td style="text-align:left">Envelope</td><td style="text-align:left">J</td><td style="text-align:left">Peak Hold</td></tr><tr><td style="text-align:left">H</td><td style="text-align:left">Sample &amp; Hold</td><td style="text-align:left">I</td><td style="text-align:left">Field Accum</td></tr><tr><td style="text-align:left">T</td><td style="text-align:left">Trigger Envelope</td><td style="text-align:left">/</td><td style="text-align:left">Slew Limiter</td></tr><tr><td style="text-align:left">Q</td><td style="text-align:left">Step Sequencer</td><td style="text-align:left">~</td><td style="text-align:left">Perlin Noise</td></tr><tr><td style="text-align:left">F</td><td style="text-align:left">FFT Band</td><td style="text-align:left">Z</td><td style="text-align:left">Wavefolder</td></tr><tr><td style="text-align:left">D</td><td style="text-align:left">H Displace</td><td style="text-align:left">V</td><td style="text-align:left">Clock Div</td></tr><tr><td style="text-align:left">U</td><td style="text-align:left">Turing Machine</td><td style="text-align:left">?</td><td style="text-align:left">Prob Gate</td></tr><tr><td style="text-align:left">B</td><td style="text-align:left">Bouncing Ball</td><td style="text-align:left">O</td><td style="text-align:left">Quantizer</td></tr><tr><td style="text-align:left">X</td><td style="text-align:left">Logistic Map</td><td style="text-align:left">m</td><td style="text-align:left">Mouse</td></tr><tr><td style="text-align:left">Y</td><td style="text-align:left">Euclidean Rhythm</td><td style="text-align:left">k</td><td style="text-align:left">Keyboard</td></tr><tr><td style="text-align:left">M</td><td style="text-align:left">Motion LFO</td><td style="text-align:left">g</td><td style="text-align:left">Gamepad</td></tr><tr><td style="text-align:left">G</td><td style="text-align:left">V Gradient</td><td style="text-align:left">t</td><td style="text-align:left">Tablet</td></tr></tbody></table>
+<p>The second row of the Motion Overview displays the state of the Motion transport and the current Beats Per Minute. A left-facing arrow indicates that the transport is stopped, a right-facing arrow indicates that the transport is playing. To the right of the arrow, the current BPM value is displayed.</p>
+<p>Also on the second row, the total number of active Modulation Operators is indicated by the word <strong>Act:</strong> followed by a number.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="midi-synchronization">MIDI Synchronization<a href="#midi-synchronization" class="hash-link" aria-label="Direct link to MIDI Synchronization" title="Direct link to MIDI Synchronization" translate="no">​</a></h3>
 <p>A MIDI Clock or MIDI Timecode signal supplied to Videomancer automatically overrides the internal Timecode.</p>
@@ -541,20 +618,36 @@
 <p>MIDI Timecode is an absolute time reference. Videomancer timecode follows the current MIDI Timecode value, but only during playback. Stopping or pausing the MIDI source causes Videomancer timecode to stop, but does not reset to zero. Starting the MIDI source causes Videomancer timecode to update to the incoming MIDI Timecode value, so we can pause and resume playback without resetting oscillator phase. Any other transport controls on the MIDI source, such as rewind, fast forward, or skipping to a different timecode value, have no effect on Videomancer&#x27;s timecode. Videomancer only responds when MIDI Timecode plays or stops.</p>
 <p>If the MIDI source transmits both MIDI Clock and MIDI Timecode, Videomancer gives priority to MIDI Clock. Videomancer timecode is reset to zero when the MIDI source stops.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="state-presets">State Presets<a href="#state-presets" class="hash-link" aria-label="Direct link to State Presets" title="Direct link to State Presets" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="state-presets">STATE Presets<a href="#state-presets" class="hash-link" aria-label="Direct link to STATE Presets" title="Direct link to STATE Presets" translate="no">​</a></h3>
 <p>The <strong>STATE</strong> button accesses factory or user-defined <strong>Presets</strong> for a particular Program. All Modulation and Parameter values are stored in non-volatile internal flash memory. Videomancer will commit your spell to memory, and recall it even after a power failure or reboot.</p>
-<p>Programs can include up to eight Factory Presets, indicated by the letter <strong>F</strong>. User Presets are signified by the letter <strong>U</strong>. Internal storage provides a total of 32 Preset registers. User presets can also be stored on microSD card.</p>
-<p><strong>Preset load procedure:</strong></p>
+<p>Programs can include up to eight Factory Presets, indicated by the letter <strong>F</strong>. User Presets are signified by the letter <strong>U</strong>. The currently loaded Preset number is followed by a slash, then by the total number of Presets, either Factory or User. Internal storage provides a total of 32 Preset registers. User presets can also be stored on microSD card.</p>
+<img src="/assets/images/videomancer_LCD_presets_F1_basic-5585cb9b754b4df5a86b267234699f7d.png" alt="Videomancer Preset Selection display">
+<p><em>Preset Selection display</em></p>
+<p><strong>Procedure to load a Preset:</strong></p>
 <ul>
 <li class="">Press the <strong>STATE</strong> button</li>
 <li class="">Turn the Rotary Encoder to select a Preset number</li>
 <li class="">Press the Rotary Encoder to confirm the load operation</li>
 </ul>
-<p><strong>User Preset save procedure:</strong></p>
+<p><strong>Procedure to save a new User Preset :</strong></p>
 <ul>
 <li class="">Press the <strong>STATE</strong> button</li>
-<li class="">If User Presets exist, turn the Rotary Encoder to select a register number</li>
 <li class="">Long-press and hold the Rotary Encoder for at least two seconds</li>
+<li class="">Define the Preset name<!-- -->
+<ul>
+<li class="">Turn the Rotary Encoder to choose a character</li>
+<li class="">Press the Rotary Encoder to advance to the next place</li>
+<li class="">Repeat until the Preset name is completed</li>
+</ul>
+</li>
+<li class="">Press the Rotary Encoder to confirm the save operation</li>
+</ul>
+<p><strong>Procedure to overwrite an existing User Preset</strong></p>
+<ul>
+<li class="">Press the <strong>STATE</strong> button</li>
+<li class="">Turn the Rotary Encoder to select a User Preset</li>
+<li class="">Long-press and hold the Rotary Encoder for at least two seconds</li>
+<li class="">Press the Rotary Encoder to confirm overwrite</li>
 <li class="">Define the Preset name<!-- -->
 <ul>
 <li class="">Turn the Rotary Encoder to choose a character</li>
@@ -611,6 +704,6 @@
 <li class="">Contributing guidelines for submitting your own programs</li>
 <li class="">GPL-3.0 licensed open-source contributions</li>
 </ul>
-<p>Both repositories are licensed under GPL-3.0 and welcome community contributions.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/programs"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Programs</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a><ul><li><a href="#architecture" class="table-of-contents__link toc-highlight">Architecture</a></li><li><a href="#legacy" class="table-of-contents__link toc-highlight">Legacy</a></li></ul></li><li><a href="#key-specifications" class="table-of-contents__link toc-highlight">Key Specifications</a></li><li><a href="#connectors-controls-and-indicators" class="table-of-contents__link toc-highlight">Connectors, Controls, and Indicators</a><ul><li><a href="#connectors" class="table-of-contents__link toc-highlight">Connectors</a></li><li><a href="#controls" class="table-of-contents__link toc-highlight">Controls</a></li><li><a href="#indicators" class="table-of-contents__link toc-highlight">Indicators</a></li></ul></li><li><a href="#signal-paths" class="table-of-contents__link toc-highlight">Signal Paths</a><ul><li><a href="#supported-formats-and-standards" class="table-of-contents__link toc-highlight">Supported Formats and Standards</a></li><li><a href="#video-inputs-and-outputs" class="table-of-contents__link toc-highlight">Video Inputs and Outputs</a></li><li><a href="#input-configurations" class="table-of-contents__link toc-highlight">Input Configurations</a></li><li><a href="#output-configurations" class="table-of-contents__link toc-highlight">Output Configurations</a></li></ul></li><li><a href="#operation" class="table-of-contents__link toc-highlight">Operation</a><ul><li><a href="#system" class="table-of-contents__link toc-highlight">System</a></li><li><a href="#programs" class="table-of-contents__link toc-highlight">Programs</a></li><li><a href="#parameters" class="table-of-contents__link toc-highlight">Parameters</a></li><li><a href="#modulation" class="table-of-contents__link toc-highlight">Modulation</a></li><li><a href="#modulation-control-knobs" class="table-of-contents__link toc-highlight">Modulation Control Knobs</a></li><li><a href="#midi-modulation" class="table-of-contents__link toc-highlight">MIDI Modulation</a></li><li><a href="#midi-output" class="table-of-contents__link toc-highlight">MIDI Output</a></li><li><a href="#motion" class="table-of-contents__link toc-highlight">Motion</a></li><li><a href="#midi-synchronization" class="table-of-contents__link toc-highlight">MIDI Synchronization</a></li><li><a href="#state-presets" class="table-of-contents__link toc-highlight">State Presets</a></li></ul></li><li><a href="#firmware-update" class="table-of-contents__link toc-highlight">Firmware Update</a><ul><li><a href="#requirements" class="table-of-contents__link toc-highlight">Requirements</a></li><li><a href="#manual-update-procedure" class="table-of-contents__link toc-highlight">Manual Update Procedure</a></li></ul></li><li><a href="#developer-resources" class="table-of-contents__link toc-highlight">Developer Resources</a><ul><li><a href="#videomancer-sdk" class="table-of-contents__link toc-highlight">Videomancer SDK</a></li><li><a href="#videomancer-community-programs" class="table-of-contents__link toc-highlight">Videomancer Community Programs</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© 2026 LZX</div></div></div></footer></div>
+<p>Both repositories are licensed under GPL-3.0 and welcome community contributions.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/programs"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Programs</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a><ul><li><a href="#architecture" class="table-of-contents__link toc-highlight">Architecture</a></li><li><a href="#legacy" class="table-of-contents__link toc-highlight">Legacy</a></li></ul></li><li><a href="#key-specifications" class="table-of-contents__link toc-highlight">Key Specifications</a></li><li><a href="#connectors-controls-and-indicators" class="table-of-contents__link toc-highlight">Connectors, Controls, and Indicators</a><ul><li><a href="#connectors" class="table-of-contents__link toc-highlight">Connectors</a></li><li><a href="#controls" class="table-of-contents__link toc-highlight">Controls</a></li><li><a href="#indicators" class="table-of-contents__link toc-highlight">Indicators</a></li></ul></li><li><a href="#signal-paths" class="table-of-contents__link toc-highlight">Signal Paths</a><ul><li><a href="#supported-formats-and-standards" class="table-of-contents__link toc-highlight">Supported Formats and Standards</a></li><li><a href="#video-inputs-and-outputs" class="table-of-contents__link toc-highlight">Video Inputs and Outputs</a></li><li><a href="#input-configurations" class="table-of-contents__link toc-highlight">Input Configurations</a></li><li><a href="#output-configurations" class="table-of-contents__link toc-highlight">Output Configurations</a></li></ul></li><li><a href="#operation" class="table-of-contents__link toc-highlight">Operation</a><ul><li><a href="#menu-structure" class="table-of-contents__link toc-highlight">Menu Structure</a></li><li><a href="#system" class="table-of-contents__link toc-highlight">SYSTEM</a></li><li><a href="#programs" class="table-of-contents__link toc-highlight">Programs</a></li><li><a href="#parameters" class="table-of-contents__link toc-highlight">Parameters</a></li><li><a href="#modulation" class="table-of-contents__link toc-highlight">Modulation</a></li><li><a href="#modulation-control-knobs" class="table-of-contents__link toc-highlight">Modulation Control Knobs</a></li><li><a href="#midi-modulation" class="table-of-contents__link toc-highlight">MIDI Modulation</a></li><li><a href="#midi-output" class="table-of-contents__link toc-highlight">MIDI Output</a></li><li><a href="#motion" class="table-of-contents__link toc-highlight">MOTION</a></li><li><a href="#midi-synchronization" class="table-of-contents__link toc-highlight">MIDI Synchronization</a></li><li><a href="#state-presets" class="table-of-contents__link toc-highlight">STATE Presets</a></li></ul></li><li><a href="#firmware-update" class="table-of-contents__link toc-highlight">Firmware Update</a><ul><li><a href="#requirements" class="table-of-contents__link toc-highlight">Requirements</a></li><li><a href="#manual-update-procedure" class="table-of-contents__link toc-highlight">Manual Update Procedure</a></li></ul></li><li><a href="#developer-resources" class="table-of-contents__link toc-highlight">Developer Resources</a><ul><li><a href="#videomancer-sdk" class="table-of-contents__link toc-highlight">Videomancer SDK</a></li><li><a href="#videomancer-community-programs" class="table-of-contents__link toc-highlight">Videomancer Community Programs</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© 2026 LZX</div></div></div></footer></div>
 </body>
 </html>
