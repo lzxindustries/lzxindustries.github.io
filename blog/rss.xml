@@ -23,7 +23,7 @@
 <p>We've built an automated test tool that cycles through all video IO modes in rapid succession. It's ready for Chromagnon — when hardware lands, verification should move fast. If we need further board changes, we can iterate quickly and catch everything.</p>
 <p>The desktop app <a href="https://github.com/lzxindustries/videomancer-firmware/releases" target="_blank" rel="noopener noreferrer" class="">LZX Connect</a> is in pre-release — community members are already using it to test Videomancer release candidates, and it's set up to work with Chromagnon as well.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="videomancer-update">Videomancer Update<a href="https://docs.lzxindustries.net/blog/chromagnon-april-update#videomancer-update" class="hash-link" aria-label="Direct link to Videomancer Update" title="Direct link to Videomancer Update" translate="no">​</a></h2>
-<p>Reception for the Videomancer pre-releases has been great. Many users are enjoying the 17 new programs, and we've been uploading weekly builds with improvements and fixes. The <a class="" href="https://docs.lzxindustries.net/docs/instruments/videomancer">Videomancer documentation</a> has been fully revised with new diagrams:</p>
+<p>Reception for the Videomancer pre-releases has been great. Many users are enjoying the 17 new programs, and we've been uploading weekly builds with improvements and fixes. The <a class="" href="https://docs.lzxindustries.net/docs/category/videomancer">Videomancer documentation</a> has been fully revised with new diagrams:</p>
 <p><img decoding="async" loading="lazy" alt="Videomancer Dual In Routing Diagram" src="https://docs.lzxindustries.net/assets/images/videomancer_routing_diagram_dual_in-89dc413dd88b605dd7c6fcf875cfee10.png" width="2048" height="953" class="img_ev3q"></p>
 <p>All of it feeds into Chromagnon — the two codebases share most of their infrastructure.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="schedule">Schedule<a href="https://docs.lzxindustries.net/blog/chromagnon-april-update#schedule" class="hash-link" aria-label="Direct link to Schedule" title="Direct link to Schedule" translate="no">​</a></h2>
@@ -101,15 +101,24 @@
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h2>
 <p>Power off your Videomancer. Hold the <strong>BOOT</strong> button while connecting USB-C to your computer. The device will appear as a USB drive. Drag and drop the <code>.uf2</code> file onto the drive. The device will reboot automatically when the transfer completes.</p>
-<p>See the <a class="" href="https://docs.lzxindustries.net/docs/instruments/videomancer">Videomancer documentation</a> for full details.</p>
+<p>See the <a class="" href="https://docs.lzxindustries.net/docs/category/videomancer">Videomancer documentation</a> for full details.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="documentation">Documentation<a href="https://docs.lzxindustries.net/blog/videomancer-firmware-1.0.0-rc.4#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation" translate="no">​</a></h2>
 <p>Updated program guides and modulation operator documentation are available:</p>
 <ul>
-<li class=""><a class="" href="https://docs.lzxindustries.net/docs/category/programs">Program Guides</a></li>
+<li class=""><a class="" href="https://docs.lzxindustries.net/docs/category/program-guides">Program Guides</a></li>
 <li class=""><a class="" href="https://docs.lzxindustries.net/docs/instruments/videomancer/modulation-operators">Modulation Operators</a></li>
 </ul>]]></content:encoded>
             <category>Videomancer</category>
             <category>Software</category>
+        </item>
+        <item>
+            <title><![CDATA[Videomancer Update Pushed to 3/20]]></title>
+            <link>https://docs.lzxindustries.net/blog/videomancer-update-delay</link>
+            <guid>https://docs.lzxindustries.net/blog/videomancer-update-delay</guid>
+            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></description>
+            <content:encoded><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content:encoded>
+            <category>Videomancer</category>
         </item>
         <item>
             <title><![CDATA[TBC2 Firmware 1.0.7]]></title>
@@ -131,15 +140,6 @@
 <p>See the <a class="" href="https://docs.lzxindustries.net/docs/modules/tbc2">TBC2 documentation</a> for firmware update instructions.</p>]]></content:encoded>
             <category>Gen3</category>
             <category>Software</category>
-        </item>
-        <item>
-            <title><![CDATA[Videomancer Update Pushed to 3/20]]></title>
-            <link>https://docs.lzxindustries.net/blog/videomancer-update-delay</link>
-            <guid>https://docs.lzxindustries.net/blog/videomancer-update-delay</guid>
-            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.]]></description>
-            <content:encoded><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content:encoded>
-            <category>Videomancer</category>
         </item>
         <item>
             <title><![CDATA[Artist Feature: Devin Greenwood]]></title>
@@ -212,7 +212,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's New<a href="https://docs.lzxindustries.net/blog/videomancer-preview-release#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New" translate="no">​</a></h2>
 <p>This release includes 17 new programs, an entire rewrite of the firmware engine  and a round of bug fixes. Some new draft documentation is available:</p>
 <ul>
-<li class=""><a class="" href="https://docs.lzxindustries.net/docs/category/programs">Program Guides</a></li>
+<li class=""><a class="" href="https://docs.lzxindustries.net/docs/category/program-guides">Program Guides</a></li>
 <li class=""><a class="" href="https://docs.lzxindustries.net/docs/instruments/videomancer/modulation-operators">Modulation Operators</a></li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download">Download<a href="https://docs.lzxindustries.net/blog/videomancer-preview-release#download" class="hash-link" aria-label="Direct link to Download" title="Direct link to Download" translate="no">​</a></h2>
