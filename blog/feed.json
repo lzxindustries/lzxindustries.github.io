@@ -67,21 +67,6 @@
             ]
         },
         {
-            "id": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
-            "content_html": "<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>",
-            "url": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
-            "title": "Videomancer Update Pushed to 3/20",
-            "summary": "The next Videomancer update is being pushed to tomorrow, March 20th, by end of day. We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.",
-            "date_modified": "2026-03-19T00:00:00.000Z",
-            "author": {
-                "name": "Lars Larsen",
-                "url": "https://github.com/creatorlars"
-            },
-            "tags": [
-                "Videomancer"
-            ]
-        },
-        {
             "id": "https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7",
             "content_html": "<p>TBC2 firmware version 1.0.7 is now available for download.</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"changelog\">Changelog<a href=\"https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7#changelog\" class=\"hash-link\" aria-label=\"Direct link to Changelog\" title=\"Direct link to Changelog\" translate=\"no\">​</a></h2>\n<h3 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"bug-fixes\">Bug Fixes<a href=\"https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7#bug-fixes\" class=\"hash-link\" aria-label=\"Direct link to Bug Fixes\" title=\"Direct link to Bug Fixes\" translate=\"no\">​</a></h3>\n<ul>\n<li class=\"\">Fixed GUI slider behavior for Mk1 compatibility</li>\n<li class=\"\">Fixed GUI labeling error in ramp generator</li>\n</ul>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"download\">Download<a href=\"https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7#download\" class=\"hash-link\" aria-label=\"Direct link to Download\" title=\"Direct link to Download\" translate=\"no\">​</a></h2>\n<ul>\n<li class=\"\"><a href=\"https://docs.lzxindustries.net/assets/files/tbc2_1.0.7-830104240d6ae2ff031dd267935cc9c7.zip\" target=\"_blank\" class=\"\">TBC2 Firmware 1.0.7</a></li>\n</ul>\n<p>See the <a class=\"\" href=\"https://docs.lzxindustries.net/docs/modules/tbc2\">TBC2 documentation</a> for firmware update instructions.</p>",
             "url": "https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7",
@@ -95,6 +80,21 @@
             "tags": [
                 "Gen3",
                 "Software"
+            ]
+        },
+        {
+            "id": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
+            "content_html": "<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day.</p>\n<p>We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>",
+            "url": "https://docs.lzxindustries.net/blog/videomancer-update-delay",
+            "title": "Videomancer Update Pushed to 3/20",
+            "summary": "The next Videomancer update is being pushed to tomorrow, March 20th, by end of day.",
+            "date_modified": "2026-03-19T00:00:00.000Z",
+            "author": {
+                "name": "Lars Larsen",
+                "url": "https://github.com/creatorlars"
+            },
+            "tags": [
+                "Videomancer"
             ]
         },
         {
