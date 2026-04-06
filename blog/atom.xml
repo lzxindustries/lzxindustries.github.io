@@ -127,6 +127,20 @@
         <category label="Software" term="Software"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Videomancer Update Pushed to 3/20]]></title>
+        <id>https://docs.lzxindustries.net/blog/videomancer-update-delay</id>
+        <link href="https://docs.lzxindustries.net/blog/videomancer-update-delay"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day.]]></summary>
+        <content type="html"><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day.</p>
+<p>We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content>
+        <author>
+            <name>Lars Larsen</name>
+            <uri>https://github.com/creatorlars</uri>
+        </author>
+        <category label="Videomancer" term="Videomancer"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[TBC2 Firmware 1.0.7]]></title>
         <id>https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7</id>
         <link href="https://docs.lzxindustries.net/blog/tbc2-firmware-1.0.7"/>
@@ -150,20 +164,6 @@
         </author>
         <category label="Gen3" term="Gen3"/>
         <category label="Software" term="Software"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Videomancer Update Pushed to 3/20]]></title>
-        <id>https://docs.lzxindustries.net/blog/videomancer-update-delay</id>
-        <link href="https://docs.lzxindustries.net/blog/videomancer-update-delay"/>
-        <updated>2026-03-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The next Videomancer update is being pushed to tomorrow, March 20th, by end of day.]]></summary>
-        <content type="html"><![CDATA[<p>The next Videomancer update is being pushed to tomorrow, March 20th, by end of day.</p>
-<p>We've had some service outages and other fires to put out this week, and we want to finalize our IO testing before posting the next version.</p>]]></content>
-        <author>
-            <name>Lars Larsen</name>
-            <uri>https://github.com/creatorlars</uri>
-        </author>
-        <category label="Videomancer" term="Videomancer"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Artist Feature: Devin Greenwood]]></title>
